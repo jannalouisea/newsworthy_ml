@@ -107,3 +107,8 @@ for article in cbc_news.articles:
 cbc = pd.DataFrame(cbc_data, columns=cols)
 cbc.to_csv("cbc.csv")
 
+
+#Combine all dataframes into one and output one giant csv with all data entries
+
+output = pd.concat([star, sun, post, ctv, cbc], sort = False)
+output.to_csv("all.csv")
