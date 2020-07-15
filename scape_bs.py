@@ -8,15 +8,15 @@ import time
 # # # # # #  THE RECORD NEWS # # # # # # # # #
 
 # LOCAL
-url = 'https://www.therecord.com/business.html'
+url = 'https://www.yorkregion.com/search/allarticles/?category=&ttid=&daterange=month&q=all&location=yorkregion&publicationdatefrom=14-06-2020&publicationdateto=14-07-2020'
 
 response = requests.get(url, timeout=5)
 local = response.content
 soup = BeautifulSoup(local, 'html.parser')
-local_news = soup.find_all('a', class_='c-mediacard c-article-list-flex__article c-mediacard--row-reverse', href=True)
-local_news2 = soup.find_all('a', class_='c-mediacard c-article-list-flex__article c-mediacard--column', href=True)
+local_news = soup.find_all('a', class_='sc-item', href=True)
+#local_news2 = soup.find_all('a', class_='c-mediacard c-article-list-flex__article c-mediacard--column', href=True)
 
-local_news = local_news + local_news2
+#local_news = local_news + local_news2
 num_art = len(local_news)
 print(num_art)
 
@@ -29,35 +29,34 @@ pub_dates = []
 
 for n in np.arange(0, num_art):
     # Storing article links
-    link = 'https://www.therecord.com' + local_news[n]['href']
+    link = 'https://www.yorkregion.com' + local_news[n]['href']
     links.append(link)
 
     response = requests.get(link)
     art_content = response.content
     article = BeautifulSoup(art_content, 'html.parser')
 
-    title = article.find('h1', class_='c-article-headline__heading').get_text()
+    title = article.find('h1', class_='ar-title').get_text()
     print(title)
     titles.append(title)
 
     # Storing the authors
-    author = article.find('div', class_='article__byline')
+    header = article.find('div', class_='article_header')
     art_authors = []
-    for span in author.find_all('span', recursive=False):
-        auth = span.get_text()
-        if auth in ['By ']:
-            continue
-        auth = auth.replace('Record Reporter', '')
-        auth = auth.replace('Local Journalism', '')
-        auth = auth.replace('Cambridge Times', '')
-        auth = auth.replace('Waterloo Chronicle', '')
-        auth = auth.replace('Special to the Record', '')
-        auth = auth.replace('Record Columnist', '')
-        auth = auth.replace('Initiative Reporter', '')
-        art_authors.append(auth)
-    authors.append(art_authors)
+    for section in header.find_all('section', recursive=False):
 
-    # Storing publish date
+        # Storing author name
+        for auth in section.find_all('author', recursive=False):
+            name = auth.get_text()
+            if auth in ['by ']:
+                continue
+            art_authors.append(name)
+        authors.append(art_authors)
+
+        # Storing publish date
+        for date in section.find_all('date', recursive=False):
+            d = date.get_text()
+    """
     pub_date = article.find('div', class_='article__time-container')
 
     for span in pub_date.span.find_all('span', recursive=False):
@@ -65,7 +64,7 @@ for n in np.arange(0, num_art):
         if date=='':
             continue
         pub_dates.append(date)
-        print(date)
+        print(date)"""
 
     # Storing article content
     body = article.find_all('div', class_='c-article-body__content')
