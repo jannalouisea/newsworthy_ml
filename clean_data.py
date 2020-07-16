@@ -2,10 +2,14 @@ import pandas as pd
 import numpy as np
 
 data = pd.read_csv("all.csv")
+cp = pd.read_csv("cp24.csv")
+record = pd.read_csv("the_record/the_record.csv")
 
-
+data = pd.concat([data,cp,record], sort = False)
 #drop this extra index column that was accidentally carried over
-data = data.drop('Unnamed: 0', 1)
+# data = data.drop('Unnamed: 0', 1)
+data = data[data.columns.drop(list(data.filter(regex='Unnamed: ')))]
+
 
 #the following lines are not combined into one drop_duplicate because if we try to drop with subset=["title", "text"] it would only drop rows where both the title AND text match each other
 #but we want to drop all instances where the title OR the text is a duplicate
@@ -32,9 +36,17 @@ data = data[~data["title"].isin(["Terms of Use", "Privacy Policy", "-", "- The W
 data = data[~data["text"].isin(["nan"])]
 
 
+# only keeps rows that have an outlet which we have scraped
+# MODIFY THIS LINE WHEN YOU ADD NEW OUTLETS
+data = data[data["outlet"].isin(["thestar", "The Record", "cbc", "ctvnews", "nationalpost", "torontosun"])]
+
+
 #drops all rows where the Authors list is empty *AND* the publish date is empty
-#this seems to be a good approximate condition for articles which are invalid, such as ads
-#not dropping on an *OR* condition because some valid articles are just missing a date or authors, but most that are missing BOTH are bad entries
-data = data[(data['authors'] != "") & (data['publish_date'] != "nan")]
+#using an or condition because the only time this condition is false is when both predicates are false 
+#which would be the case when an articles is missing authors and publish date
+data = data[(data['authors'] != "") | (data['publish_date'] != "nan")]
+
+
+data.sort_values(by=['outlet'])
 
 data.to_csv("clean.csv")
