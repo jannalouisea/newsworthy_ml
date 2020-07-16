@@ -38,11 +38,11 @@ l1_ratio = 0.0
 alpha = 0.0
 tol = 0.0001
 
-path = '/Users/miya/Downloads/news_project/test_nmf_1/'
+path = '/Users/miya/Documents/GitHub/ai4good_news/news_project/test_nmf_1/'
 test_path = 'test_nmf_1/'
 
 # read in data
-df = pd.read_csv('clean_shayna.csv',engine='python')
+df = pd.read_csv('clean.csv',engine='python')
 
 # create new column 'word_count'
 df['word_count'] = df['text'].apply(word_count)
