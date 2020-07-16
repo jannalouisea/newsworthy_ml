@@ -15,8 +15,8 @@ from helper import word_count, process_text, topic_table, whitespace_tokenizer, 
 
 # parameters
 # dictionary
-no_below = 5 # words must appear in >=3 articles
-no_above = 0.80 # words can't appear in >85% of articles
+no_below = 3 # words must appear in >=3 articles
+no_above = 0.85 # words can't appear in >85% of articles
 keep_n = 5000 # keep top 5000 of remaining words
 # gensim-coherence nmf
 chunksize = 2000
@@ -245,19 +245,19 @@ complete_topics.to_csv(path+'topics.csv',index=True,header=True)
 
 # write parameters.txt
 parameters = open(test_path+'parameters.txt','w')
-parameters.write('coherence:\n')
+parameters.write('coherence:')
 parameters.write('\nno_below: {}'.format(no_below))
 parameters.write('\nno_above: {}'.format(no_above))
 parameters.write('\nkeep_n: {}'.format(keep_n))
-parameters.write('\nchunksize: {}'.format(2000))
-parameters.write('\npasses: {}'.format(5))
-parameters.write('\nkappa: {}'.format(0.1))
-parameters.write('\nminimum_probability: {}'.format(0.01))
-parameters.write('\nw_max_iter: {}'.format(300))
-parameters.write('\nw_stop_condition: {}'.format(0.0001))
-parameters.write('\nh_max_iter: {}'.format(100))
-parameters.write('\nh_stop_condition: {}'.format(0.001))
-parameters.write('\neval_every: {}'.format(True))
+parameters.write('\nchunksize: {}'.format(chunksize))
+parameters.write('\npasses: {}'.format(passes))
+parameters.write('\nkappa: {}'.format(kappa))
+parameters.write('\nminimum_probability: {}'.format(min_prob))
+parameters.write('\nw_max_iter: {}'.format(w_max_iter))
+parameters.write('\nw_stop_condition: {}'.format(w_stop_condition))
+parameters.write('\nh_max_iter: {}'.format(h_max_iter))
+parameters.write('\nh_stop_condition: {}'.format(h_stop_condition))
+parameters.write('\neval_every: {}'.format(eval_every))
 parameters.write('\n')
 parameters.write('\ntfidf_vectorizer:')
 parameters.write('\nn_components: {}'.format(best_num_topics))
@@ -266,10 +266,10 @@ parameters.write('\nmax_df: {}'.format(max_df))
 parameters.write('\nmax_features: {}'.format(max_features))
 parameters.write('\n')
 parameters.write('\nmodel:')
-parameters.write('\nmax_iter: {}'.format(500))
-parameters.write('\nl1_ratio: {}'.format(0.0))
-parameters.write('\nalpha: {}'.format(0.0))
-parameters.write('\ntol: {}'.format(1e-4))
+parameters.write('\nmax_iter: {}'.format(max_iter))
+parameters.write('\nl1_ratio: {}'.format(l1_ratio))
+parameters.write('\nalpha: {}'.format(alpha))
+parameters.write('\ntol: {}'.format(tol))
 parameters.write('\n')
 parameters.write('\nsum_sqared_resids: {}'.format(sum_sqrt_res))
 parameters.write('\nbest_num_topics: {}'.format(best_num_topics))

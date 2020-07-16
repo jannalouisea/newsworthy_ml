@@ -1,5 +1,4 @@
 coherence:
-
 no_below: 5
 no_above: 0.8
 keep_n: 5000
