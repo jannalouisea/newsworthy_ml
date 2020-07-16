@@ -15,8 +15,8 @@ from helper import word_count, process_text, topic_table, whitespace_tokenizer, 
 
 # parameters
 # dictionary
-no_below = 3 # words must appear in >=3 articles
-no_above = 0.85 # words can't appear in >85% of articles
+no_below = 5 # words must appear in >=3 articles
+no_above = 0.80 # words can't appear in >85% of articles
 keep_n = 5000 # keep top 5000 of remaining words
 # gensim-coherence nmf
 chunksize = 2000
@@ -43,6 +43,7 @@ test_path = 'test_nmf_1/'
 
 # read in data
 df = pd.read_csv('clean.csv',engine='python')
+df.drop_duplicates(subset=['url'],keep='first',inplace=True)
 
 # create new column 'word_count'
 df['word_count'] = df['text'].apply(word_count)
@@ -179,17 +180,17 @@ topics.drop_duplicates()
 
 # merge original dataframe with topics
 url = df['url'].tolist()
-title = df['title'].tolist()
-text = df['text'].tolist()
 df_temp = pd.DataFrame({
     'url':url,
     'topic_num':docweights.argmax(axis=1)
 })
+print('df_temp.shape: {}'.format(df_temp.shape))
 merged_topic = df_temp.merge(
     topic_df,
     on='topic_num',
     how='left'
 )
+print('merged_topic.shape: {}'.format(merged_topic.shape))
 complete_df = merged_topic.merge(
     df,
     on='url',
@@ -197,6 +198,7 @@ complete_df = merged_topic.merge(
 )
 
 complete_df = complete_df.drop('processed_text',axis=1)
+complete_df.drop_duplicates()
 sorted_articles = complete_df.sort_values(by=['topic_num'])
 sorted_articles.to_csv(path+'sorted_articles.csv',header=True)
 
