@@ -1,11 +1,10 @@
 import pandas as pd
 import numpy as np
 
-data = pd.read_csv("all.csv")
-cp = pd.read_csv("cp24.csv")
-record = pd.read_csv("the_record/the_record.csv")
+data = pd.read_csv("all_news.csv")
+record = pd.read_csv("the_record.csv")
 
-data = pd.concat([data,cp,record], sort = False)
+data = pd.concat([data,record], sort = False)
 #drop this extra index column that was accidentally carried over
 # data = data.drop('Unnamed: 0', 1)
 data = data[data.columns.drop(list(data.filter(regex='Unnamed: ')))]
@@ -38,7 +37,7 @@ data = data[~data["text"].isin(["nan"])]
 
 # only keeps rows that have an outlet which we have scraped
 # MODIFY THIS LINE WHEN YOU ADD NEW OUTLETS
-data = data[data["outlet"].isin(["thestar", "The Record", "cbc", "ctvnews", "nationalpost", "torontosun"])]
+data = data[data["outlet"].isin(["thestar", "The Record", "cbc", "ctvnews", "nationalpost", "torontosun", "cp24", "mapleridgenews", "tricitynews", "langleyadvancetimes", "abbynews", "theprogress", "delta-optimist", "northdeltareporter", "surreynowleader", "vancouverobserver", "vancourier", "srtraight", "nsnews", "richmond-news", "burnabynow", "richmondsentinel", "newwestrecord", "bowenislandundercurrent"])]
 
 
 #drops all rows where the Authors list is empty *AND* the publish date is empty

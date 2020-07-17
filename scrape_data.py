@@ -7,108 +7,61 @@ from newspaper import fulltext
 
 cols = ["outlet", "url", "title", "authors", "publish_date", "text", "keywords"]
 
+urls = {
+    "cbc" : "https://www.cbc.ca/news",
+    "ctv" : "https://www.ctvnews.ca/",
+    "national_post" : "https://nationalpost.com/",
+    "toronto_sun" : "https://torontosun.com/category/news",
+    "toronto_star" : "https://www.thestar.com/",
+    "cp_24" : "https://www.cp24.com/",
+    "maple_ridge" : "https://www.mapleridgenews.com/local-news/",
+    "tri_city" : "https://www.tricitynews.com/",
+    "langley_advance_times" : "https://www.langleyadvancetimes.com/local-news/",
+    "abbotsford" : "https://www.abbynews.com/local-news/",
+    "chilliwack_progress" : "https://www.theprogress.com/local-news/",
+    "delta_optimist" : "https://www.delta-optimist.com/local-news",
+    "north_delta_reporter" : "https://www.northdeltareporter.com/local-news/",
+    "surrey_now_leader" : "https://www.surreynowleader.com/local-news/",
+    "vancouver_observer" : "https://www.vancouverobserver.com/",
+    "vancouver_courier" : "https://www.vancourier.com/",
+    "georgia_straight" : "https://www.straight.com/news",
+    "north_shore" : "https://www.nsnews.com/",
+    "richmond" : "https://www.richmond-news.com/",
+    "richmond_senitel" : "https://richmondsentinel.ca/",
+    "burnaby_now" : "https://www.burnabynow.com/",
+    "new_west_record" : "https://www.newwestrecord.ca/",
+    "bowen_island_undercurrent" : "https://www.bowenislandundercurrent.com/"
+}
 
-# THE TORONTO STAR
-star_data = []
-star_news = newspaper.build("https://www.thestar.com/", memoize_articles=False)
-#memoize = false because we don't want to cache articles already seen
-print("TORONTO STAR...")
-print(star_news.size())
+# aggregated = pd.DataFrame(columns=cols)
+run = 0
+for url in urls:
+    data = []
+    run = run + 1
+    news = newspaper.build(urls[url], memoize_articles=False)
+    #memoize = false because we don't want to cache articles already seen
 
-#loop through all articles scraped and save into dataframe
-for article in star_news.articles:
-    try:
-        article.download()
-        article.parse()
-    except newspaper.article.ArticleException:
-        pass
-    star_data.append([star_news.brand, article.url, article.title, article.authors, article.publish_date, article.text, article.keywords])
+    print(url + " news...")
+    print(news.size())
 
-star = pd.DataFrame(star_data, columns=cols)
-star.to_csv("tor_star.csv")
+    #loop through all articles scraped and save into dataframe for each news outlet
+    for article in news.articles:
+        try:
+            article.download()
+            article.parse()
+        except newspaper.article.ArticleException:
+            pass
+        # append each article and its fields into list
+        data.append([news.brand, article.url, article.title, article.authors, article.publish_date, article.text, article.keywords])
 
-
-# TORONTO SUN
-sun_data = []
-sun_news = newspaper.build("https://torontosun.com/category/news", memoize_articles=False)
-#memoize = false because we don't want to cache articles already seen
-print("TORONTO SUN...")
-print(sun_news.size())
-
-#loop through all articles scraped and save into dataframe
-for article in sun_news.articles:
-    try:
-        article.download()
-        article.parse()
-    except newspaper.article.ArticleException:
-        pass
-    sun_data.append([sun_news.brand, article.url, article.title, article.authors, article.publish_date, article.text, article.keywords])
-
-sun = pd.DataFrame(sun_data, columns=cols)
-sun.to_csv("tor_sun.csv")
-
-
-#NATIONAL POST
-post_data = []
-post_news = newspaper.build("https://nationalpost.com/", memoize_articles=False)
-#memoize = false because we don't want to cache articles already seen
-print("NATIONAL POST...")
-print(post_news.size())
-
-#loop through all articles scraped and save into dataframe
-for article in post_news.articles:
-    try:
-        article.download()
-        article.parse()
-    except newspaper.article.ArticleException:
-        pass
-    post_data.append([post_news.brand, article.url, article.title, article.authors, article.publish_date, article.text, article.keywords])
-
-post = pd.DataFrame(post_data, columns=cols)
-post.to_csv("nationalpost.csv")
+    # append each news outlets data into the csv as we go
+    chunk = pd.DataFrame(data, columns=cols)
+    if run == 1:
+        chunk.to_csv("all_news.csv")
+    else:
+        chunk.to_csv("all_news.csv", header=None, mode="a")
 
 
-#CTV 
-ctv_data = []
-ctv_news = newspaper.build("https://www.ctvnews.ca/", memoize_articles=False)
-#memoize = false because we don't want to cache articles already seen
-print("CTV NEWS...")
-print(ctv_news.size())
-
-#loop through all articles scraped and save into dataframe
-for article in ctv_news.articles:
-    try:
-        article.download()
-        article.parse()
-    except newspaper.article.ArticleException:
-        pass
-    ctv_data.append([ctv_news.brand, article.url, article.title, article.authors, article.publish_date, article.text, article.keywords])
-
-ctv = pd.DataFrame(ctv_data, columns=cols)
-ctv.to_csv("ctv.csv")
 
 
-#CBC
-cbc_data = []
-cbc_news = newspaper.build("https://www.cbc.ca/news", memoize_articles=False)
-#memoize = false because we don't want to cache articles already seen
-print("CBC NEWS...")
-print(cbc_news.size())
 
-#loop through all articles scraped and save into dataframe
-for article in cbc_news.articles:
-    try:
-        article.download()
-        article.parse()
-    except newspaper.article.ArticleException:
-        pass
-    cbc_data.append([cbc_news.brand, article.url, article.title, article.authors, article.publish_date, article.text, article.keywords])
-
-cbc = pd.DataFrame(cbc_data, columns=cols)
-cbc.to_csv("cbc.csv")
-
-
-#Combine all dataframes into one and output one giant csv with all data entries
-
-output = pd.concat([star, sun, post, ctv, cbc], sort = False)
-output.to_csv("all.csv")
