@@ -25,7 +25,7 @@ max_df = 0.75
 max_features = 5000
 # sklearn-model lda
 max_iter = 500
-doc_topic_prior = 0.2
+doc_topic_prior = 0.1
 topic_word_prior = 0.2
 learning_decay = 0.7
 learning_offset = 50
@@ -62,11 +62,15 @@ for num in topic_nums:
     coherence_scores.append(coherence_score)
 
 scores = list(zip(topic_nums, coherence_scores))
-best_num_topics = sorted(scores, key=itemgetter(1), reverse=True)[0][0]
+# [[topic_num_1, coherence_score_1],...]
+scores = sorted(scores, key=itemgetter(1), reverse=True)
+best_num_topics = scores[0][0]
+best_coherence_score = scores[0][1]
 print('best_num_topics: {}'.format(best_num_topics))
-idx = int(best_num_topics/5)
-idx -= 1
-print('coherence_score: {}'.format(coherence_scores[idx]))
+print('coherence_score: {}'.format(best_coherence_score))
+
+# doc_topic_prior = 1/best_num_topics
+topic_word_prior = 1/best_num_topics
 
 max_df = max_df
 min_df = min_df
@@ -88,7 +92,7 @@ tf_feature_names = tf_vectorizer.get_feature_names()
 lda = LatentDirichletAllocation(
     n_components=best_num_topics,
     max_iter=max_iter,
-    # doc_topic_prior=doc_topic_prior, # prior of document topic distribution, alpha (default=1/n_components)
+    doc_topic_prior=doc_topic_prior, # prior of document topic distribution, alpha (default=1/n_components)
     # topic_word_prior=topic_word_prior, # prior of topic word distribution, beta (default=1/n_components)
     learning_method='online',
     learning_decay=learning_decay, # learning rate (default=0.7)

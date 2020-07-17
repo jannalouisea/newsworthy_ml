@@ -16,7 +16,7 @@ from helper import word_count, process_text, topic_table, whitespace_tokenizer, 
 # parameters
 # dictionary
 no_below = 10 # words must appear in >=3 articles
-no_above = 0.70 # words can't appear in >85% of articles
+no_above = 0.60 # words can't appear in >85% of articles
 keep_n = 5000 # keep top 5000 of remaining words
 # gensim-coherence nmf
 chunksize = 1000
@@ -38,8 +38,8 @@ l1_ratio = 0
 alpha = 0.3
 tol = 0.0001
 
-path = '/Users/miya/Documents/GitHub/ai4good_news/news_project/test_nmf_9/'
-test_path = 'test_nmf_9/'
+path = '/Users/miya/Documents/GitHub/ai4good_news/news_project/test_nmf_10/'
+test_path = 'test_nmf_10/'
 
 # read in data
 df = pd.read_csv('clean.csv',engine='python')
@@ -114,11 +114,11 @@ for num in topic_nums:
 
 # pick the # of topics with highest coherence score
 scores = list(zip(topic_nums, coherence_scores))
-best_num_topics = sorted(scores, key=itemgetter(1), reverse=True)[0][0]
+scores = sorted(scores, key=itemgetter(1), reverse=True)
+best_num_topics = scores[0][0]
+best_coherence_score = scores[0][1]
 print('best_num_topics: {}'.format(best_num_topics))
-idx = int(best_num_topics/5)
-idx -= 1
-print('coherence_score: {}'.format(coherence_scores[idx]))
+print('coherence_score: {}'.format(best_coherence_score))
 
 # measure of word frequency in a document
 # adjusted by how many documents word appears in
@@ -273,5 +273,5 @@ parameters.write('\ntol: {}'.format(tol))
 parameters.write('\n')
 parameters.write('\nsum_sqared_resids: {}'.format(sum_sqrt_res))
 parameters.write('\nbest_num_topics: {}'.format(best_num_topics))
-parameters.write('\ncoherence_score: {}'.format(coherence_scores[idx]))
+parameters.write('\ncoherence_score: {}'.format(best_coherence_score))
 parameters.close()
