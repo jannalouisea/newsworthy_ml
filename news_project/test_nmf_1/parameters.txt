@@ -1,6 +1,6 @@
 coherence:
-no_below: 5
-no_above: 0.8
+no_below: 3
+no_above: 0.85
 keep_n: 5000
 chunksize: 2000
 passes: 5
@@ -14,8 +14,8 @@ eval_every: True
 
 tfidf_vectorizer:
 n_components: 5
-min_df: 5
-max_df: 0.8
+min_df: 3
+max_df: 0.85
 max_features: 5000
 
 model:
@@ -24,5 +24,6 @@ l1_ratio: 0.0
 alpha: 0.0
 tol: 0.0001
 
-sum_sqared_resids: 1483.312
+sum_sqared_resids: 1483.673
 best_num_topics: 5
+coherence_score: 0.54925

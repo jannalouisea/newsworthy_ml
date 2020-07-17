@@ -1,0 +1,29 @@
+coherence:
+no_below: 10
+no_above: 0.7
+keep_n: 5000
+chunksize: 1000
+passes: 10
+kappa: 0.1
+minimum_probability: 0.001
+w_max_iter: 300
+w_stop_condition: 0.0001
+h_max_iter: 100
+h_stop_condition: 0.001
+eval_every: True
+
+tfidf_vectorizer:
+n_components: 5
+min_df: 10
+max_df: 0.7
+max_features: 5000
+
+model:
+max_iter: 500
+l1_ratio: 0
+alpha: 0.3
+tol: 0.0001
+
+sum_sqared_resids: 1482.331
+best_num_topics: 5
+coherence_score: 0.54535

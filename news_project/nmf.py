@@ -15,31 +15,31 @@ from helper import word_count, process_text, topic_table, whitespace_tokenizer, 
 
 # parameters
 # dictionary
-no_below = 3 # words must appear in >=3 articles
-no_above = 0.85 # words can't appear in >85% of articles
+no_below = 10 # words must appear in >=3 articles
+no_above = 0.70 # words can't appear in >85% of articles
 keep_n = 5000 # keep top 5000 of remaining words
 # gensim-coherence nmf
-chunksize = 2000
-passes = 5
+chunksize = 1000
+passes = 10
 kappa = 0.1
-min_prob = 0.01
+min_prob = 0.001
 w_max_iter = 300
 w_stop_condition = 0.0001
 h_max_iter = 100
 h_stop_condition = 0.001
 eval_every = True
 # tf-idf
-min_df = 3
-max_df = 0.85
+min_df = 10
+max_df = 0.70
 max_features = 5000
 # sklearn-model nmf
 max_iter = 500
-l1_ratio = 0.0
-alpha = 0.0
+l1_ratio = 0
+alpha = 0.3
 tol = 0.0001
 
-path = '/Users/miya/Documents/GitHub/ai4good_news/news_project/test_nmf_1/'
-test_path = 'test_nmf_1/'
+path = '/Users/miya/Documents/GitHub/ai4good_news/news_project/test_nmf_9/'
+test_path = 'test_nmf_9/'
 
 # read in data
 df = pd.read_csv('clean.csv',engine='python')
@@ -184,13 +184,13 @@ df_temp = pd.DataFrame({
     'url':url,
     'topic_num':docweights.argmax(axis=1)
 })
-print('df_temp.shape: {}'.format(df_temp.shape))
+# print('df_temp.shape: {}'.format(df_temp.shape))
 merged_topic = df_temp.merge(
     topic_df,
     on='topic_num',
     how='left'
 )
-print('merged_topic.shape: {}'.format(merged_topic.shape))
+# print('merged_topic.shape: {}'.format(merged_topic.shape))
 complete_df = merged_topic.merge(
     df,
     on='url',
@@ -273,4 +273,5 @@ parameters.write('\ntol: {}'.format(tol))
 parameters.write('\n')
 parameters.write('\nsum_sqared_resids: {}'.format(sum_sqrt_res))
 parameters.write('\nbest_num_topics: {}'.format(best_num_topics))
+parameters.write('\ncoherence_score: {}'.format(coherence_scores[idx]))
 parameters.close()
