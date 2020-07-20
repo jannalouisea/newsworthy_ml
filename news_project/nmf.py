@@ -15,9 +15,9 @@ from helper import word_count, process_text, topic_table, whitespace_tokenizer, 
 
 # parameters
 # dictionary
-no_below = 10 # words must appear in >=3 articles
-no_above = 0.60 # words can't appear in >85% of articles
-keep_n = 5000 # keep top 5000 of remaining words
+no_below = 10 
+no_above = 0.60 
+keep_n = 5000 
 # gensim-coherence nmf
 chunksize = 1000
 passes = 10
@@ -30,16 +30,22 @@ h_stop_condition = 0.001
 eval_every = True
 # tf-idf
 min_df = 10
-max_df = 0.70
+max_df = 0.60
 max_features = 5000
 # sklearn-model nmf
 max_iter = 500
-l1_ratio = 0
-alpha = 0.3
+# l1_ratio = 0.0
+# alpha = 0.3
 tol = 0.0001
 
-path = '/Users/miya/Documents/GitHub/ai4good_news/news_project/test_nmf_10/'
-test_path = 'test_nmf_10/'
+# path = '/Users/miya/Documents/GitHub/ai4good_news/news_project/test_nmf_2/'
+# test_path = 'test_nmf_2/'
+
+'''
+file_name = 'clean.csv'
+groups = get_groups(file_name)
+df = groups[0]
+'''
 
 # read in data
 df = pd.read_csv('clean.csv',engine='python')
@@ -117,6 +123,8 @@ scores = list(zip(topic_nums, coherence_scores))
 scores = sorted(scores, key=itemgetter(1), reverse=True)
 best_num_topics = scores[0][0]
 best_coherence_score = scores[0][1]
+# best_coherence_score = 0.49907
+# best_num_topics = 35
 print('best_num_topics: {}'.format(best_num_topics))
 print('coherence_score: {}'.format(best_coherence_score))
 
@@ -133,145 +141,179 @@ tfidf_vectorizer = TfidfVectorizer(
     preprocessor=' '.join
 )
 
-# returns document-term matrix (frequency of word i in document j)
+# fit+transform: returns document-term matrix (frequency of word i in document j)
 tfidf = tfidf_vectorizer.fit_transform(texts)
 # all the words we'll be looking at
 tfidf_fn = tfidf_vectorizer.get_feature_names()
+# document-term matrix
+tfidf_dt = tfidf_vectorizer.transform(texts)
 
-# learn a model
-# sklearn model
-nmf = NMF(
-    n_components=best_num_topics, 
-    init='nndsvd', # method for initialization procedure
-    max_iter=max_iter, # max number of iterations before timing out
-    l1_ratio=l1_ratio, # regularization mixing parameter (0 => l2 penalty, 1 => l1 penalty, (0,1) => mixture)
-    solver='cd', # coordinate descent solver
-    alpha=alpha, # constant that multiplies the regularization terms (set to 0 for no regularization)
-    tol=tol, # tolerance of the stopping condition
-    random_state=42 # seed for random generator
-).fit(tfidf)
+squared_residuals = []
 
-# transforms documents -> document-term matrix, transforms data according to model
-docweights = nmf.transform(tfidf_vectorizer.transform(texts)) # (articles x topics)
+alphas = list(np.arange(0.0,1.2,0.2))
+l1_ratios = list(np.arange(0.0,1.2,0.2))
+count_params = 0
+for a in alphas:
+    for b in l1_ratios:
+        print('alpha: {}, l1_ratio: {}'.format(a,b))
+        path = '/Users/miya/Documents/GitHub/ai4good_news/news_project/test_nmf/{}/'.format(count_params)
+        test_path = 'test_nmf/{}/'.format(count_params)
+        # learn a model
+        # sklearn model
+        nmf = NMF(
+            n_components=best_num_topics, 
+            init='nndsvd', # method for initialization procedure
+            max_iter=max_iter, # max number of iterations before timing out
+            l1_ratio=b, # regularization mixing parameter (0 => l2 penalty, 1 => l1 penalty, (0,1) => mixture)
+            solver='cd', # coordinate descent solver
+            alpha=a, # constant that multiplies the regularization terms (set to 0 for no regularization)
+            tol=tol, # tolerance of the stopping condition
+            random_state=42 # seed for random generator
+        ).fit(tfidf)
 
-# topic dataframe: (15, 8)
-# (topic num : top 8 words that describe the topic)
-n_top_words = 8
-topic_df = topic_table(
-    nmf,
-    tfidf_fn,
-    n_top_words
-).T
+        try:
+            # transforms documents -> document-term matrix, transforms data according to model
+            docweights = nmf.transform(tfidf_dt) # (articles x topics)
 
-# clean the topic words
-topic_df['topics'] = topic_df.apply(lambda x: [' '.join(x)], axis=1)
-topic_df['topics'] = topic_df['topics'].str[0]
-topic_df['topics'] = topic_df['topics'].apply(lambda x: whitespace_tokenizer(x))
-topic_df['topics'] = topic_df['topics'].apply(lambda x: unique_words(x))
-topic_df['topics'] = topic_df['topics'].apply(lambda x: [' '.join(x)])
-topic_df['topics'] = topic_df['topics'].str[0]
+            # topic dataframe: (best_num_topics, 8)
+            # (topic num : top 8 words that describe the topic)
+            n_top_words = 8
+            topic_df = topic_table(
+                nmf,
+                tfidf_fn,
+                n_top_words
+            ).T
+            topic_df_shape = topic_df.shape
 
-# clean dataframe to include topic num and topic words as a list
-topic_df = topic_df['topics'].reset_index()
-topic_df.columns = ['topic_num', 'topics']
+            # clean the topic words
+            topic_df['topics'] = topic_df.apply(lambda x: [' '.join(x)], axis=1)
+            topic_df['topics'] = topic_df['topics'].str[0]
+            topic_df['topics'] = topic_df['topics'].apply(lambda x: whitespace_tokenizer(x))
+            topic_df['topics'] = topic_df['topics'].apply(lambda x: unique_words(x))
+            topic_df['topics'] = topic_df['topics'].apply(lambda x: [' '.join(x)])
+            topic_df['topics'] = topic_df['topics'].str[0]
 
-topics = topic_df[['topic_num','topics']]
-topics.drop_duplicates()
+            # clean dataframe to include topic num and topic words as a list
+            topic_df = topic_df['topics'].reset_index()
+            topic_df.columns = ['topic_num', 'topics']
 
-# merge original dataframe with topics
-url = df['url'].tolist()
-df_temp = pd.DataFrame({
-    'url':url,
-    'topic_num':docweights.argmax(axis=1)
-})
-# print('df_temp.shape: {}'.format(df_temp.shape))
-merged_topic = df_temp.merge(
-    topic_df,
-    on='topic_num',
-    how='left'
-)
-# print('merged_topic.shape: {}'.format(merged_topic.shape))
-complete_df = merged_topic.merge(
-    df,
-    on='url',
-    how='left'
-)
+            topics = topic_df[['topic_num','topics']]
+            topics.drop_duplicates(subset=['topics'], keep='first',inplace=True)
+            topics_unique = (35 - topics.shape[0]) == 0
 
-complete_df = complete_df.drop('processed_text',axis=1)
-complete_df.drop_duplicates()
-sorted_articles = complete_df.sort_values(by=['topic_num'])
-sorted_articles.to_csv(path+'sorted_articles.csv',header=True)
+            # merge original dataframe with topics
+            url = df['url'].tolist()
+            df_temp = pd.DataFrame({
+                'url':url,
+                'topic_num':docweights.argmax(axis=1)
+            })
+            # print('df_temp.shape: {}'.format(df_temp.shape))
+            merged_topic = df_temp.merge(
+                topic_df,
+                on='topic_num',
+                how='left'
+            )
+            # print('merged_topic.shape: {}'.format(merged_topic.shape))
+            complete_df = merged_topic.merge(
+                df,
+                on='url',
+                how='left'
+            )
 
-# get num articles per topic
-num_articles_per_topic = []
-for topic in range(best_num_topics):
-    count = 0
-    for index, row in sorted_articles.iterrows():
-        if row['topic_num'] == topic:
-            count += 1
-    num_articles_per_topic.append(count)
+            complete_df = complete_df.drop('processed_text',axis=1)
+            complete_df.drop_duplicates()
+            sorted_articles = complete_df.sort_values(by=['topic_num'])
 
-topics['num_articles'] = num_articles_per_topic
+            # get num articles per topic
+            num_articles_per_topic = []
+            for topic in range(best_num_topics):
+                count = 0
+                for index, row in sorted_articles.iterrows():
+                    if row['topic_num'] == topic:
+                        count += 1
+                num_articles_per_topic.append(count)
 
-# matrices from nmf (A = WH)
-mat_A = tfidf_vectorizer.transform(texts)
-mat_W = nmf.components_
-mat_H = nmf.transform(mat_A)
-# print('A = {} x {}'.format(mat_A.shape[0],mat_A.shape[1]))
-# print('W = {} x {}'.format(mat_W.shape[0],mat_W.shape[1]))
-# print('H = {} x {}'.format(mat_H.shape[0],mat_H.shape[1]))
+            topics['num_articles'] = num_articles_per_topic
 
-# residuals: measurement of how well the topics approximate the data (observed value - predicted value)
-# 0 -> topic perfectly predicts data
-# residual = Frobenius norm tf-idf weights (A) - coefficients of topics (H) X coefficients of topics (W)
-r = np.zeros(mat_A.shape[0]) # num articles
-for row in range(mat_A.shape[0]):
-    r[row] = np.linalg.norm(mat_A[row,:] - mat_H[row,:].dot(mat_W), 'fro')
+            # matrices from nmf (A = WH)
+            mat_A = tfidf_vectorizer.transform(texts)
+            mat_W = nmf.components_
+            mat_H = nmf.transform(mat_A)
+            # print('A = {} x {}'.format(mat_A.shape[0],mat_A.shape[1]))
+            # print('W = {} x {}'.format(mat_W.shape[0],mat_W.shape[1]))
+            # print('H = {} x {}'.format(mat_H.shape[0],mat_H.shape[1]))
 
-sum_sqrt_res = round(sum(np.sqrt(r)),3)
-print('Sum of the squared residuals is {}'.format(sum_sqrt_res))
+            # residuals: measurement of how well the topics approximate the data (observed value - predicted value)
+            # 0 -> topic perfectly predicts data
+            # residual = Frobenius norm tf-idf weights (A) - coefficients of topics (H) X coefficients of topics (W)
+            r = np.zeros(mat_A.shape[0]) # num articles
+            for row in range(mat_A.shape[0]):
+                r[row] = np.linalg.norm(mat_A[row,:] - mat_H[row,:].dot(mat_W), 'fro')
 
-complete_df['resid'] = r
-complete_df.to_csv(path+'complete_df.csv',header=True)
-resid_data = complete_df[[
-    'topic_num','resid'
-]].groupby('topic_num').mean().sort_values(by='resid')
-complete_topics = resid_data.merge(
-    topics,
-    on='topic_num',
-    how='left'
-)
-complete_topics.to_csv(path+'topics.csv',index=True,header=True)
+            sum_sqrt_res = round(sum(np.sqrt(r)),3)
+            squared_residuals.append(sum_sqrt_res)
+            # print('Sum of the squared residuals is {}'.format(sum_sqrt_res))
 
-# write parameters.txt
-parameters = open(test_path+'parameters.txt','w')
-parameters.write('coherence:')
-parameters.write('\nno_below: {}'.format(no_below))
-parameters.write('\nno_above: {}'.format(no_above))
-parameters.write('\nkeep_n: {}'.format(keep_n))
-parameters.write('\nchunksize: {}'.format(chunksize))
-parameters.write('\npasses: {}'.format(passes))
-parameters.write('\nkappa: {}'.format(kappa))
-parameters.write('\nminimum_probability: {}'.format(min_prob))
-parameters.write('\nw_max_iter: {}'.format(w_max_iter))
-parameters.write('\nw_stop_condition: {}'.format(w_stop_condition))
-parameters.write('\nh_max_iter: {}'.format(h_max_iter))
-parameters.write('\nh_stop_condition: {}'.format(h_stop_condition))
-parameters.write('\neval_every: {}'.format(eval_every))
-parameters.write('\n')
-parameters.write('\ntfidf_vectorizer:')
-parameters.write('\nn_components: {}'.format(best_num_topics))
-parameters.write('\nmin_df: {}'.format(min_df))
-parameters.write('\nmax_df: {}'.format(max_df))
-parameters.write('\nmax_features: {}'.format(max_features))
-parameters.write('\n')
-parameters.write('\nmodel:')
-parameters.write('\nmax_iter: {}'.format(max_iter))
-parameters.write('\nl1_ratio: {}'.format(l1_ratio))
-parameters.write('\nalpha: {}'.format(alpha))
-parameters.write('\ntol: {}'.format(tol))
-parameters.write('\n')
-parameters.write('\nsum_sqared_resids: {}'.format(sum_sqrt_res))
-parameters.write('\nbest_num_topics: {}'.format(best_num_topics))
-parameters.write('\ncoherence_score: {}'.format(best_coherence_score))
-parameters.close()
+            complete_df['resid'] = r
+            sorted_articles = complete_df.sort_values(by=['topic_num'])
+            sorted_articles.to_csv(path+'sorted_articles.csv',header=True)
+            resid_data = complete_df[[
+                'topic_num','resid'
+            ]].groupby('topic_num').mean().sort_values(by='resid')
+            complete_topics = topics.merge(
+                resid_data,
+                on='topic_num',
+                how='left'
+            )
+            complete_topics.to_csv(path+'topics.csv',index=True,header=True)
+
+            # write parameters.txt
+            parameters = open(test_path+'parameters.txt','w')
+            parameters.write('coherence:')
+            parameters.write('\nno_below: {}'.format(no_below))
+            parameters.write('\nno_above: {}'.format(no_above))
+            parameters.write('\nkeep_n: {}'.format(keep_n))
+            parameters.write('\nchunksize: {}'.format(chunksize))
+            parameters.write('\npasses: {}'.format(passes))
+            parameters.write('\nkappa: {}'.format(kappa))
+            parameters.write('\nminimum_probability: {}'.format(min_prob))
+            parameters.write('\nw_max_iter: {}'.format(w_max_iter))
+            parameters.write('\nw_stop_condition: {}'.format(w_stop_condition))
+            parameters.write('\nh_max_iter: {}'.format(h_max_iter))
+            parameters.write('\nh_stop_condition: {}'.format(h_stop_condition))
+            parameters.write('\neval_every: {}'.format(eval_every))
+            parameters.write('\n')
+            parameters.write('\ntfidf_vectorizer:')
+            parameters.write('\nn_components: {}'.format(best_num_topics))
+            parameters.write('\nmin_df: {}'.format(min_df))
+            parameters.write('\nmax_df: {}'.format(max_df))
+            parameters.write('\nmax_features: {}'.format(max_features))
+            parameters.write('\n')
+            parameters.write('\nmodel:')
+            parameters.write('\nmax_iter: {}'.format(max_iter))
+            parameters.write('\nl1_ratio: {}'.format(b))
+            parameters.write('\nalpha: {}'.format(a))
+            parameters.write('\ntol: {}'.format(tol))
+            parameters.write('\n')
+            parameters.write('\ntopic_df.shape: {}'.format(topic_df_shape))
+            parameters.write('\ntopics_unique: {}'.format(topics_unique))
+            parameters.write('\nsum_sqared_resids: {}'.format(sum_sqrt_res))
+            parameters.write('\nbest_num_topics: {}'.format(best_num_topics))
+            parameters.write('\ncoherence_score: {}'.format(best_coherence_score))
+            parameters.close()
+        except:
+            print('test {}, error occurred'.format(count_params))
+
+        print('test {} complete'.format(count_params)) 
+        count_params += 1
+
+params = np.arange(25)
+resid_scores = list(zip(params,squared_residuals))
+resid_scores = sorted(resid_scores, key=itemgetter(1), reverse=True)
+best_params = resid_scores[0][0]
+print('test #{} had best params'.format(best_params))
+print('residual scores: {}'.format(resid_scores))
+
+resids = open(test_path+'residuals.txt','w')
+resids.write(resid_scores)
+resids.close()

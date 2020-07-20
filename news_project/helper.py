@@ -192,7 +192,29 @@ def compute_coherence_values(corpus, dictionary, num, texts):
         corpus=corpus, 
         num_topics=num, 
         id2word=dictionary,
+        workers=2,
+    )
+    coherence_model_lda = CoherenceModel(
+        model=lda_model, 
+        texts=texts, 
+        dictionary=dictionary, 
+        coherence='c_v'
+    )
+    return coherence_model_lda.get_coherence()
+
+def compute_coherence_values_with_parameters(corpus, dictionary, num, a, b, texts):
+    lda_model = gensim.models.LdaMulticore(
+        corpus=corpus,
+        id2word=dictionary,
+        num_topics=num,
+        alpha=a,
+        eta=b,
         workers=2
     )
-    coherence_model_lda = CoherenceModel(model=lda_model, texts=texts, dictionary=dictionary, coherence='c_v')
+    coherence_model_lda = CoherenceModel(
+        model=lda_model,
+        texts=texts,
+        dictionary=dictionary,
+        coherence='c_v'
+    )
     return coherence_model_lda.get_coherence()

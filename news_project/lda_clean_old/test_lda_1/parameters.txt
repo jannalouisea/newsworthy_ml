@@ -1,0 +1,13 @@
+coherence:
+no_below: 5
+no_above: 0.8
+keep_n: 5000
+
+tfidf_vectorizer:
+n_components: 25
+max_iter: 500
+doc_topic_prior: 0.04
+topic_word_prior: 0.04
+learning_decay: 0.7
+leanring_offset: 50
+batch_size: 128

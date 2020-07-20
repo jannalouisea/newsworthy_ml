@@ -1,0 +1,15 @@
+coherence:
+no_below: 5
+no_above: 0.75
+keep_n: 5000
+
+tfidf_vectorizer:
+n_components: 35
+max_iter: 500
+learning_decay: 0.7
+leanring_offset: 50
+batch_size: 128
+
+best_num_topics: 35
+perplexity: 1544.957630726402
+coherence: 0.5578116423599779
