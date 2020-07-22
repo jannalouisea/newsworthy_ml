@@ -35,8 +35,13 @@ data = data[~data["title"].isin(
 # drops articles with empty body text
 data = data[~data["text"].isin(["nan"])]
 
+# store articles that have no publish date
+no_publish = data[data["publish_date"] == "nan"]
+
 # only keep articles that have a 2020 date
-data = data[data["publish_date"].astype(str).str.match(".*2020.*")]
+data = data[data["publish_date"].astype(str).str.match("(.*2020.*)")]
+
+data = data.append(no_publish)
 
 
 # only keeps rows that have an outlet which we have scraped
@@ -51,6 +56,7 @@ data = data[data["outlet"].isin(["thestar", "The Record", "cbc", "ctvnews", "nat
 data = data[(data['authors'] != "") | (data['publish_date'] != "nan")]
 
 
-data.sort_values(by=['outlet'])
+# data.sort_values(by=['outlet'], inplace=True, axis=0)
 
-data.to_csv("clean.csv")
+
+data.to_csv("clean.csv", index=False)
