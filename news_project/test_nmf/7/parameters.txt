@@ -13,7 +13,7 @@ h_stop_condition: 0.001
 eval_every: True
 
 tfidf_vectorizer:
-n_components: 35
+n_components: 15
 min_df: 10
 max_df: 0.6
 max_features: 5000
@@ -24,8 +24,8 @@ l1_ratio: 0.2
 alpha: 0.2
 tol: 0.0001
 
-topic_df.shape: (35, 8)
-topics_unique: True
-sum_sqared_resids: 4142.55
-best_num_topics: 35
-coherence_score: 0.49907
+topic_df.shape: (15, 8)
+topics_unique: False
+sum_sqared_resids: 1724.106
+best_num_topics: 15
+coherence_score: 0.50046

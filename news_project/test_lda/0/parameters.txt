@@ -1,6 +1,6 @@
 coherence:
 no_below: 5
-no_above: 0.75
+no_above: 0.6
 keep_n: 5000
 
 tfidf_vectorizer:
@@ -11,5 +11,4 @@ leanring_offset: 50
 batch_size: 128
 
 best_num_topics: 35
-perplexity: 1577.1937818812344
-coherence: 0.5642217240120461
+perplexity: 9934.373607009988

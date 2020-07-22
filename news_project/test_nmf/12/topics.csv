@@ -1,36 +1,16 @@
 ,topic_num,topics,num_articles,resid
-0,0,just peopl time think thing feel know want,321,0.9518041270169229
-1,1,case test covid health new provinc death,142,0.8789596282321075
-2,2,player team game season leagu play hockey coach,259,0.9166940909996298
-3,3,polic investig man offic rcmp charg incid vehicl,175,0.9112904581154162
-4,4,art artist galleri exhibit paint council cultur work,121,0.89385892072048
-5,5,cent canadian rate pandem price sale bank survey,102,0.9032265273730916
-6,6,citi council coquitlam build rental develop communiti park,157,0.9382894462806692
-7,7,communiti program support societi help organ volunt women,192,0.945742950606396
-8,8,north shore news vancouv mcgrath,114,0.8888950864992826
-9,9,home real estat market hous price sale,108,0.9056063445418785
-10,10,car vehicl drive engin wheel driver model rear,125,0.9113612078861901
-11,11,funer home forest lawn arrang,37,0.6887552624044098
-12,12,jennif gauthier photograph festiv check fun,86,0.9106973793508227
-13,13,restaur food dish indian menu cook dine chicken,182,0.9388734941823047
-14,14,mask wear face public cover mandatori,82,0.8623844127935809
-15,15,school student learn educ program teacher children class,139,0.9182748621269019
-16,16,music perform song album concert musician band play,147,0.9259048727490863
-17,17,canada canadian countri china immigr nation border trump,150,0.9437406518700753
-18,18,flight airlin travel air passeng juli canada westjet,57,0.8802035070805693
-19,19,langley ridg editor mapl letter chilliwack facebook follow,132,0.9335268245112892
-20,20,trudeau govern minist prime chariti feder program,112,0.8973273144847644
-21,21,bowen island ceremoni communiti sea municip squamish,75,0.8817612969309417
-22,22,hospit health care worker home outbreak patient,117,0.9207310194018307
-23,23,key number cycl energi month,19,0.583309002204484
-24,24,court cancer trial justic judg lawyer alleg rule,115,0.9291643733782692
-25,25,new west westminst photo record galleri,63,0.8780860992963472
-26,26,patient dental dr dentur clinic teeth dentist treatment,113,0.9173347172131836
-27,27,news star reader trust report journalist stori editor,93,0.9178128665573304
-28,28,burnabi busi photo galleri height metrotown lisa,79,0.9069549521002379
-29,29,busi custom store servic compani product client work,223,0.9498848029385699
-30,30,financi insur loan tax mortgag credit debt incom,134,0.9322364794524312
-31,31,film theatr movi festiv screen stori netflix,87,0.9007495934885094
-32,32,park lake trail mountain summer water beach whistler,200,0.9553325048082446
-33,33,jay blue toronto roger centr season game,31,0.7671652578643351
-34,34,drug overdos death health suppli illicit addict,39,0.817486791417424
+0,0,famili just time peopl year home life day,346,0.9630637202948781
+1,1,case health test covid new death outbreak hospit,115,0.9002292805727169
+2,2,polic investig man offic charg rcmp vehicl incid,163,0.9278970892130055
+3,3,player team game leagu season play nhl coach,137,0.9157656432154225
+4,4,busi govern program tax pandem billion fund work,179,0.9481601085423706
+5,5,car wheel vehicl engin drive rear litr model,57,0.8692475058904544
+6,6,mask wear face cover mandatori public,50,0.8490888597302734
+7,7,reopen stage restaur ontario open park citi theatr,113,0.9422341027205807
+8,8,cent price sale market home hous real estat,84,0.9243274522754348
+9,9,music perform artist art concert film musician song,115,0.9391058480067109
+10,10,ridg mapl editor meadow letter mapleridgenews com,58,0.8984017438830859
+11,11,langley chilliwack rcmp surrey com read local facebook,144,0.9487153684641039
+12,12,canada flight court china trump canadian travel countri,163,0.9553129678421117
+13,13,trudeau minist chariti prime program ethic student,41,0.8522779819881351
+14,14,jay blue roger centr season game toronto,21,0.7141221121700108

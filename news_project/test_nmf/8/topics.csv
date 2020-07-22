@@ -1,36 +1,16 @@
 ,topic_num,topics,num_articles,resid
-0,0,peopl work time year help just communiti make,1313,0.9731363901188875
-1,1,case health covid test new provinc outbreak virus,210,0.9105105671739828
-2,2,player team game season leagu play hockey nhl,297,0.927623548153619
-3,3,polic investig rcmp man offic charg incid arrest,184,0.921461959833269
-4,4,art artist galleri exhibit paint council cultur,115,0.8997854102678539
-5,5,cent canadian canada billion govern bank rate financi,203,0.941624408976859
-6,6,real estat market home price sale hous,116,0.9105182660377871
-7,7,clinic therapi royal citi health treatment massag client,59,0.9110521356037523
-8,8,north shore news vancouv mcgrath,103,0.8917827363707643
-9,9,funer servic memori home cremat arrang famili,16,0.7900304049926653
-10,10,car vehicl drive engin wheel rear driver model,123,0.9195644037494739
-11,11,funer forest lawn home knapman ocean view,22,0.5633259831719495
-12,12,jennif gauthier photograph festiv check stop,74,0.8950035571748647
-13,13,restaur food dish indian menu dine chicken cook,148,0.9367462531197528
-14,14,mask wear face cover mandatori public,69,0.8601594516119291
-15,15,school student educ learn program teacher french children,132,0.9252184880791431
-16,16,music perform song concert album musician band play,136,0.9322354804331349
-17,17,citi coquitlam tri port council news,101,0.9431824318212136
-18,18,sleep apnea coastal paul patient throat symptom,13,0.5667998072555488
-19,19,ridg mapl editor meadow letter email mapleridgenews com,80,0.9134205823065754
-20,20,trudeau minist chariti prime govern feder ethic,81,0.881828247817447
-21,21,bowen island ceremoni municip communiti squamish sea,68,0.8885075620416759
-22,22,cancer treatment chemotherapi pancreat hospit liver patient,42,0.8742497324817661
-23,23,key number cycl energi month,19,0.5978598511839934
-24,24,court trial justic judg rule case suprem,68,0.920452404284728
-25,25,new west photo galleri record westminst,70,0.8912627241129442
-26,26,dentur dental patient teeth dr dentist clinic implant,43,0.836097942807367
-27,27,star news reader trust journalist report journal editor,60,0.8965416053400348
-28,28,burnabi busi photo galleri communiti lisa height,68,0.9165879528300526
-29,29,screen wizard door product industri home premium,17,0.7756099390783335
-30,30,insur strata premium coverag compani cost co oper owner,28,0.8225832109242253
-31,31,film movi theatr festiv documentari screen oscar,66,0.8953386857510309
-32,32,park trampolin sky zone trail street beach lake,70,0.9333600743179868
-33,33,richmond news special photo danc club centr,78,0.9376692003011801
-34,34,drug overdos death illicit suppli addict,36,0.815456266614847
+0,0,peopl year work time canada pandem new just,923,0.9761079342422514
+1,1,case health test covid new death outbreak provinc,104,0.8987173099842732
+2,2,polic investig man offic rcmp charg vehicl incid,156,0.9338237229527792
+3,3,player team game leagu season play nhl coach,125,0.9222612916503787
+4,4,reopen stage ontario ford theatr provinc indoor bar,54,0.9149035160642541
+5,5,wheel engin vehicl rear car litr price model,49,0.8615724595940256
+6,6,mask wear face cover mandatori,43,0.8534001000163335
+7,7,ridg mapl meadow pitt mapleridgenews com,53,0.9034824005847193
+8,8,cent price market sale real estat averag home,54,0.9097260958305268
+9,9,music perform concert musician play song album band,55,0.9198553454240226
+10,10,editor letter email phone number address send includ,25,0.8533351072017246
+11,11,langley advanc time citi fort rcmp,46,0.9132526280938636
+12,12,flight airlin air canada westjet passeng travel,27,0.8431042130994847
+13,13,trudeau minist chariti prime govern program ethic,52,0.8796280827313474
+14,14,jay blue roger centr season game team,20,0.7241488351985981

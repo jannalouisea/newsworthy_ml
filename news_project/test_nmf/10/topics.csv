@@ -1,36 +1,16 @@
 ,topic_num,topics,num_articles,resid
-0,0,peopl year work time home communiti busi new,2230,0.9781052762585143
-1,1,case health test covid new outbreak provinc virus,171,0.9075582134130695
-2,2,player team game season leagu play hockey nhl,279,0.9351496540752645
-3,3,polic investig rcmp man offic charg incid arrest,170,0.9302036510886669
-4,4,zoom financ file photo film festiv filter final,0,
-5,5,art artist galleri exhibit paint council cultur,105,0.9085011393998672
-6,6,zoom financ file photo film festiv filter final,0,
-7,7,zoom financ file photo film festiv filter final,0,
-8,8,north shore news vancouv mcgrath,100,0.8998297252297632
-9,9,funer servic memori home cremat famili keith,14,0.7902325224629335
-10,10,car vehicl drive driver engin wheel road model,129,0.9465346712018005
-11,11,funer home forest lawn knapman ocean view,20,0.545813443806852
-12,12,zoom financ file photo film festiv filter final,0,
-13,13,restaur food indian dish menu dine cuisin chicken,108,0.9410449669366493
-14,14,mask wear face cover mandatori public,66,0.8677459662040184
-15,15,student school educ learn program teacher french class,106,0.9267499537158196
-16,16,zoom financ file photo film festiv filter final,0,
-17,17,citi park coquitlam council tri mayor financi plan,73,0.954407608851627
-18,18,sleep apnea coastal paul patient symptom throat,14,0.6280788753475699
-19,19,langley advanc time citi fort langleyadvancetimes com,50,0.9127967256511538
-20,20,trudeau minist chariti prime govern feder ethic,81,0.8960749409639716
-21,21,bowen island ceremoni municip financ minist film festiv,63,0.8893554978137536
-22,22,zoom financ file photo film festiv filter final,0,
-23,23,key number cycl energi month,18,0.6014726168419673
-24,24,cancer court chemotherapi treatment pancreat liver justic,51,0.9102729270264208
-25,25,new west photo galleri record westminst,56,0.8855304189955339
-26,26,dentur teeth denturist clinic implant patient clean dental,15,0.5938720173082189
-27,27,star news reader trust journalist report journal editor,54,0.9065162849093711
-28,28,burnabi jennif gauthier photograph festiv photo,107,0.9305711477535572
-29,29,screen wizard door product industri home premium,14,0.7590721885908237
-30,30,insur strata premium coverag compani cost co oper owner,27,0.8368709317290616
-31,31,film festiv movi theatr documentari screen stori,60,0.9036703795828434
-32,32,plant garden flower grow seed bee soil veget,41,0.9115753679162177
-33,33,richmond news zoom filter figur fil file,74,0.9453206259794381
-34,34,drug overdos death illicit suppli addict,32,0.8248307812129289
+0,0,peopl year work covid time canada health pandem,1077,0.9808212671594247
+1,1,case health new test covid death provinc,84,0.9014537224415249
+2,2,polic investig man offic rcmp charg vehicl incid,149,0.9449885724375865
+3,3,player team game leagu nhl play season test,115,0.9363319283805389
+4,4,trudeau minist chariti prime ethic committe program,41,0.884201232137983
+5,5,wheel engin litr rear price vehicl model base,42,0.870883241101703
+6,6,mask wear face cover mandatori,41,0.8632117282164168
+7,7,ridg mapl meadow pitt mapleridgenews com,42,0.9224359597174286
+8,8,cent price market sale real estat averag hous,43,0.9165835536908271
+9,9,music perform musician concert play song album band,44,0.9308535972212589
+10,10,editor letter email address phone includ send number,27,0.8714089508756417
+11,11,langley advanc time citi fort rcmp,40,0.9258692924500039
+12,12,flight airlin air canada westjet passeng travel,22,0.8406944080781841
+13,13,zoom financi file photo film festiv final finalist financ,0,
+14,14,jay blue roger centr season game toronto,19,0.746213626115156

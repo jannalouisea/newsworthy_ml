@@ -1,5 +1,6 @@
 # for helper functions
 import pandas as pd
+import numpy as np
 from sklearn.feature_extraction.text import ENGLISH_STOP_WORDS
 import string
 import re
@@ -202,19 +203,40 @@ def compute_coherence_values(corpus, dictionary, num, texts):
     )
     return coherence_model_lda.get_coherence()
 
-def compute_coherence_values_with_parameters(corpus, dictionary, num, a, b, texts):
-    lda_model = gensim.models.LdaMulticore(
-        corpus=corpus,
-        id2word=dictionary,
-        num_topics=num,
-        alpha=a,
-        eta=b,
-        workers=2
-    )
-    coherence_model_lda = CoherenceModel(
-        model=lda_model,
-        texts=texts,
-        dictionary=dictionary,
-        coherence='c_v'
-    )
-    return coherence_model_lda.get_coherence()
+def get_qualifying_dates():
+    df = pd.read_csv('clean.csv')
+    df.dropna(subset=['publish_date'],inplace=True)
+    df.drop_duplicates(subset=['url'],keep='first',inplace=True)
+
+    df = df[df["publish_date"].astype(str).str.match(".*2020.*")]
+
+    df['word_count'] = df['text'].apply(word_count)
+    df['processed_text'] = df['text'].apply(process_text)
+
+    df.to_csv('/Users/miya/Documents/GitHub/ai4good_news/news_project/test_lda/clean_2020.csv')
+
+    return df
+
+def get_nan_rows():
+    df = pd.read_csv('clean.csv')
+    df = df[df['publish_date'].isnull()]
+    df.drop_duplicates(subset=['url'],keep='first',inplace=True)
+    return df
+
+def make_prediction(model, tfidf_vectorizer):
+    df_unseen = get_nan_rows()
+    nmf_mod = model
+
+    # process text
+    df_unseen['processed_text'] = df_unseen['text'].apply(process_text)
+    new_texts = df_unseen['processed_text']
+
+    # transform data with fitted models
+    tfidf_unseen = tfidf_vectorizer.transform(new_texts)
+    X_new = nmf_mod.transform(tfidf_unseen)
+
+    # top predicted topics
+    predicted_topics = [np.argsort(each)[::-1][0] for each in X_new]
+    df_unseen['pred_topic_num'] = predicted_topics
+
+    return df_unseen

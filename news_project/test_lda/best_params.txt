@@ -1,3 +1,6 @@
-best_coherence: 1
-best_perplexity: 1
+best_coherence: 1 (0.5683726554257735)
+best_perplexity: 1 (1542.630574517416)
+
+n_components: 35
+learning_decay: 0.6
 

@@ -1,0 +1,4 @@
+test #0 had best residual score
+params: a=0.0, b=0.0
+residual score: 1720.848
+

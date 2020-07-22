@@ -7,11 +7,8 @@ from gensim.corpora.dictionary import Dictionary
 from gensim.models.nmf import Nmf
 from collections import Counter
 from operator import itemgetter
-import matplotlib.pyplot as plt
-import seaborn as sns
-sns.set_style('darkgrid')
 
-from helper import word_count, process_text, topic_table, whitespace_tokenizer, unique_words
+from helper import word_count, process_text, topic_table, whitespace_tokenizer, unique_words, get_qualifying_dates, make_prediction
 
 # parameters
 # dictionary
@@ -38,24 +35,7 @@ max_iter = 500
 # alpha = 0.3
 tol = 0.0001
 
-# path = '/Users/miya/Documents/GitHub/ai4good_news/news_project/test_nmf_2/'
-# test_path = 'test_nmf_2/'
-
-'''
-file_name = 'clean.csv'
-groups = get_groups(file_name)
-df = groups[0]
-'''
-
-# read in data
-df = pd.read_csv('clean.csv',engine='python')
-df.drop_duplicates(subset=['url'],keep='first',inplace=True)
-
-# create new column 'word_count'
-df['word_count'] = df['text'].apply(word_count)
-
-# create new column 'processed_text'
-df['processed_text'] = df['text'].apply(process_text)
+df = get_qualifying_dates()
 
 # flatten list of lists
 p_text = df['processed_text']
@@ -83,10 +63,10 @@ dictionary.filter_extremes(
 # need corpus to pass as input to gensim nmf model
 # [[(word_id, # times word appears in document),...],...]
 corpus = [dictionary.doc2bow(text) for text in texts]
-topic_nums = list(np.arange(5,75+1,5))
 
 # find optimal # of topics
 # use gensim nmf model so we can pass as input to gensim CoherenceModel
+topic_nums = list(np.arange(15,55+1,5))
 coherence_scores = []
 for num in topic_nums:
     # initialize NMF model
@@ -149,6 +129,8 @@ tfidf_fn = tfidf_vectorizer.get_feature_names()
 tfidf_dt = tfidf_vectorizer.transform(texts)
 
 squared_residuals = []
+params = {}
+models = []
 
 alphas = list(np.arange(0.0,1.2,0.2))
 l1_ratios = list(np.arange(0.0,1.2,0.2))
@@ -301,19 +283,35 @@ for a in alphas:
             parameters.write('\nbest_num_topics: {}'.format(best_num_topics))
             parameters.write('\ncoherence_score: {}'.format(best_coherence_score))
             parameters.close()
+
+            params[count_params] = (a,b)
+            models.append(nmf)
+
         except:
             print('test {}, error occurred'.format(count_params))
 
         print('test {} complete'.format(count_params)) 
         count_params += 1
 
-params = np.arange(25)
-resid_scores = list(zip(params,squared_residuals))
-resid_scores = sorted(resid_scores, key=itemgetter(1), reverse=True)
+params_test = np.arange(25)
+resid_scores = list(zip(params_test,squared_residuals))
+resid_scores = sorted(resid_scores, key=itemgetter(1))
 best_params = resid_scores[0][0]
-print('test #{} had best params'.format(best_params))
+print('test #{} had best residual score'.format(best_params))
+print('params: a={}, b={}'.format(params[best_params][0], params[best_params][1]))
 print('residual scores: {}'.format(resid_scores))
 
 resids = open(test_path+'residuals.txt','w')
-resids.write(resid_scores)
+resids.write('resid_scores:\n')
+for i in range(len(resid_scores)):
+    resids.write(str(resid_scores[i][0])+' : '+str(resid_scores[i][1]))
+resids.write('\nparameters:\n')
+for p in params:
+    resids.write(str(p)+' : '+(', '.join(tuple(map(str,params[p])))))
+resids.write('\ntest #{} had best residual score'.format(best_params))
+resids.write('\nparams: a={}, b={}'.format(params[best_params][0], params[best_params][1]))
 resids.close()
+
+# make prediction on unseen articles
+df_predictions = make_prediction(models[best_params],tfidf_vectorizer)
+df_predictions.to_csv('/Users/miya/Documents/GitHub/ai4good_news/news_project/test_nmf/unseen_articles.csv',header=True)
