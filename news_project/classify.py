@@ -8,9 +8,9 @@ from sklearn.model_selection import GridSearchCV
 from sklearn.metrics import classification_report, confusion_matrix, accuracy_score
 from sklearn.model_selection import ShuffleSplit
 from sklearn import svm
-
+'''
 topics = [
-    ['water', 'new york', 'film', 'hospit', 'nova scotia'],
+    ['water', 'new york', 'film', 'hospit', 'nova scotia'], 
     ['trudeau', 'minist', 'program', 'govern', 'parti', 'prime', 'public'],
     ['mask', 'open', 'peopl', 'health', 'servic', 'covid', 'public', 'distanc'],
     ['case', 'covid', 'health', 'new', 'test', 'number', 'death', 'provinc'],
@@ -25,6 +25,24 @@ topics = [
     ['team', 'player', 'play', 'game', 'season', 'toronto', 'leagu', 'sport'],
     ['polic', 'offic', 'rcmp', 'investig', 'surrey', 'man', 'juli', 'report']
 ]
+topics = [
+    ['famili just time peopl year home life day'], # lifestyle
+    ['case health test covid new death outbreak hospit'], # covid-19
+    ['polic investig man offic charg rcmp vehicl incid'] # local
+    ['player team game leagu season play nhl coach'], # sports
+    ['busi govern program tax billion pandem fund feder'], # politics
+    ['car wheel vehicl engin drive rear litr model'], # buisiness
+    ['mask wear face cover mandatori public'], # covid-19
+    ['reopen stage restaur ontario open park citi theatr'], # local ?
+    ['cent price sale market home real estat hous'], # business
+    ['music perform artist art concert film musician song'], # arts & entertainment
+    ['ridg mapl editor meadow letter mapleridgenews com'], # local
+    ['langley chilliwack rcmp surrey com read facebook local'], # local
+    ['flight canada court china trump canadian travel countri'], # politics
+    ['trudeau minist chariti prime program ethic student'], # politics
+    ['jay blue roger centr season game toronto'] # sports
+]
+'''
 
 def get_category_name(category_id):
     for category, id_ in category_codes.items():    
@@ -39,34 +57,37 @@ def get_category_name(category_id):
 # df['processed_text'] = df['processed_text'].str[0]
 
 df = pd.read_csv('all_articles.csv')
-df = df[df.category != 'v']
 # print(df.head())
+
 df['processed_text'] = df['text'].apply(process_text)
 df['processed_text'] = df['processed_text'].apply(lambda x: [' '.join(x)])
 df['processed_text'] = df['processed_text'].str[0]
 
-topics_temp = []
-for topic in topics:
-    topics_temp.append(' '.join(topic))
 
-df_2 = pd.DataFrame(data=topics_temp,columns=['topics'])
+df_topics = pd.read_csv('topics.csv')
+# print(df_topics['topics'])
+topics = df['topics']
+# print(df_topics['topics'])
+# print(topics)
+
+# THIS IS A BUG - FIX IT
+df_2 = pd.DataFrame(data=df['topics'],columns=['topics'])
+df_2 = df_2.drop_duplicates().reset_index().drop(columns=['index'])
+print(df_2)
 
 # label coding
 category_codes = {
     'business':0,
-    'entertainment':1,
+    'arts & sentertainment':1,
     'politics':2,
     'sports':3,
-    'tech':4,
+    'science & tech':4,
     'covid-19':5,
     'lifestyle':6,
     'local':7,
     'health':8,
-    'crisis':9,
-    'crime':10
+    'crisis':9
 }
-
-print(df.head())
 
 X_train, X_test, y_train, y_test = train_test_split(
     df['processed_text'],
@@ -75,8 +96,7 @@ X_train, X_test, y_train, y_test = train_test_split(
     random_state=8
 )
 
-
-print(X_test)
+# print(X_test)
 
 ngram_range = (1,2)
 min_df = 10
@@ -103,7 +123,6 @@ features_test = tfidf.transform(X_test).toarray()
 labels_test = y_test
 labels_test = labels_test.astype('int')
 print(features_test.shape)
-
 
 for category, category_id in sorted(category_codes.items()):
     features_chi2 = chi2(features_train, labels_train == category_id) # just labels_train?
@@ -155,13 +174,24 @@ svc_pred = best_svc.predict(features_test)
 print('training accuracy: {}'.format(accuracy_score(labels_train, best_svc.predict(features_train))))
 print('testing accuracy: {}'.format(accuracy_score(labels_test, svc_pred)))
 
+categories = []
+probabilities = []
+
 for idx, row in df_2.iterrows():
     topic_matrix = tfidf.transform(row)
     topic_matrix = topic_matrix.toarray()
     svc_pred_2 = best_svc.predict(topic_matrix)[0]
     svc_pred_2_proba = best_svc.predict_proba(topic_matrix)[0]
     category = get_category_name(svc_pred_2)
+    probability = svc_pred_2_proba.max()*100
     print('topic: {}'.format(row['topics']))
     print('category: {}'.format(category))
-    print('probability: {}'.format(svc_pred_2_proba.max()*100))
-    print()
+    print('probability: {}\n'.format(probability))
+    categories.append(category)
+    probabilities.append(probability)
+
+
+
+df_topics['category'] = categories
+df_topics['probability'] = probabilities
+df_topics.to_csv('/Users/miya/Documents/GitHub/ai4good_news/news_project/topics_with_category.csv',header=True)
