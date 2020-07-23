@@ -1,0 +1,16 @@
+,Unnamed: 0,topic_num,topics,num_articles,resid,category,probability
+0,0,0,famili just time peopl year home life day,349,0.962904934893944,lifestyle,86.34332867343636
+1,1,1,case health test covid new death outbreak hospit,113,0.8993935588246319,covid-19,98.14520422107961
+2,2,2,polic investig man offic charg rcmp vehicl incid,162,0.9279533752064354,local,73.82031747112553
+3,3,3,player team game leagu season play nhl coach,137,0.91529051509063,sports,99.89941773340205
+4,4,4,busi govern program tax billion pandem fund work,177,0.9477780752627464,local,72.72044850847278
+5,5,5,car wheel vehicl engin drive rear litr model,57,0.8678712220355759,business,98.15494930876528
+6,6,6,mask wear face cover mandatori public,52,0.8490976825653995,covid-19,97.75707049492954
+7,7,7,reopen stage restaur ontario open park citi theatr,113,0.9416608093110528,covid-19,77.77359581584807
+8,8,8,cent price sale market home real estat hous,83,0.9227754302024924,business,99.74569766877778
+9,9,9,music perform artist art concert film musician song,115,0.9386126074595526,arts & entertainment,99.82064862317387
+10,10,10,ridg mapl editor meadow letter mapleridgenews com,58,0.8969495605772673,local,95.52125950133632
+11,11,11,langley chilliwack rcmp surrey com read facebook local,144,0.9482794795925064,local,99.89822037244785
+12,12,12,flight canada court china trump canadian travel countri,164,0.9546270608991516,politics,70.61366865569852
+13,13,13,trudeau minist chariti prime program ethic student,41,0.8502773874498212,politics,98.96791534698403
+14,14,14,jay blue roger centr season game toronto,21,0.7092974056794387,sports,99.33893083946114

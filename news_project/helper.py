@@ -187,56 +187,25 @@ def unique_words(text):
     [ulist.append(x) for x in text if x not in ulist]
     return ulist
 
-def compute_coherence_values(corpus, dictionary, num, texts):
-    lda_model = gensim.models.wrappers.LdaMallet(
-        'mallet-2.0.8/bin/mallet', 
-        corpus=corpus, 
-        num_topics=num, 
-        id2word=dictionary,
-        workers=2,
-    )
-    coherence_model_lda = CoherenceModel(
-        model=lda_model, 
-        texts=texts, 
-        dictionary=dictionary, 
-        coherence='c_v'
-    )
-    return coherence_model_lda.get_coherence()
+def make_prediction(filename):
+    with open('nmf_model.pickle', 'rb') as data:
+        model = pickle.load(data)
 
-def get_qualifying_dates():
-    df = pd.read_csv('clean.csv')
-    df.dropna(subset=['publish_date'],inplace=True)
-    df.drop_duplicates(subset=['url'],keep='first',inplace=True)
-
-    df = df[df["publish_date"].astype(str).str.match(".*2020.*")]
-
-    df['word_count'] = df['text'].apply(word_count)
-    df['processed_text'] = df['text'].apply(process_text)
-
-    df.to_csv('/Users/miya/Documents/GitHub/ai4good_news/news_project/test_lda/clean_2020.csv')
-
-    return df
-
-def get_nan_rows():
-    df = pd.read_csv('clean.csv')
-    df = df[df['publish_date'].isnull()]
-    df.drop_duplicates(subset=['url'],keep='first',inplace=True)
-    return df
-
-def make_prediction(model, tfidf_vectorizer):
-    df_unseen = get_nan_rows()
-    nmf_mod = model
+    with open('nmf_tfidf.pickle', 'rb') as data:
+        tfidf = pickle.load(data)
+    
+    df = pd.read_csv(filename)
 
     # process text
-    df_unseen['processed_text'] = df_unseen['text'].apply(process_text)
-    new_texts = df_unseen['processed_text']
+    df['processed_text'] = df_unseen['text'].apply(process_text)
+    new_texts = df['processed_text']
 
     # transform data with fitted models
-    tfidf_unseen = tfidf_vectorizer.transform(new_texts)
-    X_new = nmf_mod.transform(tfidf_unseen)
+    tfidf_unseen = tfidf.transform(new_texts)
+    X_new = model.transform(tfidf_unseen)
 
     # top predicted topics
     predicted_topics = [np.argsort(each)[::-1][0] for each in X_new]
-    df_unseen['pred_topic_num'] = predicted_topics
+    df['pred_topic_num'] = predicted_topics
 
-    return df_unseen
+    return df
