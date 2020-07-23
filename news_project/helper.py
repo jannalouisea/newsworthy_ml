@@ -132,6 +132,23 @@ c_dict = {
     "you've": "you have"
 }
 
+# stemmed dictionary
+stem_dict = {}
+
+# label coding for classifier
+category_codes = {
+    'business':0,
+    'arts & entertainment':1,
+    'politics':2,
+    'sports':3,
+    'science & tech':4,
+    'covid-19':5,
+    'lifestyle':6,
+    'local':7,
+    'health':8,
+    'crisis':9
+}
+
 c_re = re.compile('(%s)' % '|'.join(c_dict.keys()))
 
 # stop words
@@ -159,7 +176,12 @@ def process_text(text):
     text = [each.lower() for each in text]
     text = [re.sub('[0-9]+', '', each) for each in text]
     text = [expandContractions(each, c_re=c_re) for each in text]
-    text = [SnowballStemmer('english').stem(each) for each in text]
+    stemmed_text = []
+    for each in text:
+        stemmed = SnowballStemmer('english').stem(each)
+        stem_dict[stemmed] = each
+        stemmed_text.append(stemmed)
+    text = stemmed_text
     text = [w for w in text if w not in punc]
     text = [w for w in text if w not in stop_words]
     text = [each for each in text if len(each) > 1]
@@ -187,25 +209,10 @@ def unique_words(text):
     [ulist.append(x) for x in text if x not in ulist]
     return ulist
 
-def make_prediction(filename):
-    with open('nmf_model.pickle', 'rb') as data:
-        model = pickle.load(data)
+def get_category_name(category_id):
+    for category, id in category_codes.items():    
+        if id == category_id:
+            return category
 
-    with open('nmf_tfidf.pickle', 'rb') as data:
-        tfidf = pickle.load(data)
-    
-    df = pd.read_csv(filename)
-
-    # process text
-    df['processed_text'] = df_unseen['text'].apply(process_text)
-    new_texts = df['processed_text']
-
-    # transform data with fitted models
-    tfidf_unseen = tfidf.transform(new_texts)
-    X_new = model.transform(tfidf_unseen)
-
-    # top predicted topics
-    predicted_topics = [np.argsort(each)[::-1][0] for each in X_new]
-    df['pred_topic_num'] = predicted_topics
-
-    return df
+def get_unstemmed_word(stemmed_word):
+    return stem_dict[stemmed_word]

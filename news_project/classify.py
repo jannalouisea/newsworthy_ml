@@ -10,30 +10,11 @@ from sklearn.model_selection import ShuffleSplit
 from sklearn import svm
 import pickle
 
-def get_category_name(category_id):
-    for category, id in category_codes.items():    
-        if id == category_id:
-            return category
-
 df = pd.read_csv('all_articles.csv')
 
 df['processed_text'] = df['text'].apply(process_text)
 df['processed_text'] = df['processed_text'].apply(lambda x: [' '.join(x)])
 df['processed_text'] = df['processed_text'].str[0]
-
-# label coding
-category_codes = {
-    'business':0,
-    'arts & entertainment':1,
-    'politics':2,
-    'sports':3,
-    'science & tech':4,
-    'covid-19':5,
-    'lifestyle':6,
-    'local':7,
-    'health':8,
-    'crisis':9
-}
 
 ngram_range = (1,2)
 min_df = 10

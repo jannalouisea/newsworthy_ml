@@ -1,0 +1,26 @@
+,Unnamed: 0,topic_num,topics,num_articles,resid,category,probability
+0,0,0,just people times think things family feel know ,210,0.9551287706384088,lifestyle,74.3297099756673
+1,1,1,cases health covid tested new province outbreaks hospital ,206,0.9026817590201692,covid-19,89.57453115888457
+2,2,2,teams players game season league play hockey nhl ,334,0.9251943595752591,sports,99.84788250150652
+3,3,3,police investigate office rcmp man charge incidents arrested ,191,0.9155577084159404,local,82.52590047925248
+4,4,4,arts artists gallery exhibit painting council culture working ,86,0.8923955914127425,local,77.75257614539743
+5,5,5,trudeau government minister federal billion charities prime programming ,108,0.9013500766616064,politics,80.19958207828513
+6,6,6,restaurants food dishes indian menu richmond custom dining ,231,0.9497301930725708,lifestyle,57.68741984426209
+7,7,7,businesses client's service custom company community help working ,289,0.9526651043366996,local,48.26474654483038
+8,8,8,north shores news vancouver photos ,156,0.9076952959690088,local,39.91592213640568
+9,9,9,funeral home forest lawn arrange ,38,0.6963937295875174,local,64.94419118408818
+10,10,10,engineers wheels litre model rear seat prices toyota ,71,0.8828005113162578,business,90.41786377732716
+11,11,11,burnaby new west jennifer gauthier photograph photos ,183,0.9354864100033944,local,32.229499531179066
+12,12,12,car vehicle driver driving road highway truck crashing ,130,0.9319250165038868,local,48.504437045884494
+13,13,13,mask wear face public cover mandatory ,71,0.8564674878809225,covid-19,97.67941632877098
+14,14,14,school students programming learn educator children parents kids ,155,0.9277565727510372,lifestyle,67.59269535052057
+15,15,15,city parking council building coquitlam community street site ,307,0.9532588210205076,local,61.180492653025766
+16,16,16,music performance songs album concert musicians bands play ,166,0.9312615258108706,arts & entertainment,99.47430109204356
+17,17,17,court trump cancer china justice alleged law trial ,240,0.9575627006850947,politics,92.31181788681104
+18,18,18,langley ridge editor maple chilliwack letters facebook follow ,181,0.9450511473046042,local,99.41785787017199
+19,19,19,canada canadians flights traveller borders airlines country air ,192,0.9402653457552148,local,32.96910904351234
+20,20,20,bowen island community trail event sea ceremony ,104,0.9043956678821308,local,76.953251320647
+21,21,21,patients dental dr denture clinic health treatment teeth ,183,0.9365722807885954,covid-19,52.437152371520604
+22,22,22,key number cycle energy months ,22,0.6304159598757109,local,22.499329670631244
+23,23,23,cent marketing prices home sales real estate ,214,0.9287007137113152,business,94.69041698986013
+24,24,24,films theatre movie festival screens story netflix ,138,0.9223909792207912,local,29.524310005902006
