@@ -2,7 +2,7 @@ import pandas as pd
 import pickle
 from helper import get_category_name, process_text
 
-def predict_category(filename):
+def predict_category(df):
 
     # with open('svc_tfidf.pickle', 'rb') as data:
     #     tfidf = pickle.load(data)
@@ -20,12 +20,7 @@ def predict_category(filename):
     serialized_tfidf = tfidf_obj['Body'].read()
     tfidf = pickle.loads(serialized_tfidf)
         
-    # df_topics = pd.read_csv(filename)
-	role = get_execution_role()
-	bucket='sagemaker-studio-i7gmskjysd'
-	data_key = filename
-	data_location = 's3://{}/{}'.format(bucket, data_key)
-	df_topics = pd.read_csv(data_location)
+    df_topics = df
 
     categories = []
     probabilities = []
@@ -44,7 +39,8 @@ def predict_category(filename):
 
     return df_topics
 
-def make_prediction(filename):
+
+def predict_topic(filename):
 
     # with open('nmf_model.pickle', 'rb') as data:
     #     model = pickle.load(data)
@@ -54,9 +50,9 @@ def make_prediction(filename):
 
     s3 = boto3.client('s3')
 
-	model_obj = s3.get_object(Bucket='sagemaker-studio-i7gmskjysd', Key='nmf_model.pickle')
-	serialized_model = model_obj['Body'].read()
-	model = pickle.loads(serialized_model)
+    model_obj = s3.get_object(Bucket='sagemaker-studio-i7gmskjysd', Key='nmf_model.pickle')
+    serialized_model = model_obj['Body'].read()
+    model = pickle.loads(serialized_model)
 
     tfidf_obj = s3.get_object(Bucket='sagemaker-studio-i7gmskjysd', Key='nmf_tfidf.pickle')
     serialized_tfidf = tfidf_obj['Body'].read()
@@ -64,10 +60,10 @@ def make_prediction(filename):
     
     # df = pd.read_csv(filename)
     role = get_execution_role()
-	bucket='sagemaker-studio-i7gmskjysd'
-	data_key = filename
-	data_location = 's3://{}/{}'.format(bucket, data_key)
-	df = pd.read_csv(data_location)
+    bucket='sagemaker-studio-i7gmskjysd'
+    data_key = filename
+    data_location = 's3://{}/{}'.format(bucket, data_key)
+    df = pd.read_csv(data_location)
 
     # process text
     df['processed_text'] = df_unseen['text'].apply(process_text)
@@ -81,7 +77,10 @@ def make_prediction(filename):
     predicted_topics = [np.argsort(each)[::-1][0] for each in X_new]
     df['pred_topic_num'] = predicted_topics
 
-    return df
+    bucket='sagemaker-studio-i7gmskjysd'
+    data_key = filename
+    data_location = 's3://{}/{}'.format(bucket, data_key)
+    df.to_csv(data_location, index=False)
 
-df = predict_category('test_nmf/complete_topics.csv')
-df.to_csv('topics_with_categories.csv')
+# df = predict_category('test_nmf/complete_topics.csv')
+# df.to_csv('topics_with_categories.csv')

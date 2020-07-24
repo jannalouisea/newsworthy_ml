@@ -16,6 +16,7 @@ import sys
 import os
 
 from helper import word_count, process_text, topic_table, whitespace_tokenizer, unique_words, get_unstemmed_word
+from predict import predict_category
 
 def nmf(filename):
     # parameters
@@ -108,7 +109,7 @@ def nmf(filename):
     best_coherence_score = scores[0][1]
     # print('num_topics: ',str(best_num_topics))
     # print('coherence: ',str(best_coherence_score))
-    print(df.head())
+    # print(df.head())
 
     # measure of word frequency in a document (adjusted)
     min_df = no_below
@@ -126,8 +127,6 @@ def nmf(filename):
     tfidf = tfidf_vectorizer.fit_transform(texts)
     # all the words we'll be looking at
     tfidf_fn = tfidf_vectorizer.get_feature_names()
-    # document-term matrix
-    # tfidf_dt = tfidf_vectorizer.transform(texts)
 
     # grid search for best alpha, l1_ratio combination
     # measured by lowest sum squared residual
@@ -276,6 +275,9 @@ def nmf(filename):
 
     best_articles = sorted_articles_dfs[count_successes[best_params]]
     best_topics = complete_topics_dfs[count_successes[best_params]]
+
+    best_topics = predict_category(best_topics)
+
     # save best topics
     for idx, row in best_topics.iterrows():
         new_words = ''
@@ -285,10 +287,13 @@ def nmf(filename):
             new_words += ' '
         best_topics.at[idx,'topics'] = new_words
 
+    categories = []
     for idx, row in best_articles.iterrows():
         topic_num = row['topic_num']
         topics = best_topics.at[topic_num,'topics']
+        categories.append(best_topics.at[topic_num,'category'])
         best_articles.at[idx,'topics'] = topics
+    best_articles['category'] = categories
 
     # best_articles.to_csv(path+'sorted_articles.csv',header=True)
     # best_topics.to_csv(path+'complete_topics.csv',header=True)
@@ -315,6 +320,7 @@ def nmf(filename):
     s3.put_object(Bucket='sagemaker-studio-i7gmskjysd', Key='nmf_tfidf.pickle', Body=serialized_tfidf)
 
 filename = 'clean.csv'
+# path = '/Users/miya/Documents/GitHub/ai4good_news/news_project/test_nmf'
 nmf(filename)
 
 

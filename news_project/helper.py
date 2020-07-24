@@ -219,6 +219,9 @@ def get_category_name(category_id):
         if id == category_id:
             return category
 
+def get_unstemmed_word(word):
+    return stem_dict[word]
+
 
 
 
