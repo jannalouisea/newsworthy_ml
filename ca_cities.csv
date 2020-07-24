@@ -1,0 +1,946 @@
+id,name,county,province,province_code,postcode_area,type,map_reference,latitude,longitude,census_division,area_code,time_zone
+25224,Tabaret,Témiscamingue,Quebec,QC,J0Z,Locality,031L14,46.93778,-79.24056,Témiscamingue,819,America/Montreal
+25225,Taber,,Alberta,AB,T1G,Town,082H16,49.78475,-112.15097,Division No.  2,587,America/Edmonton
+25226,Table Bay,,Newfoundland and Labrador,NL,A0K,Locality,013H10,53.69456,-56.70604,Division No. 10,709,America/Goose_Bay
+25227,Table Head,Cape Breton,Nova Scotia,NS,B1A,Locality,011J04,46.20978,-59.95480,Cape Breton,902,America/Glace_Bay
+25228,Tableland,,Saskatchewan,SK,S4A,Locality,062E03,49.15003,-103.18380,Division No.  1,306,America/Regina
+25229,Tabor,Fraser-Fort George,British Columbia,BC,V2N,Locality,093G15,53.80000,-122.71667,Fraser-Fort George,250,America/Vancouver
+25230,Tabor,Algoma,Ontario,ON,P0S,Locality,041N15,47.79250,-84.51444,Algoma,705,America/Toronto
+25231,Tabusintac,Northumberland,New Brunswick,NB,E9H,Locality,021P06,47.32722,-65.01097,Northumberland,506,America/Moncton
+25232,Taché,Kenora,Ontario,ON,P0V,Locality,052F09,49.58477,-92.19071,Kenora,807,America/Winnipeg
+25233,Tacheeda,Fraser-Fort George,British Columbia,BC,V0J,Locality,093J10,54.68333,-122.60000,Fraser-Fort George,250,America/Vancouver
+25234,Tachie,Bulkley-Nechako,British Columbia,BC,V0J,Locality,093K10,54.65000,-124.75000,Bulkley-Nechako,250,America/Vancouver
+25235,Tacks Beach,,Newfoundland and Labrador,NL,A0B,Locality,001M09,47.57778,-54.21222,Division No.  2,709,America/St_Johns
+25236,Tadanac,Kootenay Boundary,British Columbia,BC,V1R,Locality,082F04,49.11667,-117.71667,Kootenay Boundary,250,America/Vancouver
+25237,Tadmore,,Saskatchewan,SK,S0A,Hamlet,062M16,51.83417,-102.47987,Division No.  9,306,America/Regina
+25238,Tadoule Lake,,Manitoba,MB,R0B,Locality,064J09,58.71194,-98.48028,Division No. 23,204,America/Winnipeg
+25239,Tadoussac,La Haute-Côte-Nord,Quebec,QC,G0T,Town,022C04,48.15000,-69.71667,La Haute-Côte-Nord,581,America/Montreal
+25240,Taft,Columbia-Shuswap,British Columbia,BC,V0E,Locality,082L15,50.98333,-118.65000,Columbia-Shuswap,250,America/Vancouver
+25241,Tafton,Simcoe,Ontario,ON,L3V,Locality,031D11,44.63639,-79.41722,Simcoe,705,America/Toronto
+25242,Taggart,Kenora,Ontario,ON,P0V,Locality,052K01,50.08558,-92.49533,Kenora,807,America/Winnipeg
+25243,Taghum,Central Kootenay,British Columbia,BC,V1L,Locality,082F06,49.48333,-117.38333,Central Kootenay,250,America/Vancouver
+25244,Tagish,,Yukon,YT,Y0B,Locality,105D08,60.31484,-134.27151,Yukon,250,America/Whitehorse
+25245,Tahltan,Kitimat-Stikine,British Columbia,BC,V0C,Locality,104J02,58.01667,-131.00000,Kitimat-Stikine,250,America/Vancouver
+25246,Tahsis,Strathcona,British Columbia,BC,V0P,Village,092E15,49.91639,-126.66444,Strathcona,250,America/Vancouver
+25247,Taillon,Lac-Saint-Jean-Est,Quebec,QC,G0W,Locality,022D12,48.66278,-71.82500,Lac-Saint-Jean-Est,581,America/Montreal
+25248,Taits Beach,Northumberland,Ontario,ON,K0L,Locality,031D01,44.10556,-78.27778,Northumberland,289,America/Toronto
+25249,Takhini,,Yukon,YT,Y1A,Locality,105D14,60.85556,-135.46056,Yukon,250,America/Whitehorse
+25250,Takhini Hotspring,,Yukon,YT,Y1A,Locality,105D14,60.87879,-135.35921,Yukon,250,America/Whitehorse
+25251,Takipy,,Manitoba,MB,R8A,Locality,063N07,55.41361,-100.95944,Division No. 21,204,America/Winnipeg
+25252,Takla Landing,Bulkley-Nechako,British Columbia,BC,V0J,Locality,093N05,55.48333,-125.96667,Bulkley-Nechako,250,America/Vancouver
+25253,Tako,,Saskatchewan,SK,S0K,Locality,073C06,52.40007,-109.01739,Division No. 13,306,America/Regina
+25254,Taku,Stikine,British Columbia,BC,V0C,Locality,104N12,59.63333,-133.85000,Stikine,250,America/Vancouver
+25255,Takysie Lake,Bulkley-Nechako,British Columbia,BC,V0J,Locality,093F13,53.88333,-125.86667,Bulkley-Nechako,250,America/Vancouver
+25256,Talbot,,Alberta,AB,T0C,Locality,073D03,52.23028,-111.26556,Division No.  7,587,America/Edmonton
+25257,Talbot,Simcoe,Ontario,ON,L0K,Locality,031D11,44.50847,-79.12063,Simcoe,705,America/Toronto
+25258,Talbot,Portneuf,Quebec,QC,G0A,Locality,031P01,47.08278,-72.24472,Portneuf,581,America/Montreal
+25259,Talbot,Lac-Saint-Jean-Est,Quebec,QC,G8B,Locality,022D12,48.57556,-71.62444,Lac-Saint-Jean-Est,581,America/Montreal
+25260,Talbotville Royal,Elgin,Ontario,ON,N5P,Locality,040I14,42.80323,-81.25250,Elgin,519,America/Toronto
+25261,Talcville,,Newfoundland and Labrador,NL,A1W,Locality,001N10,47.51111,-52.96167,Division No.  1,709,America/St_Johns
+25262,Tallheo,Central Coast,British Columbia,BC,V0T,Locality,093D07,52.38333,-126.83333,Central Coast,250,America/Vancouver
+25263,Tallman,,Saskatchewan,SK,S0J,Locality,073B15,52.80005,-106.96726,Division No. 16,306,America/Regina
+25264,Tall Pines,,Saskatchewan,SK,S0E,Locality,063D07,52.34999,-102.65048,Division No. 14,306,America/Regina
+25265,Talmage,,Saskatchewan,SK,S0C,Locality,062E13,49.78336,-103.66721,Division No.  2,306,America/Regina
+25266,Talon,Le Haut-Richelieu,Quebec,QC,J2W,Locality,031H06,45.35583,-73.27028,Le Haut-Richelieu,450,America/Montreal
+25267,Talon,Gatineau,Quebec,QC,J8T,Locality,031G05,45.47833,-75.70139,Gatineau,819,America/Montreal
+25268,Taloyoak,Kitikmeot,Nunavut,NU,X0B,Hamlet,057C10,69.53611,-93.52083,Kitikmeot,204,America/Cambridge_Bay
+25269,Tamarac Estates,Peel,Ontario,ON,L7K,Locality,040P16,43.93444,-80.00167,Peel,289,America/Toronto
+25270,Tamarack,Peace River,British Columbia,BC,V0C,Locality,094H11,57.65000,-121.16667,Peace River,250,America/Dawson_Creek
+25271,Tamarisk,Squamish-Lillooet,British Columbia,BC,V0N,Locality,092J03,50.10000,-123.01667,Squamish-Lillooet,604,America/Vancouver
+25272,Tam O'Shanter,Toronto,Ontario,ON,M1T,Locality,030M14,43.77722,-79.29750,Toronto,416,America/Toronto
+25273,Tam O'Shanter Ridge,Halifax,Nova Scotia,NS,B2X,Locality,011D12,44.68904,-63.52681,Halifax,902,America/Halifax
+25274,Tamworth,Lennox and Addington,Ontario,ON,K0K,Locality,031C07,44.48750,-76.99389,Lennox and Addington,613,America/Toronto
+25275,Tancook Island,Lunenburg,Nova Scotia,NS,B0J,Locality,021A08,44.46528,-64.16911,Lunenburg,902,America/Halifax
+25276,Tancredia,Pontiac,Quebec,QC,J0X,Locality,031F10,45.72000,-76.65083,Pontiac,819,America/Toronto
+25277,Tangent,,Alberta,AB,T0H,Locality,083N13,55.79861,-117.67889,Division No. 19,587,America/Edmonton
+25278,Tangier,Halifax,Nova Scotia,NS,B0J,Locality,011D15,44.80517,-62.69386,Halifax,902,America/Halifax
+25279,Tangleflags,,Saskatchewan,SK,S9V,Locality,073F05,53.48342,-109.63410,Division No. 17,306,America/Edmonton
+25280,Tanglewood,Ottawa,Ontario,ON,K2G,Locality,031G05,45.33333,-75.75000,Ottawa,613,America/Toronto
+25281,Tanguay,Coaticook,Quebec,QC,J0B,Locality,021E04,45.05278,-71.71028,Coaticook,819,America/Montreal
+25282,Tánintsę́ Chú Dachäk,,Yukon,YT,Y0A,Locality,105L04,62.05306,-135.68278,Yukon,250,America/Whitehorse
+25283,Tankville,Westmorland,New Brunswick,NB,E1H,Locality,021I02,46.16206,-64.78281,Westmorland,506,America/Moncton
+25284,Tanners Settlement,Lunenburg,Nova Scotia,NS,B4V,Locality,021A08,44.35418,-64.36602,Lunenburg,902,America/Halifax
+25285,Tannin,Kenora,Ontario,ON,P0V,Locality,052G11,49.65000,-91.00472,Kenora,807,America/Winnipeg
+25286,Tanquary Camp,Qikiqtaaluk,Nunavut,NU,X0A,Locality,340D06,81.40000,-76.90000,Qikiqtaaluk,819,America/Iqaluit
+25287,Tansley,Halton,Ontario,ON,L7L,Locality,030M05,43.41167,-79.80194,Halton,289,America/Toronto
+25288,Tansleyville,Thunder Bay,Ontario,ON,P0T,Locality,042E12,49.61177,-87.93963,Thunder Bay,807,America/Toronto
+25289,Tantallon,Halifax,Nova Scotia,NS,B3Z,Locality,011D12,44.65984,-63.90276,Halifax,902,America/Halifax
+25290,Tantallon,,Saskatchewan,SK,S0A,Village,062K12,50.53551,-101.84084,Division No.  5,306,America/Regina
+25291,Tanu,Skeena-Queen Charlotte,British Columbia,BC,V0T,Locality,103B13,52.76556,-131.61639,Skeena-Queen Charlotte,250,America/Vancouver
+25292,Tapley,Peterborough,Ontario,ON,L0A,Locality,031D02,44.17583,-78.50444,Peterborough,705,America/Toronto
+25293,Tapley,,Saskatchewan,SK,S6H,Locality,072I05,50.36669,-105.55057,Division No.  7,306,America/Regina
+25294,Tapleytown,Hamilton,Ontario,ON,L8J,Locality,030M04,43.18014,-79.73033,Hamilton,289,America/Toronto
+25295,Taplow,,Alberta,AB,T0J,Locality,072M12,51.56389,-111.74389,Division No.  4,587,America/Edmonton
+25296,Tappen,Columbia-Shuswap,British Columbia,BC,V0E,Locality,082L14,50.78333,-119.33333,Columbia-Shuswap,250,America/Vancouver
+25297,Tara,Bruce,Ontario,ON,N0H,Locality,041A06,44.47778,-81.14556,Bruce,519,America/Toronto
+25298,Taradale,,Alberta,AB,T3J,Locality,082P04,51.11806,-113.91667,Division No.  6,587,America/Edmonton
+25299,Taradale,Thunder Bay,Ontario,ON,P0T,Locality,042F12,49.56222,-85.72833,Thunder Bay,705,America/Toronto
+25300,Tarantum,Queens,Prince Edward Island,PE,C0A,Locality,011L07,46.29073,-62.95298,Queens,902,America/Halifax
+25301,Tara Siding,Bruce,Ontario,ON,N0H,Locality,041A06,44.47018,-81.14318,Bruce,519,America/Toronto
+25302,Tarbert,Dufferin,Ontario,ON,L9W,Locality,040P16,43.94750,-80.32889,Dufferin,519,America/Toronto
+25303,Tarbot,Victoria,Nova Scotia,NS,B0C,Locality,011K07,46.33446,-60.59546,Victoria,902,America/Halifax
+25304,Tarbotvale,Victoria,Nova Scotia,NS,B0C,Locality,011K07,46.35049,-60.56685,Victoria,902,America/Halifax
+25305,Targettville,Kent,New Brunswick,NB,E4T,Locality,021I11,46.54245,-65.03132,Kent,506,America/Moncton
+25306,Tar Island,,Alberta,AB,T0P,Locality,074E03,57.01917,-111.46778,Division No. 16,587,America/Edmonton
+25307,Tarnopol,,Saskatchewan,SK,S0K,Locality,073A11,52.70003,-105.38386,Division No. 15,306,America/Regina
+25308,Tarrtown,Carleton,New Brunswick,NB,E7J,Locality,021J12,46.54674,-67.61463,Carleton,506,America/Moncton
+25309,Tarrys,Central Kootenay,British Columbia,BC,V1N,Locality,082F05,49.38333,-117.55000,Central Kootenay,250,America/Vancouver
+25310,Tartan,Grey,Ontario,ON,N0G,Locality,041A02,44.12917,-80.72778,Grey,519,America/Toronto
+25311,Tartan Lane,,Newfoundland and Labrador,NL,A0A,Locality,001K11,46.68472,-53.43750,Division No.  1,709,America/St_Johns
+25312,Tartigou,La Matanie,Quebec,QC,G0J,Locality,022B13,48.75722,-67.79167,La Matanie,581,America/Montreal
+25313,Tarzwell,Timiskaming,Ontario,ON,P0K,Locality,042A01,48.00232,-80.01872,Timiskaming,705,America/Toronto
+25314,Taschereau,Montréal,Quebec,QC,H4R,Locality,031H05,45.47667,-73.68694,Montréal,514,America/Montreal
+25315,Taschereau,Abitibi-Ouest,Quebec,QC,J0Z,Village,032D10,48.66667,-78.68333,Abitibi-Ouest,819,America/Montreal
+25316,Ta:shiis,Strathcona,British Columbia,BC,V0P,Locality,092L03,50.14444,-127.10583,Strathcona,250,America/Vancouver
+25317,Tashota,Thunder Bay,Ontario,ON,P0T,Locality,042L04,50.23365,-87.67109,Thunder Bay,807,America/Toronto
+25318,Tasialurjuap Quurngungata Sijjangit,Nord-du-Québec,Quebec,QC,J0M,Locality,024M13,59.79167,-71.78139,Nord-du-Québec,819,America/Montreal
+25319,Tasialuup Itillinga,Nord-du-Québec,Quebec,QC,J0M,Locality,034K12,58.68639,-77.70083,Nord-du-Québec,819,America/Montreal
+25320,Tasialuup Sijjanga,Nord-du-Québec,Quebec,QC,J0M,Locality,035K05,62.27833,-77.62555,Nord-du-Québec,819,America/Montreal
+25321,Tasiaviup Sijjangit,Nord-du-Québec,Quebec,QC,J0M,Locality,024M11,59.63139,-71.23722,Nord-du-Québec,819,America/Montreal
+25322,Tasikutaap Sivuraliningata Sijjangit,Nord-du-Québec,Quebec,QC,J0M,Locality,025D01,60.12528,-70.28250,Nord-du-Québec,819,America/Montreal
+25323,Tasikutaaraaluup Sitialungit,Nord-du-Québec,Quebec,QC,J0M,Locality,034K10,58.69278,-76.58778,Nord-du-Québec,819,America/Montreal
+25324,Tasiqanngituq,Nord-du-Québec,Quebec,QC,J0M,Locality,034J13,58.90528,-75.57056,Nord-du-Québec,819,America/Montreal
+25325,Tasirmiuviup Sijjangit,Nord-du-Québec,Quebec,QC,J0M,Locality,024N12,59.69333,-69.86972,Nord-du-Québec,819,America/Montreal
+25326,Tasiujaq,Nord-du-Québec,Quebec,QC,J0M,Village,024K12,58.70000,-69.93333,Nord-du-Québec,819,America/Montreal
+25327,Tasiviup Sijjangit Tarrasiit,Nord-du-Québec,Quebec,QC,J0M,Locality,024M11,59.66417,-71.00805,Nord-du-Québec,819,America/Montreal
+25328,Tasu,Skeena-Queen Charlotte,British Columbia,BC,V0T,Locality,103C16,52.76667,-132.03333,Skeena-Queen Charlotte,250,America/Vancouver
+25329,Ta Ta Creek,East Kootenay,British Columbia,BC,V0B,Locality,082G13,49.78333,-115.78333,East Kootenay,250,America/Edmonton
+25330,Tatagwa,,Saskatchewan,SK,S0C,Locality,072H09,49.65003,-104.00055,Division No.  2,306,America/Regina
+25331,Tatainaq,Nord-du-Québec,Quebec,QC,J0M,Locality,034O11,59.71306,-75.46750,Nord-du-Québec,819,America/Montreal
+25332,Tatalrose,Bulkley-Nechako,British Columbia,BC,V0J,Locality,093F13,53.98333,-125.98333,Bulkley-Nechako,250,America/Vancouver
+25333,Tatamagouche,Colchester,Nova Scotia,NS,B0K,Village,011E11,45.71214,-63.29109,Colchester,902,America/Halifax
+25334,Tatamagouche Mountain,Colchester,Nova Scotia,NS,B6L,Locality,011E11,45.63156,-63.26886,Colchester,902,America/Halifax
+25335,Tate,,Saskatchewan,SK,S0A,Locality,072P07,51.45003,-104.83390,Division No. 10,306,America/Regina
+25336,Tate Corners,Middlesex,Ontario,ON,N0L,Locality,040I12,42.71833,-81.63028,Middlesex,519,America/Toronto
+25337,Tatehurst,Le Haut-Saint-Laurent,Quebec,QC,J0S,Locality,031G01,45.14222,-74.01500,Le Haut-Saint-Laurent,450,America/Montreal
+25338,Tatla Lake,Cariboo,British Columbia,BC,V0L,Locality,092N15,51.90000,-124.60000,Cariboo,250,America/Vancouver
+25339,Tatlayoko Lake,Cariboo,British Columbia,BC,V0L,Locality,092N09,51.71667,-124.43333,Cariboo,250,America/Vancouver
+25340,Tatlock,Lanark,Ontario,ON,K0G,Locality,031F01,45.16722,-76.48056,Lanark,613,America/Toronto
+25341,Tatlow,Bulkley-Nechako,British Columbia,BC,V0J,Locality,093L11,54.70000,-127.11667,Bulkley-Nechako,250,America/Vancouver
+25342,Tatnall,Algoma,Ontario,ON,P0M,Locality,042C09,48.68639,-84.22250,Algoma,705,America/Toronto
+25343,Tatogga,Kitimat-Stikine,British Columbia,BC,V0J,Locality,104H12,57.73472,-129.98889,Kitimat-Stikine,250,America/Vancouver
+25344,Tatsfield,,Saskatchewan,SK,S0M,Locality,073C14,52.81674,-109.16739,Division No. 13,306,America/Regina
+25345,Tatton,Cariboo,British Columbia,BC,V0K,Locality,092P11,51.71667,-121.36667,Cariboo,250,America/Vancouver
+25346,Tattons Corner,Charlotte,New Brunswick,NB,E5G,Locality,021B15,44.76552,-66.76257,Charlotte,506,America/Moncton
+25347,Taunton,Durham,Ontario,ON,L0B,Locality,030M15,43.94361,-78.82917,Durham,289,America/Toronto
+25348,Tavani,Kivalliq,Nunavut,NU,X0C,Locality,055K03,62.06667,-93.10000,Kivalliq,204,America/Rankin_Inlet
+25349,Taverna,Fraser-Fort George,British Columbia,BC,V0E,Locality,083D14,52.97361,-119.41389,Fraser-Fort George,250,America/Vancouver
+25350,Tavistock,Oxford,Ontario,ON,N0B,Locality,040P07,43.32167,-80.83556,Oxford,519,America/Toronto
+25351,Tawa,,Alberta,AB,T6L,Locality,083H06,53.46111,-113.42361,Division No. 11,587,America/Edmonton
+25352,Tawatinaw,,Alberta,AB,T0G,Locality,083I06,54.29806,-113.48333,Division No. 13,587,America/Edmonton
+25353,Taxis River,Northumberland,New Brunswick,NB,E6A,Locality,021J08,46.44978,-66.46505,Northumberland,506,America/Moncton
+25354,Tay Creek,York,New Brunswick,NB,E6B,Locality,021J02,46.23058,-66.81436,York,506,America/Moncton
+25355,Tay Falls,York,New Brunswick,NB,E6B,Locality,021J02,46.22740,-66.77250,York,506,America/Moncton
+25356,Taylor,,Alberta,AB,T0M,Locality,082P07,51.34417,-112.76028,Division No.  5,587,America/Edmonton
+25357,Taylor,Peace River,British Columbia,BC,V0C,Municipality,094A02,56.15917,-120.68667,Peace River,250,America/Dawson_Creek
+25358,Taylor,Leeds and Grenville,Ontario,ON,K0H,Locality,031C08,44.41472,-76.21222,Leeds and Grenville,613,America/Toronto
+25359,Taylor Beach,,Saskatchewan,SK,S0G,Hamlet,062L12,50.69471,-103.64509,Division No.  6,306,America/Regina
+25360,Taylor Corners,Kawartha Lakes,Ontario,ON,K0M,Locality,031D07,44.33917,-78.84972,Kawartha Lakes,705,America/Toronto
+25361,Taylor's Bay,,Newfoundland and Labrador,NL,A0E,Locality,001L13,46.87611,-55.72639,Division No.  2,709,America/St_Johns
+25362,Taylors Head,Halifax,Nova Scotia,NS,B0J,Locality,011D15,44.81241,-62.56717,Halifax,902,America/Halifax
+25363,Taylorside,,Saskatchewan,SK,S0E,Locality,073A15,52.85001,-104.88383,Division No. 15,306,America/Regina
+25364,Taylors Road,Antigonish,Nova Scotia,NS,B2G,Locality,011F12,45.61054,-61.87678,Antigonish,902,America/Halifax
+25365,Taylor Village,Westmorland,New Brunswick,NB,E4K,Locality,021H15,45.93785,-64.55103,Westmorland,506,America/Moncton
+25366,Taylorville,,Alberta,AB,T0K,Locality,082H03,49.03556,-113.12167,Division No.  3,587,America/Edmonton
+25367,Tay Mills,York,New Brunswick,NB,E6B,Locality,021J02,46.18328,-66.79697,York,506,America/Moncton
+25368,Taymouth,York,New Brunswick,NB,E6C,Locality,021J02,46.18264,-66.60731,York,506,America/Moncton
+25369,Tayside,Stormont Dundas and Glengarry,Ontario,ON,K0C,Locality,031G07,45.29419,-74.96068,Stormont Dundas and Glengarry,613,America/Toronto
+25370,Tay Valley,York,New Brunswick,NB,E6B,Locality,021J02,46.20786,-66.69107,York,506,America/Moncton
+25371,Tchesinkut Lake,Bulkley-Nechako,British Columbia,BC,V0J,Locality,093K04,54.08333,-125.73333,Bulkley-Nechako,250,America/Vancouver
+25372,Tcîbâtik Sâgik,La Vallée-de-l'Or,Quebec,QC,J9P,Locality,031N11,47.53444,-77.04556,La Vallée-de-l'Or,819,America/Montreal
+25373,Tcorecik,La Tuque,Quebec,QC,G0X,Locality,031O09,47.64944,-74.15361,La Tuque,819,America/Montreal
+25374,Tea Cove,,Newfoundland and Labrador,NL,A0N,Locality,012B10,48.64218,-58.96910,Division No.  4,709,America/St_Johns
+25375,Teahans Corner,Albert,New Brunswick,NB,E4H,Locality,021H10,45.70905,-64.95533,Albert,506,America/Moncton
+25376,Tea Hill,Queens,Prince Edward Island,PE,C1B,Locality,011L03,46.21111,-63.06667,Queens,902,America/Halifax
+25377,Teakerne Arm,Strathcona,British Columbia,BC,V0P,Locality,092K02,50.18611,-124.81528,Strathcona,250,America/Vancouver
+25378,Teakle,,Saskatchewan,SK,S0H,Locality,072J11,50.60003,-107.11731,Division No.  7,306,America/Regina
+25379,Tecumseh,Essex,Ontario,ON,N0R,Town,040J07,42.24306,-82.92556,Essex,519,America/Toronto
+25380,Teeds Mills,Carleton,New Brunswick,NB,E7M,Locality,021J04,46.10261,-67.62619,Carleton,506,America/Moncton
+25381,Tee Lake,Témiscamingue,Quebec,QC,J0Z,Locality,031L14,46.75583,-79.04444,Témiscamingue,819,America/Montreal
+25382,Teepee Creek,,Alberta,AB,T0H,Locality,083M08,55.37417,-118.40972,Division No. 19,587,America/Edmonton
+25383,Tees,,Alberta,AB,T0C,Locality,083A06,52.46750,-113.32083,Division No.  8,587,America/Edmonton
+25384,Teeswater,Bruce,Ontario,ON,N0G,Locality,040P14,43.99778,-81.28611,Bruce,519,America/Toronto
+25385,Teeterville,Haldimand-Norfolk,Ontario,ON,N0E,Locality,040I16,42.94472,-80.44306,Haldimand-Norfolk,519,America/Toronto
+25386,Tehkummah,Manitoulin,Ontario,ON,P0P,Locality,041G09,45.65498,-82.01566,Manitoulin,705,America/Toronto
+25387,Teko,Peace River,British Columbia,BC,V0C,Locality,094A02,56.15000,-120.75000,Peace River,250,America/Dawson_Creek
+25388,Telachick,Fraser-Fort George,British Columbia,BC,V2N,Locality,093G14,53.86667,-123.20000,Fraser-Fort George,250,America/Vancouver
+25389,Telegraph Cove,Mount Waddington,British Columbia,BC,V0N,Locality,092L10,50.55000,-126.83333,Mount Waddington,250,America/Vancouver
+25390,Telegraph Creek,Kitimat-Stikine,British Columbia,BC,V0J,Locality,104G14,57.90000,-131.16667,Kitimat-Stikine,250,America/Vancouver
+25391,Telegraph Hill,Montmagny,Quebec,QC,G0R,Locality,021M02,47.01833,-70.67667,Montmagny,581,America/Montreal
+25392,Telfer,Middlesex,Ontario,ON,N0M,Locality,040P03,43.04868,-81.39568,Middlesex,519,America/Toronto
+25393,Telford,,Manitoba,MB,R0E,Locality,052E14,49.84028,-95.38556,Division No.  1,204,America/Winnipeg
+25394,Telford,Pictou,Nova Scotia,NS,B0K,Locality,011E09,45.57201,-62.46047,Pictou,902,America/Halifax
+25395,Telfordville,,Alberta,AB,T0C,Locality,083G08,53.27333,-114.17056,Division No. 11,587,America/Edmonton
+25396,Telkwa,Bulkley-Nechako,British Columbia,BC,V0J,Village,093L11,54.69667,-127.05083,Bulkley-Nechako,250,America/Vancouver
+25397,Tellier,Sept-Rivières – Caniapiscau,Quebec,QC,G0G,Locality,022J08,50.39306,-66.16528,Sept-Rivières – Caniapiscau,581,America/Montreal
+25398,Telly Road Crossing,Northumberland,New Brunswick,NB,E1V,Locality,021P04,47.11070,-65.60463,Northumberland,506,America/Moncton
+25399,Temagami,Nipissing,Ontario,ON,P0H,Town,031M04,47.02972,-79.97167,Nipissing,705,America/Toronto
+25400,Temagami North,Nipissing,Ontario,ON,P0H,Locality,031M04,47.11194,-79.79000,Nipissing,705,America/Toronto
+25401,Témiscaming,Témiscamingue,Quebec,QC,J0Z,City,031L11,46.71667,-79.10000,Témiscamingue,819,America/Montreal
+25402,Témiscouata-sur-le-Lac,Témiscouata,Quebec,QC,G0L,City,021N10,47.68333,-68.88333,Témiscouata,581,America/Montreal
+25403,Temiskaming Shores,Timiskaming,Ontario,ON,P0J,City,031M05,47.49361,-79.71528,Timiskaming,705,America/Toronto
+25404,Temperance Vale,York,New Brunswick,NB,E6G,Locality,021J03,46.06306,-67.24795,York,506,America/Moncton
+25405,Temperanceville,York,Ontario,ON,L4E,Locality,030M14,43.93889,-79.48139,York,289,America/Toronto
+25406,Tempest,,Alberta,AB,T1M,Locality,082H10,49.74667,-112.52389,Division No.  2,587,America/Edmonton
+25407,Temple,,Alberta,AB,T0L,Locality,082N08,51.37250,-116.10194,Division No. 15,587,America/Edmonton
+25408,Temple,,Alberta,AB,T1Y,Locality,082P04,51.08333,-113.95000,Division No.  6,587,America/Edmonton
+25409,Temple,York,New Brunswick,NB,E6H,Locality,021G14,45.97993,-67.42696,York,506,America/Moncton
+25410,Temple Hill,Grey,Ontario,ON,N0C,Locality,041A07,44.46056,-80.62417,Grey,519,America/Toronto
+25411,Templeman,,Newfoundland and Labrador,NL,A0G,Locality,002F04,49.19833,-53.55194,Division No.  7,709,America/St_Johns
+25412,Templeton,Gatineau,Quebec,QC,J8P,Locality,031G05,45.49278,-75.60500,Gatineau,819,America/Montreal
+25413,Templeton-Est,Gatineau,Quebec,QC,J8P,Locality,031G05,45.49389,-75.58833,Gatineau,819,America/Montreal
+25414,Templeton-Ouest,Gatineau,Quebec,QC,J8T,Locality,031G05,45.48333,-75.70250,Gatineau,819,America/Montreal
+25415,Tempo,Middlesex,Ontario,ON,N6L,Locality,040I14,42.85659,-81.27790,Middlesex,519,America/Toronto
+25416,Tenaga,Les Collines-de-l'Outaouais,Quebec,QC,J9B,Locality,031G12,45.52833,-75.80194,Les Collines-de-l'Outaouais,819,America/Montreal
+25417,Tenby,,Manitoba,MB,R0J,Locality,062J06,50.49972,-99.12750,Division No.  8,204,America/Winnipeg
+25418,Tenby Bay,Algoma,Ontario,ON,P0R,Locality,041J04,46.13083,-83.92583,Algoma,705,America/Toronto
+25419,Ten Mile,,Yukon,YT,Y0A,Locality,105D01,60.16361,-134.37722,Yukon,250,America/Whitehorse
+25420,Tenmile House,Queens,Prince Edward Island,PE,C0A,Locality,011L07,46.33452,-62.98304,Queens,902,America/Halifax
+25421,Ten Mile Lake,Cariboo,British Columbia,BC,V2J,Locality,093G01,53.08333,-122.43333,Cariboo,250,America/Vancouver
+25422,Ten Mile Lake,Halifax,Nova Scotia,NS,B0N,Locality,011E02,45.13308,-62.68267,Halifax,902,America/Halifax
+25423,Tennants Cove,Kings,New Brunswick,NB,E5T,Locality,021G09,45.57254,-66.01533,Kings,506,America/Moncton
+25424,Tennessee,Roussillon,Quebec,QC,J5A,Locality,031H05,45.36500,-73.65306,Roussillon,450,America/Montreal
+25425,Tennion,,Alberta,AB,T0K,Locality,082H15,49.95944,-112.57722,Division No.  2,587,America/Edmonton
+25426,Tennycape,Hants,Nova Scotia,NS,B0N,Locality,011E05,45.26576,-63.87647,Hants,902,America/Halifax
+25427,Tennyson,Lanark,Ontario,ON,K7A,Locality,031F01,45.03878,-76.15969,Lanark,613,America/Toronto
+25428,Tent City,Simcoe,Ontario,ON,L9S,Locality,031D05,44.29389,-79.53056,Simcoe,705,America/Toronto
+25429,Terence Bay,Halifax,Nova Scotia,NS,B3T,Locality,011D05,44.47011,-63.72159,Halifax,902,America/Halifax
+25430,Terence Bay River,Halifax,Nova Scotia,NS,B3T,Locality,011D05,44.49482,-63.73264,Halifax,902,America/Halifax
+25431,Terminal Beach,Halifax,Nova Scotia,NS,B2Z,Locality,011D11,44.63870,-63.31913,Halifax,902,America/Halifax
+25432,Terminus,Lambton,Ontario,ON,N0P,Locality,040J09,42.69104,-82.33042,Lambton,519,America/Toronto
+25433,Terrace,Kitimat-Stikine,British Columbia,BC,V8G,City,103I10,54.51639,-128.59972,Kitimat-Stikine,250,America/Vancouver
+25434,Terrace Bay,Thunder Bay,Ontario,ON,P0T,Locality,042D14,48.78194,-87.10139,Thunder Bay,705,America/Toronto
+25435,Terrace Heights,,Alberta,AB,T6B,Locality,083H11,53.53333,-113.43333,Division No. 11,587,America/Edmonton
+25436,Terrace Heights,Pictou,Nova Scotia,NS,B2H,Locality,011E10,45.60257,-62.65289,Pictou,902,America/Halifax
+25437,Terrace Hill,Brant,Ontario,ON,N3R,Locality,040P01,43.15194,-80.26889,Brant,519,America/Toronto
+25438,Terra Cotta,Peel,Ontario,ON,L7C,Locality,030M12,43.71906,-79.93521,Peel,289,America/Toronto
+25439,Terrains de L'Évêque,Kent,New Brunswick,NB,E4T,Locality,021I06,46.26714,-65.04581,Kent,506,America/Moncton
+25440,Terra Nova,,Newfoundland and Labrador,NL,A0C,Town,002D09,48.50250,-54.21444,Division No.  7,709,America/St_Johns
+25441,Terra Nova,Cape Breton,Nova Scotia,NS,B1K,Locality,011F15,45.84874,-60.52881,Cape Breton,902,America/Glace_Bay
+25442,Terra Nova,Dufferin,Ontario,ON,L9V,Locality,041A01,44.20972,-80.11694,Dufferin,705,America/Toronto
+25443,Terrasse-Bellevue,La Haute-Yamaska,Quebec,QC,J2H,Locality,031H07,45.42528,-72.70639,La Haute-Yamaska,450,America/Montreal
+25444,Terrasse-Bigras,Deux-Montagnes,Quebec,QC,J0N,Locality,031G08,45.49611,-74.14278,Deux-Montagnes,450,America/Montreal
+25445,Terrasse-Campbell,Argenteuil,Quebec,QC,J0V,Locality,031G10,45.64333,-74.74583,Argenteuil,819,America/Montreal
+25446,Terrasse-Charbonneau,Longueuil,Quebec,QC,J4H,Locality,031H12,45.53333,-73.50000,Longueuil,450,America/Montreal
+25447,Terrasse-de-Luxe,D'Autray,Quebec,QC,J0K,Locality,031I06,46.29944,-73.40000,D'Autray,450,America/Montreal
+25448,Terrasse-des-Pins,La Rivière-du-Nord,Quebec,QC,J0R,Locality,031G16,45.86444,-74.06667,La Rivière-du-Nord,450,America/Montreal
+25449,Terrasse-Dusseault,Portneuf,Quebec,QC,G3M,Locality,021L12,46.67750,-71.71972,Portneuf,581,America/Montreal
+25450,Terrasse-Duvernay,Francheville,Quebec,QC,G8Y,Locality,031I07,46.34333,-72.60472,Francheville,819,America/Montreal
+25451,Terrasse-Legault,Argenteuil,Quebec,QC,J0V,Locality,031G10,45.64167,-74.73972,Argenteuil,819,America/Montreal
+25452,Terrasse-Préfontaine,La Vallée-du-Richelieu,Quebec,QC,J3G,Locality,031H11,45.60194,-73.24444,La Vallée-du-Richelieu,450,America/Montreal
+25453,Terrasse-Raymond,Deux-Montagnes,Quebec,QC,J0N,Locality,031G08,45.48639,-74.12972,Deux-Montagnes,450,America/Montreal
+25454,Terrasse-Robillard,Argenteuil,Quebec,QC,J0V,Locality,031G09,45.52694,-74.33167,Argenteuil,819,America/Montreal
+25455,Terrasse-Saint-François,Drummond,Quebec,QC,J2A,Locality,031H16,45.84694,-72.38750,Drummond,450,America/Montreal
+25456,Terrasse-Samson,Vaudreuil-Soulanges,Quebec,QC,J0P,Locality,031G01,45.20972,-74.31639,Vaudreuil-Soulanges,450,America/Montreal
+25457,Terrasse-Vaudreuil,Vaudreuil-Soulanges,Quebec,QC,J7V,Village,031H05,45.39056,-73.98889,Vaudreuil-Soulanges,450,America/Montreal
+25458,Terra View Heights,Peterborough,Ontario,ON,K9L,Locality,031D08,44.35389,-78.31556,Peterborough,705,America/Toronto
+25459,Terre-à-Fer,Témiscouata,Quebec,QC,G0L,Locality,021N10,47.71806,-68.77778,Témiscouata,581,America/Montreal
+25460,Terrebonne,Les Moulins,Quebec,QC,J6W,City,031H12,45.70000,-73.63333,Les Moulins,450,America/Montreal
+25461,Terrenceville,,Newfoundland and Labrador,NL,A0E,Town,001M10,47.65996,-54.70693,Division No.  2,709,America/St_Johns
+25462,Terre Noire,Inverness,Nova Scotia,NS,B0E,Locality,011K06,46.47670,-61.08219,Inverness,902,America/Halifax
+25463,Terres-Rompues,Le Saguenay-et-son-Fjord,Quebec,QC,G7H,Locality,022D06,48.45611,-71.17000,Le Saguenay-et-son-Fjord,581,America/Montreal
+25464,Territoire-Coburn,Beauce-Sartigan,Quebec,QC,G0M,Locality,021E16,45.93833,-70.40083,Beauce-Sartigan,581,America/Montreal
+25465,Teslin,,Yukon,YT,Y0A,Village,105C02,60.16722,-132.72167,Yukon,250,America/Whitehorse
+25466,Teslin Crossing,,Yukon,YT,Y0A,Locality,105E02,61.24180,-134.61653,Yukon,250,America/Whitehorse
+25467,Teslin Lake,,Yukon,YT,Y0A,Locality,105C02,60.23306,-132.91389,Yukon,250,America/Whitehorse
+25468,Teslin River,,Yukon,YT,Y0A,Locality,105C06,60.48333,-133.30694,Yukon,250,America/Whitehorse
+25469,Tessier,,Saskatchewan,SK,S0L,Village,072O14,51.80707,-107.42738,Division No. 12,306,America/Regina
+25470,Teston,York,Ontario,ON,L6A,Locality,030M13,43.86944,-79.54056,York,289,America/Toronto
+25471,Tetachuk,Bulkley-Nechako,British Columbia,BC,V0J,Locality,093E08,53.26667,-126.06667,Bulkley-Nechako,250,America/Vancouver
+25472,Tête-à-la-Baleine,Minganie – Le Golfe-du-Saint-Laurent,Quebec,QC,G0G,Locality,012J11,50.70278,-59.32306,Minganie – Le Golfe-du-Saint-Laurent,581,America/Blanc-Sablon
+25473,Tête-de-l'Île,Pierre-De Saurel,Quebec,QC,J3P,Locality,031I03,46.07167,-73.06556,Pierre-De Saurel,450,America/Montreal
+25474,Tête Jaune,Fraser-Fort George,British Columbia,BC,V0J,Locality,083D13,52.97833,-119.50556,Fraser-Fort George,250,America/Vancouver
+25475,Tête Jaune Cache,Fraser-Fort George,British Columbia,BC,V0E,Locality,083D14,52.96667,-119.42917,Fraser-Fort George,250,America/Vancouver
+25476,Tétreaultville,Montréal,Quebec,QC,H1L,Locality,031H12,45.60306,-73.52528,Montréal,514,America/Montreal
+25477,Teulon,,Manitoba,MB,R0C,Town,062I06,50.38583,-97.26111,Division No. 14,204,America/Winnipeg
+25478,Teviotdale,Wellington,Ontario,ON,N0G,Locality,040P15,43.84444,-80.75972,Wellington,519,America/Toronto
+25479,Tewkesbury,La Jacques-Cartier,Quebec,QC,G3C,Locality,021M03,47.05028,-71.42944,La Jacques-Cartier,581,America/Montreal
+25480,Texas,Roussillon,Quebec,QC,J5A,Locality,031H05,45.39917,-73.63306,Roussillon,450,America/Montreal
+25481,Thackeray,,Saskatchewan,SK,S0K,Locality,073C10,52.51673,-108.76738,Division No. 13,306,America/Regina
+25482,Thaddeus,Kenora,Ontario,ON,P0V,Locality,052K02,50.23128,-92.92509,Kenora,807,America/Winnipeg
+25483,Thalberg,,Manitoba,MB,R0E,Locality,062I08,50.37028,-96.48972,Division No. 13,204,America/Winnipeg
+25484,Thamesford,Oxford,Ontario,ON,N0M,Locality,040P02,43.05750,-81.00222,Oxford,519,America/Toronto
+25485,Thames River Siding,Elgin,Ontario,ON,N0L,Locality,040I14,42.76233,-81.45442,Elgin,519,America/Toronto
+25486,Thames Road,Huron,Ontario,ON,N0M,Locality,040P06,43.37028,-81.40972,Huron,519,America/Toronto
+25487,Thamesville,Chatham-Kent,Ontario,ON,N0P,Locality,040I12,42.55527,-81.97733,Chatham-Kent,519,America/Toronto
+25488,Thaxted,,Saskatchewan,SK,S0E,Locality,073A15,52.96668,-104.60048,Division No. 14,306,America/Regina
+25489,The Annex,Toronto,Ontario,ON,M5R,Locality,030M11,43.67222,-79.40028,Toronto,416,America/Toronto
+25490,The Back Settlement,Algoma,Ontario,ON,P0P,Locality,041J08,46.25005,-82.34153,Algoma,705,America/Toronto
+25491,The Battery,,Newfoundland and Labrador,NL,A0A,Locality,001N11,47.54167,-53.20194,Division No.  1,709,America/St_Johns
+25492,The Battery,,Newfoundland and Labrador,NL,A1A,Locality,001N10,47.56861,-52.69111,Division No.  1,709,America/St_Johns
+25493,The Beaches,,Newfoundland and Labrador,NL,A0K,Locality,012H10,49.57472,-56.82750,Division No.  5,709,America/St_Johns
+25494,The Beaches,Toronto,Ontario,ON,M4E,Locality,030M11,43.67361,-79.29556,Toronto,416,America/Toronto
+25495,The Block,,Newfoundland and Labrador,NL,A0N,Locality,011O14,47.80111,-59.32722,Division No.  4,709,America/St_Johns
+25496,The Bluff,Westmorland,New Brunswick,NB,E4P,Locality,021I02,46.23557,-64.50451,Westmorland,506,America/Moncton
+25497,The Boyne,Stormont Dundas and Glengarry,Ontario,ON,K0C,Locality,031G03,45.11750,-75.28778,Stormont Dundas and Glengarry,613,America/Toronto
+25498,The Broads,,Newfoundland and Labrador,NL,A0A,Locality,001N11,47.52000,-53.27750,Division No.  1,709,America/St_Johns
+25499,The Bush,Leeds and Grenville,Ontario,ON,K0G,Locality,031C09,44.57286,-76.20656,Leeds and Grenville,613,America/Toronto
+25500,The Cache,Timiskaming,Ontario,ON,P0K,Locality,042A05,48.26118,-81.55956,Timiskaming,705,America/Toronto
+25501,The Cedars,Kings,New Brunswick,NB,E5N,Locality,021G08,45.47725,-66.07930,Kings,506,America/Moncton
+25502,The Corners,,Manitoba,MB,R0M,Locality,062K11,50.59389,-101.38694,Division No. 15,204,America/Winnipeg
+25503,The Cottage,Papineau,Quebec,QC,J8L,Locality,031G11,45.73583,-75.31889,Papineau,819,America/Montreal
+25504,The Cottages,Haldimand-Norfolk,Ontario,ON,N0E,Locality,040I09,42.59583,-80.31306,Haldimand-Norfolk,519,America/Toronto
+25505,The Crutch,Les Jardins-de-Napierville,Quebec,QC,J0L,Locality,031H04,45.11861,-73.56833,Les Jardins-de-Napierville,450,America/Montreal
+25506,The Delta,Hamilton,Ontario,ON,L8K,Locality,030M04,43.23833,-79.81917,Hamilton,289,America/Toronto
+25507,The Depot,Parry Sound,Ontario,ON,P0H,Locality,041H16,45.99429,-80.10314,Parry Sound,705,America/Toronto
+25508,Thedford,Lambton,Ontario,ON,N0M,Locality,040P04,43.16806,-81.84694,Lambton,519,America/Toronto
+25509,The District of Lakeland No. 521,,Saskatchewan,SK,S0J,Municipality,073H12,53.64083,-105.90434,Division No. 15,306,America/Regina
+25510,The Dock,,Newfoundland and Labrador,NL,A0A,Locality,001N11,47.57306,-53.25306,Division No.  1,709,America/St_Johns
+25511,The Donovan,Greater Sudbury / Grand Sudbury,Ontario,ON,P3C,Locality,041I06,46.49861,-81.00306,Greater Sudbury / Grand Sudbury,705,America/Toronto
+25512,The Droke,,Newfoundland and Labrador,NL,A0E,Locality,001M03,47.06278,-55.17306,Division No.  2,709,America/St_Johns
+25513,The Elbow,,Manitoba,MB,R0B,Locality,063I05,54.41083,-97.68111,Division No. 22,204,America/Winnipeg
+25514,The Falls,Colchester,Nova Scotia,NS,B0K,Locality,011E11,45.63741,-63.22193,Colchester,902,America/Halifax
+25515,The Flats,,Newfoundland and Labrador,NL,A0B,Locality,001K13,46.79694,-53.64361,Division No.  1,709,America/St_Johns
+25516,The Fort,Les Jardins-de-Napierville,Quebec,QC,J0L,Locality,031H04,45.04556,-73.68694,Les Jardins-de-Napierville,450,America/Montreal
+25517,The Front,,Newfoundland and Labrador,NL,A0A,Locality,001N10,47.63361,-52.94028,Division No.  1,709,America/St_Johns
+25518,The Gib,Minganie – Le Golfe-du-Saint-Laurent,Quebec,QC,G0G,Locality,012P13,51.80917,-57.55472,Minganie – Le Golfe-du-Saint-Laurent,581,America/Montreal
+25519,The Glades,Westmorland,New Brunswick,NB,E4J,Locality,021H14,45.94894,-65.07539,Westmorland,506,America/Moncton
+25520,The Glebe,Ottawa,Ontario,ON,K1S,Locality,031G05,45.40278,-75.69139,Ottawa,613,America/Toronto
+25521,The Glen,Renfrew,Ontario,ON,K0J,Locality,031F10,45.74750,-76.87167,Renfrew,613,America/Toronto
+25522,The Golden Mile,Toronto,Ontario,ON,M1L,Locality,030M11,43.72722,-79.28833,Toronto,416,America/Toronto
+25523,The Gore,Oxford,Ontario,ON,N0J,Locality,040I15,42.99389,-80.55444,Oxford,519,America/Toronto
+25524,The Gore,Middlesex,Ontario,ON,N5W,Locality,040I14,42.98083,-81.16556,Middlesex,519,America/Toronto
+25525,The Gorge,Westmorland,New Brunswick,NB,E1G,Locality,021I02,46.15936,-64.88054,Westmorland,506,America/Moncton
+25526,The Grange,Peel,Ontario,ON,L7K,Locality,030M13,43.78101,-79.98406,Peel,289,America/Toronto
+25527,The Grant,Kings,New Brunswick,NB,E5T,Locality,021H12,45.67088,-65.88870,Kings,506,America/Moncton
+25528,The Gravels,,Newfoundland and Labrador,NL,A0N,Locality,012B10,48.55000,-58.73250,Division No.  4,709,America/St_Johns
+25529,The Green,,Newfoundland and Labrador,NL,A0A,Locality,001N10,47.64722,-52.95278,Division No.  1,709,America/St_Johns
+25530,The Grove,Middlesex,Ontario,ON,N5V,Locality,040P03,43.02861,-81.18778,Middlesex,519,America/Toronto
+25531,The Groves,,Newfoundland and Labrador,NL,A0A,Locality,001N02,47.03556,-52.89417,Division No.  1,709,America/St_Johns
+25532,The Gully,Northumberland,Ontario,ON,K9A,Locality,031D01,44.00194,-78.06944,Northumberland,289,America/Toronto
+25533,The Gully,Minganie – Le Golfe-du-Saint-Laurent,Quebec,QC,G0G,Locality,012P12,51.56833,-57.72889,Minganie – Le Golfe-du-Saint-Laurent,581,America/Blanc-Sablon
+25534,The Halfway,Annapolis,Nova Scotia,NS,B0S,Locality,021A10,44.58717,-64.97880,Annapolis,902,America/Halifax
+25535,The Hawk,Shelburne,Nova Scotia,NS,B0W,Locality,020P05,43.41777,-65.62102,Shelburne,902,America/Halifax
+25536,The Highlands,,Saskatchewan,SK,S6H,Locality,072I05,50.40003,-105.60058,Division No.  7,306,America/Regina
+25537,The Houser,,Newfoundland and Labrador,NL,A0A,Locality,001N07,47.26028,-52.77667,Division No.  1,709,America/St_Johns
+25538,The Island,Leeds and Grenville,Ontario,ON,K0E,Locality,031B13,44.85528,-75.57889,Leeds and Grenville,613,America/Toronto
+25539,The Junction,Toronto,Ontario,ON,M6P,Locality,030M11,43.66611,-79.46583,Toronto,416,America/Toronto
+25540,The Junction,Oxford,Ontario,ON,N0J,Locality,040I15,42.97173,-80.60538,Oxford,519,America/Toronto
+25541,The Keys,,Newfoundland and Labrador,NL,A0A,Locality,001N07,47.30417,-52.81278,Division No.  1,709,America/St_Johns
+25542,The Kingsway,Toronto,Ontario,ON,M8X,Locality,030M12,43.65111,-79.51222,Toronto,416,America/Toronto
+25543,The Ledge,Charlotte,New Brunswick,NB,E3L,Locality,021G03,45.17578,-67.20434,Charlotte,506,America/Moncton
+25544,The Light,Minganie – Le Golfe-du-Saint-Laurent,Quebec,QC,G0G,Locality,012P06,51.37361,-57.19222,Minganie – Le Golfe-du-Saint-Laurent,709,America/Blanc-Sablon
+25545,The Lodge,Lunenburg,Nova Scotia,NS,B0J,Locality,021A09,44.55665,-64.03212,Lunenburg,902,America/Halifax
+25546,The Lookoff,Kings,Nova Scotia,NS,B0P,Locality,021H01,45.19961,-64.40795,Kings,902,America/Halifax
+25547,The Lots,Northumberland,New Brunswick,NB,E9E,Locality,021I12,46.68409,-65.84475,Northumberland,506,America/Moncton
+25548,The Maples,,Manitoba,MB,R2P,Locality,062H14,49.95389,-97.17361,Division No. 11,204,America/Winnipeg
+25549,The Maples,Dufferin,Ontario,ON,L9W,Locality,040P16,43.88613,-80.16235,Dufferin,705,America/Toronto
+25550,The Meadows,Pictou,Nova Scotia,NS,B2H,Locality,011E10,45.59921,-62.65740,Pictou,902,America/Halifax
+25551,The Meadows,Essex,Ontario,ON,N0R,Locality,040J03,42.02639,-83.00555,Essex,519,America/Toronto
+25552,The Medway,Annapolis,Nova Scotia,NS,B0S,Locality,021A11,44.55382,-65.15981,Annapolis,902,America/Halifax
+25553,The Mines,,Newfoundland and Labrador,NL,A0B,Locality,001N12,47.58722,-53.69583,Division No.  1,709,America/St_Johns
+25554,The Motion,,Newfoundland and Labrador,NL,A0A,Locality,001N11,47.53167,-53.29583,Division No.  1,709,America/St_Johns
+25555,The Narrows,,Manitoba,MB,R0C,Locality,062O02,51.08222,-98.77389,Division No. 18,204,America/Winnipeg
+25556,The Ninth,Stormont Dundas and Glengarry,Ontario,ON,K0C,Locality,031G03,45.15278,-75.26444,Stormont Dundas and Glengarry,613,America/Toronto
+25557,The Northside,,Newfoundland and Labrador,NL,A0G,Locality,002C12,48.66944,-53.75806,Division No.  7,709,America/St_Johns
+25558,Theodore,,Saskatchewan,SK,S0A,Village,062M07,51.42358,-102.92235,Division No.  9,306,America/Regina
+25559,Theodosia Arm,Powell River,British Columbia,BC,V0N,Locality,092K02,50.06667,-124.70000,Powell River,250,America/Vancouver
+25560,The Outlet,Prince Edward,Ontario,ON,K0K,Locality,030N14,43.89583,-77.22194,Prince Edward,613,America/Toronto
+25561,The Pas,,Manitoba,MB,R9A,Town,063F14,53.82500,-101.25333,Division No. 21,204,America/Winnipeg
+25562,The Pas Airport,,Manitoba,MB,R9A,Locality,063F14,53.97611,-101.08500,Division No. 21,204,America/Winnipeg
+25563,The Pines,Lennox and Addington,Ontario,ON,K0H,Locality,031C03,44.11817,-77.00719,Lennox and Addington,613,America/Toronto
+25564,The Points West Bay,Richmond,Nova Scotia,NS,B0E,Locality,011F15,45.74906,-60.98595,Richmond,902,America/Halifax
+25565,The P Patch,Algoma,Ontario,ON,P6B,Locality,041K09,46.52667,-84.30194,Algoma,705,America/Toronto
+25566,The Range,Queens,New Brunswick,NB,E4A,Locality,021I04,46.06634,-65.90095,Queens,506,America/Moncton
+25567,Theresa,Thunder Bay,Ontario,ON,P0T,Locality,042E10,49.69872,-86.52006,Thunder Bay,705,America/Toronto
+25568,Thériault,Gloucester,New Brunswick,NB,E1W,Locality,021P11,47.73074,-65.05742,Gloucester,506,America/Moncton
+25569,The Ridge,Queens,New Brunswick,NB,E4A,Locality,021I04,46.16842,-65.82368,Queens,506,America/Moncton
+25570,The Ridge,Hastings,Ontario,ON,K0L,Locality,031C13,44.79845,-77.82375,Hastings,613,America/Toronto
+25571,Therien,,Alberta,AB,T0A,Locality,073L03,54.23333,-111.26667,Division No. 12,587,America/Edmonton
+25572,The Rock,,Manitoba,MB,R0E,Locality,062I09,50.57167,-96.23056,Division No.  1,204,America/Winnipeg
+25573,The Rollway,Prescott and Russell,Ontario,ON,K0B,Locality,031G11,45.54066,-75.06980,Prescott and Russell,613,America/Toronto
+25574,The Sixth,Stormont Dundas and Glengarry,Ontario,ON,K0C,Locality,031G03,45.00182,-75.26817,Stormont Dundas and Glengarry,613,America/Toronto
+25575,The Slash,Manitoulin,Ontario,ON,P0P,Locality,041H12,45.62401,-81.96117,Manitoulin,705,America/Toronto
+25576,Thessalon,Algoma,Ontario,ON,P0R,Town,041J05,46.26083,-83.55306,Algoma,705,America/Toronto
+25577,The Tannery,Lanark,Ontario,ON,K0A,Locality,031F01,45.21517,-76.22249,Lanark,613,America/Toronto
+25578,Thetford Mines,Les Appalaches,Quebec,QC,G6G,City,021L03,46.10000,-71.30000,Les Appalaches,581,America/Montreal
+25579,Thetford-Partie-Sud,Les Appalaches,Quebec,QC,G6G,Locality,021L03,46.11528,-71.26528,Les Appalaches,581,America/Montreal
+25580,The Thicket,,Newfoundland and Labrador,NL,A0A,Locality,001N11,47.65083,-53.25889,Division No.  1,709,America/St_Johns
+25581,The Tickles,,Newfoundland and Labrador,NL,A0B,Locality,001M09,47.51806,-54.07778,Division No.  2,709,America/St_Johns
+25582,Thetis Island,Cowichan Valley,British Columbia,BC,V0R,Locality,092B13,48.98333,-123.68333,Cowichan Valley,250,America/Vancouver
+25583,The Two Rivers,,Saskatchewan,SK,S0J,Locality,063M14,55.75008,-103.15039,Division No. 18,306,America/Regina
+25584,The Willows,Northumberland,New Brunswick,NB,E1V,Locality,021P03,47.11286,-65.27784,Northumberland,506,America/Moncton
+25585,Thibaudeau,,Manitoba,MB,R0B,Locality,054E01,57.07389,-94.14472,Division No. 23,204,America/Winnipeg
+25586,Thibault,Restigouche,New Brunswick,NB,E8B,Locality,021O11,47.60876,-67.34392,Restigouche,506,America/Moncton
+25587,Thibeault Terrace,Nipissing,Ontario,ON,P1B,Locality,031L06,46.33667,-79.47194,Nipissing,705,America/Toronto
+25588,Thibeauville,Richmond,Nova Scotia,NS,B0E,Locality,011F10,45.65172,-60.99471,Richmond,902,America/Halifax
+25589,Thicket Portage,,Manitoba,MB,R0B,Locality,063P05,55.31806,-97.68694,Division No. 22,204,America/Winnipeg
+25590,Third Lake,Halifax,Nova Scotia,NS,B0J,Locality,011D15,44.85155,-62.67416,Halifax,902,America/Halifax
+25591,Thistle,Grey,Ontario,ON,N0G,Locality,041A02,44.14639,-80.70417,Grey,519,America/Toronto
+25592,Thistle Creek,,Yukon,YT,Y0B,Locality,115O03,63.06989,-139.47873,Yukon,907,America/Whitehorse
+25593,Thistletown,Toronto,Ontario,ON,M9V,Locality,030M12,43.73444,-79.55750,Toronto,416,America/Toronto
+25594,Thivierge,Bonaventure,Quebec,QC,G0C,Locality,022A03,48.08806,-65.48667,Bonaventure,581,America/Montreal
+25595,Thode,,Saskatchewan,SK,S0K,Village,072O16,51.78876,-106.44276,Division No. 11,306,America/Regina
+25596,Thomas,Mékinac,Quebec,QC,G0X,Locality,031I16,46.80528,-72.46500,Mékinac,819,America/Montreal
+25597,Thomas Brook,Annapolis,Nova Scotia,NS,B0S,Locality,021A12,44.52874,-65.57337,Annapolis,902,America/Halifax
+25598,Thomasburg,Hastings,Ontario,ON,K0K,Locality,031C06,44.39183,-77.34774,Hastings,613,America/Toronto
+25599,Thomaston Corner,York,New Brunswick,NB,E6K,Locality,021G11,45.65522,-67.13198,York,506,America/Moncton
+25600,Thomasville,Shelburne,Nova Scotia,NS,B0W,Locality,020P11,43.56662,-65.45297,Shelburne,902,America/Halifax
+25601,Thom Bay,Kitikmeot,Nunavut,NU,X0A,Locality,057F01,70.15000,-92.40000,Kitikmeot,204,America/Cambridge_Bay
+25602,Thompson,Thompson-Nicola,British Columbia,BC,V0K,Locality,092I06,50.26667,-121.40000,Thompson-Nicola,250,America/Vancouver
+25603,Thompson,Greater Vancouver,British Columbia,BC,V7C,Locality,092G03,49.16667,-123.16667,Greater Vancouver,778,America/Vancouver
+25604,Thompson,,Manitoba,MB,R8N,City,063P12,55.74333,-97.85528,Division No. 22,204,America/Winnipeg
+25605,Thompson Corner,Kings,New Brunswick,NB,E5P,Locality,021H13,45.82515,-65.68126,Kings,506,America/Moncton
+25606,Thompson Hill,Renfrew,Ontario,ON,K7V,Locality,031F07,45.45806,-76.66750,Renfrew,613,America/Toronto
+25607,Thompson Junction,,Manitoba,MB,R0B,Locality,063P06,55.45972,-97.39833,Division No. 22,204,America/Winnipeg
+25608,Thompson Landing,,Northwest Territories,NT,X0E,Locality,075L15,62.91684,-110.66767,Region 6,867,America/Yellowknife
+25609,Thompson Sound,Mount Waddington,British Columbia,BC,V0P,Locality,092L16,50.80000,-126.01667,Mount Waddington,250,America/Vancouver
+25610,Thompsonville,Simcoe,Ontario,ON,L9R,Locality,031D04,44.13333,-79.83778,Simcoe,705,America/Toronto
+25611,Thomson Station,Cumberland,Nova Scotia,NS,B0M,Locality,011E12,45.68342,-63.79679,Cumberland,902,America/Halifax
+25612,Thomstown,Northumberland,Ontario,ON,L0A,Locality,031D01,44.08024,-78.40399,Northumberland,289,America/Toronto
+25613,Thorah Beach,York,Ontario,ON,L0E,Locality,031D06,44.35288,-79.19656,York,289,America/Toronto
+25614,Thorah Island,Durham,Ontario,ON,L0K,Locality,031D06,44.44320,-79.21552,Durham,289,America/Toronto
+25615,Thorburn,Pictou,Nova Scotia,NS,B0K,Locality,011E10,45.56470,-62.54719,Pictou,902,America/Halifax
+25616,Thorburn Lake,,Newfoundland and Labrador,NL,A0C,Locality,002D08,48.26750,-54.15750,Division No.  7,709,America/St_Johns
+25617,Thorburn Road,,Newfoundland and Labrador,NL,A1M,Locality,001N10,47.58167,-52.83972,Division No.  1,709,America/St_Johns
+25618,Thordarson,,Alberta,AB,T0H,Locality,083E14,53.97333,-119.00000,Division No. 18,587,America/Edmonton
+25619,Thorel House,Muskoka,Ontario,ON,P0B,Locality,031E04,45.17111,-79.61972,Muskoka,705,America/Toronto
+25620,Thorhild,,Alberta,AB,T0A,Hamlet,083I03,54.15889,-113.12528,Division No. 13,587,America/Edmonton
+25621,Thor Lake,Sudbury,Ontario,ON,P0M,Locality,041P03,47.14516,-81.30546,Sudbury,705,America/Toronto
+25622,Thornbury,Grey,Ontario,ON,N0H,Locality,041A09,44.55972,-80.45500,Grey,519,America/Toronto
+25623,Thornby,Pontiac,Quebec,QC,J0X,Locality,031F16,45.78528,-76.48806,Pontiac,819,America/Montreal
+25624,Thorncliff,Nipissing,Ontario,ON,P1B,Locality,031L06,46.27528,-79.37250,Nipissing,705,America/Toronto
+25625,Thorncliffe,,Alberta,AB,T2K,Locality,082O01,51.10278,-114.06667,Division No.  6,587,America/Edmonton
+25626,Thorncliffe,,Alberta,AB,T5T,Locality,083H12,53.51528,-113.62361,Division No. 11,587,America/Edmonton
+25627,Thorncliffe,Toronto,Ontario,ON,M4H,Locality,030M11,43.70305,-79.34512,Toronto,416,America/Toronto
+25628,Thorncliffe,Chatham-Kent,Ontario,ON,N0P,Locality,040J09,42.55314,-82.12073,Chatham-Kent,519,America/Toronto
+25629,Thorncrest Village,Toronto,Ontario,ON,M9A,Locality,030M12,43.66733,-79.53880,Toronto,416,America/Toronto
+25630,Thorndale,Middlesex,Ontario,ON,N0M,Locality,040P03,43.10361,-81.14306,Middlesex,519,America/Toronto
+25631,Thorndale,Montréal,Quebec,QC,H9H,Locality,031H05,45.47000,-73.85972,Montréal,514,America/Montreal
+25632,Thorne,Nipissing,Ontario,ON,P0H,Locality,031L11,46.70083,-79.10250,Nipissing,705,America/Toronto
+25633,Thorne,Pontiac,Quebec,QC,J0X,Village,031F16,45.75000,-76.43333,Pontiac,819,America/Montreal
+25634,Thorne Centre,Pontiac,Quebec,QC,J0X,Locality,031F09,45.74056,-76.38972,Pontiac,819,America/Montreal
+25635,Thorne Lake,Pontiac,Quebec,QC,J0X,Locality,031F09,45.68750,-76.36694,Pontiac,819,America/Montreal
+25636,Thornetown,Queens,New Brunswick,NB,E4C,Locality,021H13,45.86124,-65.85350,Queens,506,America/Moncton
+25637,Thornhill,Kitimat-Stikine,British Columbia,BC,V8G,Locality,103I10,54.51667,-128.53333,Kitimat-Stikine,250,America/Vancouver
+25638,Thornhill,,Manitoba,MB,R6M,Locality,062G01,49.20028,-98.23167,Division No.  3,204,America/Winnipeg
+25639,Thornhill,Halifax,Nova Scotia,NS,B3R,Locality,011D12,44.60347,-63.61147,Halifax,902,America/Halifax
+25640,Thornhill,York,Ontario,ON,L4J,Locality,030M14,43.81687,-79.42680,York,289,America/Toronto
+25641,Thornlea,York,Ontario,ON,L3T,Locality,030M14,43.82528,-79.40306,York,289,America/Toronto
+25642,Thornloe,Timiskaming,Ontario,ON,P0J,Village,031M12,47.66784,-79.76177,Timiskaming,705,America/Toronto
+25643,Thornton,Simcoe,Ontario,ON,L0L,Locality,031D05,44.27053,-79.72294,Simcoe,705,America/Toronto
+25644,Thornton Yard,Greater Vancouver,British Columbia,BC,V3R,Locality,092G02,49.21667,-122.83333,Greater Vancouver,778,America/Vancouver
+25645,Thornyhurst,Lambton,Ontario,ON,N0P,Locality,040J09,42.67972,-82.43056,Lambton,519,America/Toronto
+25646,Thorold,Niagara,Ontario,ON,L0S,City,030M03,43.07222,-79.22333,Niagara,289,America/Toronto
+25647,Thorold Park,Niagara,Ontario,ON,L2V,Locality,030M03,43.11323,-79.20595,Niagara,289,America/Toronto
+25648,Thorold South,Niagara,Ontario,ON,L2V,Locality,030M03,43.10159,-79.19540,Niagara,289,America/Toronto
+25649,Thoroughfare,,Newfoundland and Labrador,NL,A5A,Locality,002C04,48.19833,-53.54861,Division No.  7,709,America/St_Johns
+25650,Thorpe,Lennox and Addington,Ontario,ON,K0H,Locality,031C07,44.30028,-76.77139,Lennox and Addington,613,America/Toronto
+25651,Thorsby,,Alberta,AB,T0C,Town,083G01,53.22694,-114.04806,Division No. 11,587,America/Edmonton
+25652,Thorton Woods,Durham,Ontario,ON,L1J,Locality,030M15,43.90349,-78.89142,Durham,289,America/Toronto
+25653,Thrasher,,Saskatchewan,SK,S0L,Locality,072N08,51.36672,-108.00068,Division No. 12,306,America/Regina
+25654,Thrasher's Corners,Hastings,Ontario,ON,K0K,Locality,031C06,44.26956,-77.36494,Hastings,613,America/Toronto
+25655,Three Arms,,Newfoundland and Labrador,NL,A0J,Locality,002E12,49.68444,-55.90278,Division No.  8,709,America/St_Johns
+25656,Three Bridges,Middlesex,Ontario,ON,N0M,Locality,040P03,43.04173,-81.05483,Middlesex,519,America/Toronto
+25657,Three Brooks,Victoria,New Brunswick,NB,E7G,Locality,021J14,46.87391,-67.44565,Victoria,506,America/Moncton
+25658,Three Brooks,Pictou,Nova Scotia,NS,B0K,Locality,011E10,45.71811,-62.78287,Pictou,902,America/Halifax
+25659,Three Creeks,,Alberta,AB,T0H,Locality,084C06,56.35278,-117.08361,Division No. 17,587,America/Edmonton
+25660,Three Fathom Harbour,Halifax,Nova Scotia,NS,B0J,Locality,011D11,44.65410,-63.29782,Halifax,902,America/Halifax
+25661,Three Forks,Central Kootenay,British Columbia,BC,V0G,Locality,082K03,50.01667,-117.28333,Central Kootenay,250,America/Vancouver
+25662,Three Hills,,Alberta,AB,T0M,Town,082P11,51.70306,-113.26861,Division No.  5,587,America/Edmonton
+25663,Threehouse,,Manitoba,MB,R0B,Locality,063J13,54.86000,-99.99278,Division No. 21,204,America/Winnipeg
+25664,Three Mile Plains,Hants,Nova Scotia,NS,B0N,Locality,021A16,44.96446,-64.09652,Hants,902,America/Halifax
+25665,Three Mile Rock,,Newfoundland and Labrador,NL,A0K,Locality,012I04,50.00556,-57.73583,Division No.  9,709,America/St_Johns
+25666,Three Tree Creek,Sunbury,New Brunswick,NB,E5L,Locality,021G10,45.70000,-66.60000,Sunbury,506,America/Moncton
+25667,Three Valley,Columbia-Shuswap,British Columbia,BC,V0E,Locality,082L16,50.93333,-118.46667,Columbia-Shuswap,250,America/Vancouver
+25668,Throne,,Alberta,AB,T0C,Locality,073D03,52.04889,-111.28722,Division No.  7,587,America/Edmonton
+25669,Throoptown,Leeds and Grenville,Ontario,ON,K0G,Locality,031B13,44.78468,-75.67433,Leeds and Grenville,613,America/Toronto
+25670,Thrums,Central Kootenay,British Columbia,BC,V1N,Locality,082F05,49.33333,-117.58333,Central Kootenay,250,America/Vancouver
+25671,Thunder Bay,Niagara,Ontario,ON,L0S,Locality,030L14,42.88038,-79.03468,Niagara,289,America/Toronto
+25672,Thunder Bay,Thunder Bay,Ontario,ON,P7C,City,052A06,48.40139,-89.26778,Thunder Bay,807,America/Thunder_Bay
+25673,Thunder Beach,Simcoe,Ontario,ON,L9M,Locality,041A16,44.80611,-80.07611,Simcoe,705,America/Toronto
+25674,Thunderbird,Kitimat-Stikine,British Columbia,BC,V8G,Locality,103I07,54.45000,-128.63333,Kitimat-Stikine,250,America/Vancouver
+25675,Thunderchild,,Saskatchewan,SK,S0M,Locality,073F07,53.46676,-108.93405,Division No. 17,306,America/Regina
+25676,Thunder Creek,,Saskatchewan,SK,S0H,Locality,072J10,50.65003,-106.58395,Division No.  7,306,America/Regina
+25677,Thunder Hill,,Manitoba,MB,R0L,Locality,062N13,51.99722,-101.52194,Division No. 20,204,America/Winnipeg
+25678,Thunderhill Junction,,Manitoba,MB,R0L,Locality,063C03,52.07667,-101.25917,Division No. 20,204,America/Winnipeg
+25679,Thunder River,Thompson-Nicola,British Columbia,BC,V0E,Locality,083D03,52.23333,-119.20000,Thompson-Nicola,250,America/Vancouver
+25680,Thurlow,Strathcona,British Columbia,BC,V0P,Locality,092K06,50.45000,-125.36667,Strathcona,250,America/Vancouver
+25681,Thurlow,Hastings,Ontario,ON,K8N,Locality,031C03,44.18333,-77.29861,Hastings,613,America/Toronto
+25682,Thurso,Papineau,Quebec,QC,J0X,City,031G11,45.60000,-75.25000,Papineau,819,America/Montreal
+25683,Thurston Harbour,Skeena-Queen Charlotte,British Columbia,BC,V0T,Locality,103B13,52.83333,-131.75000,Skeena-Queen Charlotte,250,America/Vancouver
+25684,Thwaites,Timiskaming,Ontario,ON,P0J,Locality,031M12,47.66734,-79.61094,Timiskaming,705,America/Toronto
+25685,Thwaytes,Greater Vancouver,British Columbia,BC,V7G,Locality,092G07,49.38333,-122.88333,Greater Vancouver,778,America/Vancouver
+25686,Tibbets,Bulkley-Nechako,British Columbia,BC,V0J,Locality,093K03,54.16667,-125.46667,Bulkley-Nechako,250,America/Vancouver
+25687,Tibbos Hill,,Newfoundland and Labrador,NL,A0H,Locality,001M05,47.49764,-55.60426,Division No.  3,709,America/St_Johns
+25688,Tiblemont,La Vallée-de-l'Or,Quebec,QC,J0Y,Locality,032C06,48.31389,-77.30833,La Vallée-de-l'Or,819,America/Montreal
+25689,Ticehurst Corners,Memphrémagog,Quebec,QC,J0B,Locality,031H01,45.08111,-72.11833,Memphrémagog,819,America/Montreal
+25690,Tichborne,Frontenac,Ontario,ON,K0H,Locality,031C10,44.66389,-76.67778,Frontenac,613,America/Toronto
+25691,Tichfield Junction,,Saskatchewan,SK,S0L,Locality,072O06,51.27087,-107.03397,Division No.  7,306,America/Regina
+25692,Tickle Cove,,Newfoundland and Labrador,NL,A0C,Locality,002C11,48.58250,-53.48139,Division No.  7,709,America/St_Johns
+25693,Tickle Harbour Station,,Newfoundland and Labrador,NL,A0B,Locality,001N12,47.57694,-53.82972,Division No.  1,709,America/St_Johns
+25694,Tickle Road,Guysborough,Nova Scotia,NS,B0H,Locality,011F06,45.34120,-61.02750,Guysborough,902,America/Halifax
+25695,Tickles,,Newfoundland and Labrador,NL,A0B,Locality,001N04,47.15444,-53.57194,Division No.  1,709,America/St_Johns
+25696,Ticouapé,Le Domaine-du-Roy,Quebec,QC,G8K,Locality,032A09,48.69417,-72.48583,Le Domaine-du-Roy,581,America/Montreal
+25697,Tidal,,Manitoba,MB,R0B,Locality,054L09,58.66306,-94.12028,Division No. 23,204,America/Winnipeg
+25698,Tiddville,Digby,Nova Scotia,NS,B0V,Locality,021B08,44.42122,-66.16962,Digby,902,America/Halifax
+25699,Tide Head,Restigouche,New Brunswick,NB,E3N,Village,021O15,47.98360,-66.76726,Restigouche,506,America/Moncton
+25700,Tidnish,Cumberland,Nova Scotia,NS,B4H,Locality,021H16,45.99367,-64.00949,Cumberland,902,America/Halifax
+25701,Tidnish Bridge,Cumberland,Nova Scotia,NS,B4H,Locality,021H16,45.97802,-64.04436,Cumberland,902,America/Halifax
+25702,Tidnish Cross Roads,Cumberland,Nova Scotia,NS,B4H,Locality,021H16,45.99010,-64.00856,Cumberland,902,America/Halifax
+25703,Tieland,,Alberta,AB,T0G,Locality,083J16,54.79111,-114.18583,Division No. 17,587,America/Edmonton
+25704,Tiffin,Simcoe,Ontario,ON,L4R,Locality,031D12,44.74736,-79.85847,Simcoe,705,America/Toronto
+25705,Tiger Hills,,Saskatchewan,SK,S0K,Locality,073A14,52.91670,-105.48385,Division No. 15,306,America/Regina
+25706,Tiger Lily,,Alberta,AB,T0G,Locality,083J02,54.18167,-114.77528,Division No. 13,587,America/Edmonton
+25707,Tignish,Prince,Prince Edward Island,PE,C0B,Town,021I16,46.95049,-64.03358,Prince,902,America/Halifax
+25708,Tignish Corner,Prince,Prince Edward Island,PE,C0B,Locality,021I16,46.94694,-64.04910,Prince,902,America/Halifax
+25709,Tignish Shore,Prince,Prince Edward Island,PE,C0B,Village,021I16,46.94623,-63.99518,Prince,902,America/Halifax
+25710,Tiili Landing,Columbia-Shuswap,British Columbia,BC,V0E,Locality,082L14,50.91194,-119.08306,Columbia-Shuswap,250,America/Vancouver
+25711,Tika,Sept-Rivières – Caniapiscau,Quebec,QC,G0G,Locality,022I13,50.87222,-65.95667,Sept-Rivières – Caniapiscau,581,America/Montreal
+25712,Tilbury,Greater Vancouver,British Columbia,BC,V4G,Locality,092G03,49.13333,-123.01667,Greater Vancouver,778,America/Vancouver
+25713,Tilbury,Chatham-Kent,Ontario,ON,N0P,Locality,040J08,42.25833,-82.43194,Chatham-Kent,519,America/Toronto
+25714,Tilbury Station,Essex,Ontario,ON,N0P,Locality,040J08,42.28333,-82.43333,Essex,519,America/Toronto
+25715,Tilden Lake,Nipissing,Ontario,ON,P0H,Locality,031L12,46.59167,-79.63833,Nipissing,705,America/Toronto
+25716,Tilley,,Alberta,AB,T0J,Hamlet,072L05,50.45222,-111.65333,Division No.  2,587,America/Edmonton
+25717,Tilley,Leeds and Grenville,Ontario,ON,K0E,Locality,031B05,44.44997,-75.98763,Leeds and Grenville,613,America/Toronto
+25718,Tilley Road,Gloucester,New Brunswick,NB,E8M,Locality,021P11,47.52823,-65.04978,Gloucester,506,America/Moncton
+25719,Tillicum,Capital,British Columbia,BC,V9A,Locality,092B06,48.45000,-123.40000,Capital,250,America/Vancouver
+25720,Tillsonburg,Oxford,Ontario,ON,N4G,Town,040I15,42.86794,-80.73070,Oxford,519,America/Toronto
+25721,Tillsonburg Junction,Oxford,Ontario,ON,N4G,Locality,040I15,42.85000,-80.75000,Oxford,519,America/Toronto
+25722,Tilney,,Saskatchewan,SK,S0H,Locality,072I03,50.23336,-105.40057,Division No.  7,306,America/Regina
+25723,Tilston,,Manitoba,MB,R0M,Locality,062F06,49.39361,-101.31278,Division No.  5,204,America/Winnipeg
+25724,Tilt Cove,,Newfoundland and Labrador,NL,A0G,Locality,002E10,49.55306,-54.72972,Division No.  8,709,America/St_Johns
+25725,Tilt Cove,,Newfoundland and Labrador,NL,A0K,Town,002E13,49.88611,-55.62694,Division No.  8,709,America/St_Johns
+25726,Tilting,,Newfoundland and Labrador,NL,A0G,Locality,002E09,49.69960,-54.08920,Division No.  8,709,America/St_Johns
+25727,Tilton,,Newfoundland and Labrador,NL,A0A,Locality,001N11,47.62861,-53.30306,Division No.  1,709,America/St_Johns
+25728,Tilts,,Newfoundland and Labrador,NL,A0B,Locality,001L16,46.79889,-54.09833,Division No.  1,709,America/St_Johns
+25729,Timagami Lodge,Nipissing,Ontario,ON,P0H,Locality,041I16,46.97528,-80.04444,Nipissing,705,America/Toronto
+25730,Timber Bay,,Saskatchewan,SK,S0J,Hamlet,073I04,54.16840,-105.67539,Division No. 18,306,America/Regina
+25731,Timberlea,Halifax,Nova Scotia,NS,B3T,Locality,011D12,44.66239,-63.74625,Halifax,902,America/Halifax
+25732,Timberlea Trail,Montréal,Quebec,QC,H9J,Locality,031H05,45.44167,-73.90167,Montréal,514,America/Montreal
+25733,Timber River,Westmorland,New Brunswick,NB,E4M,Locality,021I01,46.06692,-64.05891,Westmorland,506,America/Moncton
+25734,Timberton,,Manitoba,MB,R0L,Locality,062N02,51.23167,-100.95944,Division No. 16,204,America/Winnipeg
+25735,Timbrell,La Tuque,Quebec,QC,G0X,Locality,031O15,47.96778,-74.76417,La Tuque,819,America/Montreal
+25736,Timeu,,Alberta,AB,T0G,Locality,083J10,54.50306,-114.59194,Division No. 13,587,America/Edmonton
+25737,Timmijuuvinirtalik,Nord-du-Québec,Quebec,QC,J0M,Locality,035C03,60.01361,-77.28639,Nord-du-Québec,819,America/Montreal
+25738,Timmins,Cochrane,Ontario,ON,P4N,City,042A06,48.47153,-81.33132,Cochrane,705,America/Toronto
+25739,Tims Harbour,,Newfoundland and Labrador,NL,A0G,Locality,002E08,49.44889,-54.48222,Division No.  8,709,America/St_Johns
+25740,Tincap,Leeds and Grenville,Ontario,ON,K6V,Locality,031B12,44.61806,-75.75639,Leeds and Grenville,613,America/Toronto
+25741,Tinchebray,,Alberta,AB,T0C,Locality,073D05,52.42500,-111.92861,Division No.  7,587,America/Edmonton
+25742,Tingwick,Arthabaska,Quebec,QC,J0A,Village,021E13,45.88333,-71.95000,Arthabaska,819,America/Montreal
+25743,Tinker,Victoria,New Brunswick,NB,E7H,Locality,021J13,46.80934,-67.76422,Victoria,506,America/Moncton
+25744,Tintagel,Bulkley-Nechako,British Columbia,BC,V0J,Locality,093K04,54.20000,-125.60000,Bulkley-Nechako,250,America/Vancouver
+25745,Tintern,Niagara,Ontario,ON,L0R,Locality,030M03,43.10428,-79.42132,Niagara,289,America/Toronto
+25746,Tin Town,,Manitoba,MB,R0H,Locality,062J01,50.16722,-98.19389,Division No.  9,204,America/Winnipeg
+25747,Tinujjaumavik,Nord-du-Québec,Quebec,QC,J0M,Locality,035K08,62.40694,-76.34472,Nord-du-Québec,819,America/Montreal
+25748,Tiny,,Saskatchewan,SK,S0A,Locality,062M10,51.66666,-102.60048,Division No.  9,306,America/Regina
+25749,Tioga,Simcoe,Ontario,ON,L0M,Locality,031D04,44.22528,-79.96722,Simcoe,705,America/Toronto
+25750,Tionaga,Sudbury,Ontario,ON,P0M,Locality,042B01,48.08823,-82.09594,Sudbury,705,America/Toronto
+25751,Tipaliit,Nord-du-Québec,Quebec,QC,J0M,Locality,024M10,59.59750,-70.69639,Nord-du-Québec,819,America/Montreal
+25752,Tipaskan,,Alberta,AB,T6K,Locality,083H06,53.46250,-113.45694,Division No. 11,587,America/Edmonton
+25753,Tipella,Fraser Valley,British Columbia,BC,V0M,Locality,092G09,49.73333,-122.15000,Fraser Valley,604,America/Vancouver
+25754,Tipitu Pachistuwakan,Nord-du-Québec,Quebec,QC,J0Y,Locality,032M15,51.99917,-78.70972,Nord-du-Québec,819,America/Montreal
+25755,Tisdale,,Saskatchewan,SK,S0E,Town,073A16,52.84905,-104.04910,Division No. 14,306,America/Regina
+25756,Tisdall,Squamish-Lillooet,British Columbia,BC,V0N,Locality,092J07,50.28333,-122.86667,Squamish-Lillooet,604,America/Vancouver
+25757,Titanic,,Saskatchewan,SK,S0K,Locality,073B16,52.86671,-106.43390,Division No. 15,306,America/Regina
+25758,Titus,Le Val-Saint-François,Quebec,QC,J1S,Locality,021E12,45.52111,-71.98583,Le Val-Saint-François,819,America/Montreal
+25759,Titusville,Kings,New Brunswick,NB,E5N,Locality,021H05,45.48567,-65.74757,Kings,506,America/Moncton
+25760,Tiverton,Digby,Nova Scotia,NS,B0V,Village,021B08,44.39148,-66.21279,Digby,902,America/Halifax
+25761,Tiverton,Bruce,Ontario,ON,N0G,Locality,041A05,44.26694,-81.54444,Bruce,519,America/Toronto
+25762,Tl'aaniiwa'a,Alberni-Clayoquot,British Columbia,BC,V0R,Locality,092C10,48.70083,-124.95139,Alberni-Clayoquot,250,America/Vancouver
+25763,Tlakmaqis,Alberni-Clayoquot,British Columbia,BC,V0R,Locality,092C13,48.97917,-125.57861,Alberni-Clayoquot,250,America/Vancouver
+25764,Tlell,Skeena-Queen Charlotte,British Columbia,BC,V0T,Locality,103G12,53.56667,-131.93333,Skeena-Queen Charlotte,250,America/Vancouver
+25765,Tl'esqox,Cariboo,British Columbia,BC,V0L,Locality,092O15,51.93083,-122.50278,Cariboo,250,America/Vancouver
+25766,Tl'etinqox,Cariboo,British Columbia,BC,V0L,Locality,093B03,52.01361,-123.17000,Cariboo,250,America/Vancouver
+25767,Tl'isnachis,Alberni-Clayoquot,British Columbia,BC,V0R,Locality,092C14,48.90000,-125.01667,Alberni-Clayoquot,250,America/Vancouver
+25768,Tl'itsnit,Alberni-Clayoquot,British Columbia,BC,V0R,Locality,092C15,48.90000,-124.98333,Alberni-Clayoquot,250,America/Vancouver
+25769,Tloohat-a,Alberni-Clayoquot,British Columbia,BC,V0R,Locality,092C10,48.69361,-124.93611,Alberni-Clayoquot,250,America/Vancouver
+25770,Toad River,Northern Rockies,British Columbia,BC,V0C,Locality,094K14,58.85000,-125.23333,Northern Rockies,250,America/Fort_Nelson
+25771,Toanche,Simcoe,Ontario,ON,L9M,Locality,031D13,44.80889,-79.94889,Simcoe,705,America/Toronto
+25772,Tobacco Lake,Manitoulin,Ontario,ON,P0P,Locality,041G16,45.85436,-82.43490,Manitoulin,705,America/Toronto
+25773,Tobermory,Bruce,Ontario,ON,N0H,Locality,041H05,45.25382,-81.66462,Bruce,519,America/Toronto
+25774,Tobey,,Saskatchewan,SK,S0J,Locality,073G10,53.53338,-106.88390,Division No. 16,306,America/Regina
+25775,Tobiano,Thompson-Nicola,British Columbia,BC,V1S,Locality,092I10,50.73944,-120.69917,Thompson-Nicola,250,America/Vancouver
+25776,Tobin Lake,,Saskatchewan,SK,S0E,Village,063E12,53.51504,-103.72777,Division No. 14,306,America/Regina
+25777,Tobique Narrows,Victoria,New Brunswick,NB,E7H,Locality,021J13,46.78830,-67.68899,Victoria,506,America/Moncton
+25778,Toby Creek,East Kootenay,British Columbia,BC,V0A,Locality,082K08,50.33333,-116.41667,East Kootenay,250,America/Edmonton
+25779,Tochty,East Kootenay,British Columbia,BC,V0B,Locality,082G04,49.20000,-115.98333,East Kootenay,250,America/Edmonton
+25780,Tod Creek,,Alberta,AB,T0K,Locality,082G16,49.76639,-114.28083,Division No.  3,587,America/Edmonton
+25781,Todds Island,Halifax,Nova Scotia,NS,B3Z,Locality,011D12,44.68079,-63.90901,Halifax,902,America/Halifax
+25782,Tofield,,Alberta,AB,T0B,Town,083H07,53.37083,-112.66583,Division No. 10,587,America/Edmonton
+25783,Tofino,Alberni-Clayoquot,British Columbia,BC,V0R,Municipality,092F04,49.15235,-125.90255,Alberni-Clayoquot,250,America/Vancouver
+25784,Togo,,Saskatchewan,SK,S0A,Village,062N05,51.40260,-101.58237,Division No.  9,306,America/Regina
+25785,Toimela,Thunder Bay,Ontario,ON,P7G,Locality,052A11,48.55013,-89.39266,Thunder Bay,807,America/Toronto
+25786,Toketic,Thompson-Nicola,British Columbia,BC,V0K,Locality,092I11,50.53333,-121.28333,Thompson-Nicola,250,America/Vancouver
+25787,Toledo,Leeds and Grenville,Ontario,ON,K0E,Locality,031B12,44.74028,-75.99306,Leeds and Grenville,613,America/Toronto
+25788,Tolland,,Alberta,AB,T0B,Locality,073E02,53.14861,-110.64056,Division No. 10,587,America/Edmonton
+25789,Tollendal,Simcoe,Ontario,ON,L4N,Locality,031D05,44.37349,-79.64838,Simcoe,705,America/Toronto
+25790,Tollgate,Oxford,Ontario,ON,N4S,Locality,040P02,43.15917,-80.77500,Oxford,519,America/Toronto
+25791,Tolman,,Alberta,AB,T0M,Locality,082P14,51.83556,-113.02028,Division No.  5,587,America/Edmonton
+25792,Tolmie,Bruce,Ontario,ON,N0H,Locality,041A11,44.63098,-81.21458,Bruce,519,America/Toronto
+25793,Tolmies Corners,Stormont Dundas and Glengarry,Ontario,ON,K0C,Locality,031G02,45.23562,-74.94903,Stormont Dundas and Glengarry,613,America/Toronto
+25794,Tolsmaville,Manitoulin,Ontario,ON,P0P,Locality,041G14,45.95762,-83.32098,Manitoulin,705,America/Toronto
+25795,Tolsta,Le Granit,Quebec,QC,G0Y,Locality,021E11,45.65722,-71.22083,Le Granit,819,America/Montreal
+25796,Tolstad,,Alberta,AB,T0H,Locality,083M02,55.01750,-118.55222,Division No. 18,587,America/Edmonton
+25797,Tolstoi,,Manitoba,MB,R0A,Locality,062H02,49.07444,-96.81111,Division No.  2,204,America/Winnipeg
+25798,Tomahawk,,Alberta,AB,T0E,Locality,083G07,53.39611,-114.76333,Division No. 11,587,America/Edmonton
+25799,Tomahawk Lake,Kings,Nova Scotia,NS,B0P,Locality,021A15,44.88570,-64.74910,Kings,902,America/Halifax
+25800,Tomawapocokanan,La Tuque,Quebec,QC,G0X,Locality,032B07,48.35389,-74.64111,La Tuque,819,America/Montreal
+25801,Tomelin Bluffs,Muskoka,Ontario,ON,P0B,Locality,031E06,45.27322,-79.44859,Muskoka,705,America/Toronto
+25802,Tomifobia,Memphrémagog,Quebec,QC,J0B,Locality,031H01,45.06000,-72.13361,Memphrémagog,819,America/Montreal
+25803,Tomiko,Nipissing,Ontario,ON,P0H,Locality,031L11,46.56823,-79.41099,Nipissing,705,America/Toronto
+25804,Tomkinsville,Cape Breton,Nova Scotia,NS,B1E,Locality,011K01,46.17922,-60.02990,Cape Breton,902,America/Glace_Bay
+25805,Tom Longboat Corners,Brant,Ontario,ON,N3W,Locality,040P01,43.08222,-80.04250,Brant,289,America/Toronto
+25806,Tompkins,,Saskatchewan,SK,S0N,Village,072K02,50.06246,-108.79217,Division No.  8,306,America/Regina
+25807,Tom-Rule's Ground,Minganie – Le Golfe-du-Saint-Laurent,Quebec,QC,G0G,Locality,012P05,51.46972,-57.93722,Minganie – Le Golfe-du-Saint-Laurent,581,America/Montreal
+25808,Tomslake,Peace River,British Columbia,BC,V0C,Locality,093P09,55.55000,-120.08333,Peace River,250,America/Dawson_Creek
+25809,Toms Savannah,Digby,Nova Scotia,NS,B0W,Locality,021A05,44.26784,-65.75491,Digby,902,America/Halifax
+25810,Tomstown,Timiskaming,Ontario,ON,P0J,Locality,031M13,47.79722,-79.75444,Timiskaming,705,America/Toronto
+25811,Tondern,Algoma,Ontario,ON,P0M,Locality,042F06,49.31222,-85.00667,Algoma,705,America/Toronto
+25812,Toney Mills,Pictou,Nova Scotia,NS,B0K,Locality,011E15,45.75754,-62.90807,Pictou,902,America/Halifax
+25813,Toney River,Pictou,Nova Scotia,NS,B0K,Locality,011E15,45.77219,-62.89592,Pictou,902,America/Halifax
+25814,Toniata,,Manitoba,MB,R0E,Locality,052E11,49.71472,-95.23167,Division No.  1,204,America/Winnipeg
+25815,Tonkas,Sept-Rivières – Caniapiscau,Quebec,QC,G0G,Locality,022P04,51.02167,-65.85222,Sept-Rivières – Caniapiscau,581,America/Montreal
+25816,Tonkin,,Saskatchewan,SK,S3N,Locality,062M01,51.21667,-102.26714,Division No.  9,306,America/Regina
+25817,Toogood Arm,,Newfoundland and Labrador,NL,A0G,Locality,002E10,49.62944,-54.60833,Division No.  8,709,America/St_Johns
+25818,Tootinaowaziibeeng,,Manitoba,MB,R0L,Locality,062N02,51.22694,-100.96655,Division No. 16,204,America/Winnipeg
+25819,Topcliff,Grey,Ontario,ON,N0C,Locality,041A02,44.18111,-80.66739,Grey,519,America/Toronto
+25820,Tophet,Sudbury,Ontario,ON,P0M,Locality,041O11,47.67998,-83.10874,Sudbury,705,America/Toronto
+25821,Topland,,Alberta,AB,T0G,Locality,083J07,54.37056,-114.95250,Division No. 13,587,America/Edmonton
+25822,Topley,Bulkley-Nechako,British Columbia,BC,V0J,Locality,093L09,54.50000,-126.30000,Bulkley-Nechako,250,America/Vancouver
+25823,Topley Landing,Bulkley-Nechako,British Columbia,BC,V0J,Locality,093L16,54.80000,-126.13333,Bulkley-Nechako,250,America/Vancouver
+25824,Topping,Perth,Ontario,ON,N0K,Locality,040P10,43.50139,-80.87861,Perth,519,America/Toronto
+25825,Topsail,,Newfoundland and Labrador,NL,A1W,Locality,001N10,47.54028,-52.91806,Division No.  1,709,America/St_Johns
+25826,Torbay,,Newfoundland and Labrador,NL,A1K,Town,001N10,47.65913,-52.75317,Division No.  1,709,America/St_Johns
+25827,Tor Bay,Guysborough,Nova Scotia,NS,B0H,Locality,011F03,45.19291,-61.35866,Guysborough,902,America/Halifax
+25828,Torbrook,Annapolis,Nova Scotia,NS,B0P,Locality,021A15,44.91401,-64.97733,Annapolis,902,America/Halifax
+25829,Torbrook East,Kings,Nova Scotia,NS,B0P,Locality,021A15,44.93087,-64.91879,Kings,902,America/Halifax
+25830,Torbrook Mines,Annapolis,Nova Scotia,NS,B0P,Locality,021A15,44.92840,-64.96690,Annapolis,902,America/Halifax
+25831,Torbrook West,Annapolis,Nova Scotia,NS,B0P,Locality,021A14,44.90681,-64.99911,Annapolis,902,America/Halifax
+25832,Torch River,,Saskatchewan,SK,S0J,Locality,073H09,53.61672,-104.15045,Division No. 14,306,America/Regina
+25833,Torlea,,Alberta,AB,T0B,Locality,073E04,53.13722,-111.93139,Division No. 10,587,America/Edmonton
+25834,Tormore,York,Ontario,ON,L4H,Locality,030M13,43.84889,-79.69528,York,289,America/Toronto
+25835,Tornea,,Saskatchewan,SK,S0A,Locality,062M13,51.88333,-103.71718,Division No. 10,306,America/Regina
+25836,Toronto,Toronto,Ontario,ON,M3B,City,030M11,43.74170,-79.37330,Toronto,416,America/Toronto
+25837,Toronto,Queens,Prince Edward Island,PE,C0A,Locality,011L06,46.45247,-63.37997,Queens,902,America/Halifax
+25838,Torquay,,Saskatchewan,SK,S0C,Village,062E03,49.14032,-103.48710,Division No.  2,306,America/Regina
+25839,Torrance,Muskoka,Ontario,ON,P1P,Locality,031D13,44.99500,-79.56861,Muskoka,705,America/Toronto
+25840,Torrent,East Kootenay,British Columbia,BC,V0A,Locality,082G13,50.00000,-115.80000,East Kootenay,250,America/Edmonton
+25841,Torrington,,Alberta,AB,T0M,Locality,082P13,51.79139,-113.60583,Division No.  5,587,America/Edmonton
+25842,Torryburn,Kings,New Brunswick,NB,E2E,Locality,021G08,45.34871,-66.01680,Kings,506,America/Moncton
+25843,Tory Hill,Haliburton,Ontario,ON,K0L,Locality,031D16,44.97222,-78.27417,Haliburton,705,America/Toronto
+25844,Toslow,,Newfoundland and Labrador,NL,A0B,Locality,001M08,47.39361,-54.48778,Division No.  2,709,America/St_Johns
+25845,Tothill,,Alberta,AB,T1B,Locality,072E09,49.73333,-110.45000,Division No.  1,587,America/Edmonton
+25846,Totnes,,Saskatchewan,SK,S0L,Locality,072N07,51.33338,-108.51738,Division No.  8,306,America/Regina
+25847,Tottenham,Simcoe,Ontario,ON,L0G,Locality,031D04,44.02306,-79.80472,Simcoe,705,America/Toronto
+25848,Totzke,,Saskatchewan,SK,S0K,Locality,073A05,52.28337,-105.66723,Division No. 15,306,America/Regina
+25849,Touchwood,,Saskatchewan,SK,S0G,Locality,072P08,51.35004,-104.15054,Division No. 10,306,America/Regina
+25850,Touraine,Gatineau,Quebec,QC,J8T,Locality,031G05,45.47778,-75.73139,Gatineau,819,America/Montreal
+25851,Tour-Bois-Blanc,Sept-Rivières – Caniapiscau,Quebec,QC,G0H,Locality,022J03,50.02722,-67.00556,Sept-Rivières – Caniapiscau,581,America/Montreal
+25852,Tour-Boissinot,Sept-Rivières – Caniapiscau,Quebec,QC,G0G,Locality,022N09,51.61306,-68.07778,Sept-Rivières – Caniapiscau,581,America/Montreal
+25853,Tour-Butney,Témiscamingue,Quebec,QC,J0Z,Locality,031L15,46.81556,-78.77111,Témiscamingue,819,America/Montreal
+25854,Tour-Chicotte,Minganie – Le Golfe-du-Saint-Laurent,Quebec,QC,G0G,Locality,012E06,49.43889,-63.10694,Minganie – Le Golfe-du-Saint-Laurent,581,America/Montreal
+25855,Tour-de-Jupiter,Minganie – Le Golfe-du-Saint-Laurent,Quebec,QC,G0G,Locality,012E11,49.53944,-63.34722,Minganie – Le Golfe-du-Saint-Laurent,581,America/Montreal
+25856,Tour-de-la-Rivière-à-l'Huile,Minganie – Le Golfe-du-Saint-Laurent,Quebec,QC,G0G,Locality,012E13,49.80500,-63.62194,Minganie – Le Golfe-du-Saint-Laurent,581,America/Montreal
+25857,Tour-des-Hauteurs,Rimouski-Neigette,Quebec,QC,G0K,Locality,022B04,48.03056,-67.95556,Rimouski-Neigette,581,America/Montreal
+25858,Tour-des-Lacs-George,Témiscamingue,Quebec,QC,J0Z,Locality,031L15,46.76167,-78.76222,Témiscamingue,819,America/Montreal
+25859,Tour-du-Cinquante-Milles,Sept-Rivières – Caniapiscau,Quebec,QC,G4R,Locality,022G14,49.76500,-67.45694,Sept-Rivières – Caniapiscau,581,America/Montreal
+25860,Tour-du-Lac-Orignal,Minganie – Le Golfe-du-Saint-Laurent,Quebec,QC,G0G,Locality,012E11,49.71194,-63.21222,Minganie – Le Golfe-du-Saint-Laurent,581,America/Montreal
+25861,Tour-du-Nord,La Côte-de-Beaupré,Quebec,QC,G0A,Locality,021M03,47.16389,-71.18389,La Côte-de-Beaupré,581,America/Montreal
+25862,Tourelle,La Haute-Gaspésie,Quebec,QC,G4V,Locality,022G01,49.15972,-66.40556,La Haute-Gaspésie,581,America/Montreal
+25863,Tour-Fraser,Manicouagan,Quebec,QC,G4Z,Locality,022F15,49.81472,-68.69417,Manicouagan,581,America/Montreal
+25864,Tour-Galienne,Sept-Rivières – Caniapiscau,Quebec,QC,G4R,Locality,022J02,50.22083,-66.70139,Sept-Rivières – Caniapiscau,581,America/Montreal
+25865,Tour-Maher,Manicouagan,Quebec,QC,G0H,Locality,022G05,49.31167,-67.94972,Manicouagan,581,America/Montreal
+25866,Tourond,,Manitoba,MB,R0A,Locality,062H10,49.54778,-96.98111,Division No.  2,204,America/Winnipeg
+25867,Tour-Patapédia,La Mitis,Quebec,QC,G0J,Locality,022B04,48.17056,-67.63917,La Mitis,581,America/Montreal
+25868,Tour-Rita,Sept-Rivières – Caniapiscau,Quebec,QC,G4R,Locality,022J10,50.56917,-66.56500,Sept-Rivières – Caniapiscau,581,America/Montreal
+25869,Tour-Sept-Milles,Manicouagan,Quebec,QC,G0H,Locality,022G05,49.37500,-67.66694,Manicouagan,581,America/Montreal
+25870,Tour-Tableau,Sept-Rivières – Caniapiscau,Quebec,QC,G4R,Locality,022J03,50.17472,-67.15278,Sept-Rivières – Caniapiscau,581,America/Montreal
+25871,Tour-Val-Marie,La Matapédia,Quebec,QC,G0J,Locality,022B05,48.41806,-67.80472,La Matapédia,581,America/Montreal
+25872,Tourville,L'Islet,Quebec,QC,G0R,Village,021N04,47.10000,-69.98333,L'Islet,581,America/Montreal
+25873,Toutes Aides,,Manitoba,MB,R0L,Locality,062O05,51.48500,-99.53167,Division No. 17,204,America/Winnipeg
+25874,Towdystan,Cariboo,British Columbia,BC,V0L,Locality,093C06,52.26667,-125.08333,Cariboo,250,America/Vancouver
+25875,Tower Estates,,Alberta,AB,T1A,Locality,072L02,50.02778,-110.72778,Division No.  1,587,America/Edmonton
+25876,Tower Lake,Peace River,British Columbia,BC,V1G,Locality,094A02,56.01667,-120.56667,Peace River,250,America/Dawson_Creek
+25877,Tower Road,Cape Breton,Nova Scotia,NS,B1B,Locality,011J04,46.15204,-59.95950,Cape Breton,902,America/Glace_Bay
+25878,Town Lake,,Alberta,AB,T0C,Locality,083B16,52.92917,-114.40917,Division No. 11,587,America/Edmonton
+25879,Townsend,Greater Vancouver,British Columbia,BC,V4E,Locality,092G02,49.13333,-122.91667,Greater Vancouver,778,America/Vancouver
+25880,Townsend,Haldimand-Norfolk,Ontario,ON,N0A,Locality,040I16,42.89333,-80.14111,Haldimand-Norfolk,519,America/Toronto
+25881,Townsend Centre,Haldimand-Norfolk,Ontario,ON,N0E,Locality,040I16,42.93281,-80.24707,Haldimand-Norfolk,519,America/Toronto
+25882,Toyes Hill,Stormont Dundas and Glengarry,Ontario,ON,K0E,Locality,031B14,44.98942,-75.33099,Stormont Dundas and Glengarry,613,America/Toronto
+25883,Tracadie,Gloucester,New Brunswick,NB,E1X,Locality,021P10,47.51698,-64.91205,Gloucester,506,America/Moncton
+25884,Tracadie,Antigonish,Nova Scotia,NS,B0H,Locality,011F12,45.62536,-61.66480,Antigonish,902,America/Halifax
+25885,Tracadie,Queens,Prince Edward Island,PE,C0A,Locality,011L07,46.34698,-62.96322,Queens,902,America/Halifax
+25886,Tracadie Beach,Gloucester,New Brunswick,NB,E1X,Locality,021P07,47.45188,-64.91361,Gloucester,506,America/Moncton
+25887,Tracadie Cross,Queens,Prince Edward Island,PE,C0A,Locality,011L07,46.35109,-62.96141,Queens,902,America/Halifax
+25888,Tracadie-Sheila,Gloucester,New Brunswick,NB,E1X,Town,021P10,47.51444,-64.91806,Gloucester,506,America/Moncton
+25889,Tracey Mills,Carleton,New Brunswick,NB,E7K,Locality,021J05,46.43935,-67.74005,Carleton,506,America/Moncton
+25890,Tracy,Sunbury,New Brunswick,NB,E5L,Village,021G10,45.67673,-66.68278,Sunbury,506,America/Moncton
+25891,Tracy,Pierre-De Saurel,Quebec,QC,J3R,Locality,031I03,46.02500,-73.14167,Pierre-De Saurel,450,America/Montreal
+25892,Tracy Depot,Restigouche,New Brunswick,NB,E8B,Locality,021O13,47.79429,-67.53639,Restigouche,506,America/Moncton
+25893,Tracyville,Sunbury,New Brunswick,NB,E5L,Locality,021G10,45.73645,-66.66768,Sunbury,506,America/Moncton
+25894,Traders Cove,Central Okanagan,British Columbia,BC,V1Z,Locality,082E14,49.93333,-119.50000,Central Okanagan,250,America/Vancouver
+25895,Trafalgar,Fraser Valley,British Columbia,BC,V0X,Locality,092H06,49.43333,-121.43333,Fraser Valley,604,America/Vancouver
+25896,Trafalgar,Guysborough,Nova Scotia,NS,B0J,Locality,011E07,45.28830,-62.65965,Guysborough,902,America/Halifax
+25897,Trafalgar,Halton,Ontario,ON,L6M,Locality,030M05,43.48806,-79.72028,Halton,289,America/Toronto
+25898,Trafalgar Heights,Middlesex,Ontario,ON,N5V,Locality,040I14,42.99250,-81.16167,Middlesex,519,America/Toronto
+25899,Trail,Kootenay Boundary,British Columbia,BC,V1R,City,082F04,49.09444,-117.70917,Kootenay Boundary,250,America/Vancouver
+25900,Trait-Carré,L'Île-d'Orléans,Quebec,QC,G0A,Locality,021L14,46.86333,-71.09750,L'Île-d'Orléans,581,America/Montreal
+25901,Trait-Carré,La Côte-de-Gaspé,Quebec,QC,G4X,Locality,022A16,48.95722,-64.33833,La Côte-de-Gaspé,581,America/Montreal
+25902,Tralee,Wellington,Ontario,ON,N0G,Locality,040P10,43.68357,-80.83403,Wellington,519,America/Toronto
+25903,Tramore,Renfrew,Ontario,ON,K0J,Locality,031F11,45.62107,-77.46045,Renfrew,613,America/Toronto
+25904,Tramping Lake,,Saskatchewan,SK,S0K,Village,073C02,52.13613,-108.94922,Division No. 13,306,America/Regina
+25905,Tranquility,Brant,Ontario,ON,N3R,Locality,040P01,43.17861,-80.27694,Brant,519,America/Toronto
+25906,Tranquille,Thompson-Nicola,British Columbia,BC,V2E,Locality,092I10,50.71667,-120.51667,Thompson-Nicola,250,America/Vancouver
+25907,Transcona,,Manitoba,MB,R2C,Locality,062H14,49.89556,-97.00528,Division No. 11,204,America/Winnipeg
+25908,Transcona,,Saskatchewan,SK,S4T,Locality,072I07,50.46671,-104.64916,Division No.  6,306,America/Regina
+25909,Transfiguration,Témiscouata,Quebec,QC,G0L,Locality,021N15,47.92000,-68.78528,Témiscouata,581,America/Montreal
+25910,Trapper's Landing,Thunder Bay,Ontario,ON,P0T,Locality,052J02,50.20094,-90.71624,Thunder Bay,807,America/Winnipeg
+25911,Travellers Rest,Prince,Prince Edward Island,PE,C1N,Locality,011L05,46.41828,-63.73867,Prince,902,America/Halifax
+25912,Travers,,Alberta,AB,T0L,Locality,082I02,50.24389,-112.55639,Division No.  5,587,America/Edmonton
+25913,Traverse Bay,,Manitoba,MB,R0E,Locality,062I09,50.67333,-96.48556,Division No.  1,204,America/Winnipeg
+25914,Traverse-du-Remous,Nicolet-Yamaska,Quebec,QC,J0G,Locality,031I02,46.03306,-72.73389,Nicolet-Yamaska,450,America/Montreal
+25915,Traverse Landing,Greater Sudbury / Grand Sudbury,Ontario,ON,P0M,Locality,041I06,46.45700,-81.45817,Greater Sudbury / Grand Sudbury,705,America/Toronto
+25916,Traverston,Grey,Ontario,ON,N0C,Locality,041A07,44.26917,-80.74528,Grey,519,America/Toronto
+25917,Traynor,,Saskatchewan,SK,S0K,Locality,073C01,52.23339,-108.38403,Division No. 12,306,America/Regina
+25918,Traytown,,Newfoundland and Labrador,NL,A0G,Town,002C12,48.66106,-53.97834,Division No.  7,709,America/St_Johns
+25919,Traytown,,Newfoundland and Labrador,NL,A5A,Locality,002C04,48.21667,-53.51583,Division No.  7,709,America/St_Johns
+25920,Treadwell,Prescott and Russell,Ontario,ON,K0B,Locality,031G11,45.59681,-75.01054,Prescott and Russell,613,America/Toronto
+25921,Trecastle,Wellington,Ontario,ON,N0G,Locality,040P15,43.78306,-80.80583,Wellington,519,America/Toronto
+25922,Trécesson,Abitibi,Quebec,QC,J0Y,Village,032D09,48.65000,-78.31667,Abitibi,819,America/Montreal
+25923,Tree Farm,Vaudreuil-Soulanges,Quebec,QC,J7V,Locality,031G08,45.44500,-74.14500,Vaudreuil-Soulanges,450,America/Montreal
+25924,Treelon,,Saskatchewan,SK,S0N,Locality,072F01,49.00001,-108.38402,Division No.  4,306,America/Regina
+25925,Treesbank,,Manitoba,MB,R0K,Locality,062G12,49.63611,-99.60944,Division No.  7,204,America/Winnipeg
+25926,Treesbank Ferry,,Manitoba,MB,R0K,Locality,062G12,49.66417,-99.60056,Division No.  7,204,America/Winnipeg
+25927,Trefoil,,Alberta,AB,T0J,Locality,082P01,51.19306,-112.19361,Division No.  4,587,America/Edmonton
+25928,Tregarva,,Saskatchewan,SK,S0G,Locality,072I10,50.60005,-104.71723,Division No.  6,306,America/Regina
+25929,Treherne,,Manitoba,MB,R0G,Town,062G10,49.62944,-98.69778,Division No.  8,204,America/Winnipeg
+25930,Tremaine,,Manitoba,MB,R0J,Locality,062J04,50.12361,-99.93417,Division No. 15,204,America/Winnipeg
+25931,Tremaudan,,Manitoba,MB,R0B,Locality,063F14,53.90889,-101.17111,Division No. 21,204,America/Winnipeg
+25932,Tremblay,Peace River,British Columbia,BC,V0C,Locality,093P15,55.78333,-120.85000,Peace River,250,America/Dawson_Creek
+25933,Tremblay,Gloucester,New Brunswick,NB,E8J,Locality,021P13,47.74798,-65.75768,Gloucester,506,America/Moncton
+25934,Trembleur,Bulkley-Nechako,British Columbia,BC,V0J,Locality,093K14,54.86667,-125.11667,Bulkley-Nechako,250,America/Vancouver
+25935,Trembley,Algoma,Ontario,ON,P0S,Locality,041N15,47.98314,-84.83294,Algoma,705,America/Toronto
+25936,Trembowla,,Manitoba,MB,R0L,Locality,062N08,51.27222,-100.24861,Division No. 17,204,America/Winnipeg
+25937,Tremont,Kings,Nova Scotia,NS,B0P,Locality,021A15,44.95159,-64.93303,Kings,902,America/Halifax
+25938,Trenche,La Tuque,Quebec,QC,G9X,Locality,031P10,47.74417,-72.88111,La Tuque,819,America/Montreal
+25939,Trend Village,Ottawa,Ontario,ON,K2H,Locality,031G05,45.33031,-75.79054,Ottawa,613,America/Toronto
+25940,Trenholm,Drummond,Quebec,QC,J0B,Locality,031H09,45.70361,-72.20667,Drummond,450,America/Montreal
+25941,Trentham,,Manitoba,MB,R0A,Locality,062H07,49.38889,-96.66750,Division No.  2,204,America/Winnipeg
+25942,Trenton,Pictou,Nova Scotia,NS,B0K,Town,011E10,45.61052,-62.63937,Pictou,902,America/Halifax
+25943,Trenton,Hastings,Ontario,ON,K8V,Locality,031C04,44.11000,-77.57861,Hastings,613,America/Toronto
+25944,Trenton Junction,Hastings,Ontario,ON,K8V,Locality,031C04,44.11528,-77.59917,Hastings,613,America/Toronto
+25945,Trent River,Northumberland,Ontario,ON,K0L,Locality,031C05,44.39531,-77.87041,Northumberland,289,America/Toronto
+25946,Trépanier,Central Okanagan,British Columbia,BC,V1Z,Locality,082E13,49.78333,-119.70000,Central Okanagan,250,America/Vancouver
+25947,Trepassey,,Newfoundland and Labrador,NL,A0A,Town,001K11,46.74676,-53.36362,Division No.  1,709,America/St_Johns
+25948,Très-Saint-Rédempteur,Vaudreuil-Soulanges,Quebec,QC,J0P,Village,031G08,45.43333,-74.38333,Vaudreuil-Soulanges,450,America/Montreal
+25949,Très-Saint-Sacrement,Le Haut-Saint-Laurent,Quebec,QC,J0S,Village,031H04,45.18333,-73.85000,Le Haut-Saint-Laurent,450,America/Montreal
+25950,Trevelyan,Leeds and Grenville,Ontario,ON,K0E,Locality,031B12,44.52722,-75.93306,Leeds and Grenville,613,America/Toronto
+25951,Trevessa Beach,,Saskatchewan,SK,S0M,Hamlet,073F01,53.03474,-108.34265,Division No. 17,306,America/Regina
+25952,Trewdale,,Saskatchewan,SK,S0H,Locality,072J02,50.15003,-106.50061,Division No.  7,306,America/Regina
+25953,Triangle,,Alberta,AB,T0G,Locality,083N07,55.43250,-116.71917,Division No. 17,587,America/Edmonton
+25954,Triangle,,Newfoundland and Labrador,NL,A0K,Locality,003D13,52.83703,-55.85216,Division No. 10,709,America/St_Johns
+25955,Tribune,,Saskatchewan,SK,S0C,Village,062E04,49.24785,-103.82527,Division No.  2,306,America/Regina
+25956,Tring-Jonction,Robert-Cliche,Quebec,QC,G0N,Town,021L07,46.26667,-70.98333,Robert-Cliche,581,America/Montreal
+25957,Trinity,,Newfoundland and Labrador,NL,A0C,Town,002C06,48.37547,-53.39466,Division No.  7,709,America/St_Johns
+25958,Trinity,,Newfoundland and Labrador,NL,A0G,Locality,002C13,48.98250,-53.90833,Division No.  7,709,America/St_Johns
+25959,Trinity,Hamilton,Ontario,ON,L9G,Locality,040P01,43.17389,-80.03639,Hamilton,289,America/Toronto
+25960,Trinity Bay North,,Newfoundland and Labrador,NL,A0C,Town,002C11,48.50151,-53.08145,Division No.  7,709,America/St_Johns
+25961,Trinity East,,Newfoundland and Labrador,NL,A0C,Locality,002C06,48.37917,-53.34500,Division No.  7,709,America/St_Johns
+25962,Trinity Park,,Manitoba,MB,R7A,Locality,062G13,49.82000,-99.95028,Division No.  7,204,America/Winnipeg
+25963,Trinity Valley,North Okanagan,British Columbia,BC,V0E,Locality,082L07,50.40000,-118.91667,North Okanagan,250,America/Vancouver
+25964,Trinny Cove,,Newfoundland and Labrador,NL,A0B,Locality,001N05,47.49056,-53.90944,Division No.  1,709,America/St_Johns
+25965,Triple Bay Park,Simcoe,Ontario,ON,L0K,Locality,031D13,44.76262,-79.83151,Simcoe,705,America/Toronto
+25966,Tripp Settlement,York,New Brunswick,NB,E6L,Locality,021J02,46.01837,-66.89780,York,506,America/Moncton
+25967,Triquet,Le Domaine-du-Roy,Quebec,QC,G8K,Locality,032A09,48.68139,-72.47694,Le Domaine-du-Roy,581,America/Montreal
+25968,Tristram,,Alberta,AB,T4J,Locality,083A11,52.59361,-113.22889,Division No.  8,587,America/Edmonton
+25969,Triton,,Newfoundland and Labrador,NL,A0J,Town,002E12,49.51833,-55.61987,Division No.  8,709,America/St_Johns
+25970,Triton West,,Newfoundland and Labrador,NL,A0J,Locality,002E12,49.52750,-55.61222,Division No.  8,709,America/St_Johns
+25971,Triwood,,Alberta,AB,T2L,Locality,082O01,51.08333,-114.10833,Division No.  6,587,America/Edmonton
+25972,Trochu,,Alberta,AB,T0M,Town,082P14,51.82861,-113.22806,Division No.  5,587,America/Edmonton
+25973,Trois-Lacs,Le Granit,Quebec,QC,G6B,Locality,021E07,45.46750,-70.85806,Le Granit,819,America/Montreal
+25974,Trois-Lacs,Les Sources,Quebec,QC,J1T,Locality,021E13,45.79722,-71.88333,Les Sources,819,America/Montreal
+25975,Trois-Pistoles,Les Basques,Quebec,QC,G0L,City,022C03,48.11667,-69.18333,Les Basques,581,America/Montreal
+25976,Trois-Rives,Mékinac,Quebec,QC,G0X,Village,031P02,47.00000,-72.75000,Mékinac,819,America/Montreal
+25977,Trois-Rivières,Francheville,Quebec,QC,G9A,City,031I07,46.35000,-72.55000,Francheville,819,America/Montreal
+25978,Trois-Rivières-Ouest,Francheville,Quebec,QC,G9B,Locality,031I07,46.32500,-72.60556,Francheville,819,America/Montreal
+25979,Trois-Ruisseaux,Westmorland,New Brunswick,NB,E4N,Locality,021I01,46.20961,-64.21005,Westmorland,506,America/Moncton
+25980,Trois-Ruisseaux,Minganie – Le Golfe-du-Saint-Laurent,Quebec,QC,G0G,Locality,022H16,49.92611,-64.07861,Minganie – Le Golfe-du-Saint-Laurent,581,America/Montreal
+25981,Trois-Saumons,L'Islet,Quebec,QC,G0R,Locality,021M01,47.16083,-70.31611,L'Islet,581,America/Montreal
+25982,Trois-Saumons-Station,L'Islet,Quebec,QC,G0R,Locality,021M01,47.15472,-70.29556,L'Islet,581,America/Montreal
+25983,Trossachs,,Saskatchewan,SK,S0C,Hamlet,072H09,49.63863,-104.22721,Division No.  2,306,America/Regina
+25984,Trottier,Arthabaska,Quebec,QC,G0P,Locality,021L04,46.05056,-71.69167,Arthabaska,819,America/Montreal
+25985,Trou-à-Gardner,Kamouraska,Quebec,QC,G0L,Locality,021N05,47.34917,-69.71250,Kamouraska,581,America/Montreal
+25986,Trou-à-Pépette,Kamouraska,Quebec,QC,G0L,Locality,021N05,47.36750,-69.73167,Kamouraska,581,America/Montreal
+25987,Troup,Central Kootenay,British Columbia,BC,V1L,Locality,082F11,49.55000,-117.23333,Central Kootenay,250,America/Vancouver
+25988,Trout Brook,Northumberland,New Brunswick,NB,E9E,Locality,021P04,47.11512,-65.79421,Northumberland,506,America/Moncton
+25989,Trout Brook,Cape Breton,Nova Scotia,NS,B1K,Locality,011F16,45.98788,-60.15742,Cape Breton,902,America/Glace_Bay
+25990,Trout Creek,Okanagan-Similkameen,British Columbia,BC,V2A,Locality,082E12,49.56667,-119.61667,Okanagan-Similkameen,250,America/Vancouver
+25991,Trout Creek,Parry Sound,Ontario,ON,P0H,Locality,031E14,45.98579,-79.36181,Parry Sound,705,America/Toronto
+25992,Trout Lake,,Alberta,AB,T0G,Locality,084B10,56.50000,-114.53333,Division No. 17,587,America/Edmonton
+25993,Trout Lake,Columbia-Shuswap,British Columbia,BC,V0E,Locality,082K12,50.64722,-117.53889,Columbia-Shuswap,250,America/Vancouver
+25994,Trout Lake,Guysborough,Nova Scotia,NS,B0H,Locality,011F06,45.26570,-61.45393,Guysborough,902,America/Halifax
+25995,Trout Lake,Algoma,Ontario,ON,P0S,Locality,041N01,47.03889,-84.09278,Algoma,705,America/Toronto
+25996,Trout Mills,Nipissing,Ontario,ON,P1B,Locality,031L06,46.33250,-79.40000,Nipissing,705,America/Toronto
+25997,Trout River,,Newfoundland and Labrador,NL,A0K,Town,012G08,49.47393,-58.12529,Division No.  9,709,America/St_Johns
+25998,Trout River,Le Haut-Saint-Laurent,Quebec,QC,J0S,Locality,031G01,45.05000,-74.28333,Le Haut-Saint-Laurent,450,America/Montreal
+25999,Trouty,,Newfoundland and Labrador,NL,A0C,Locality,002C06,48.32917,-53.40472,Division No.  7,709,America/St_Johns
+26000,Trowbridge,Perth,Ontario,ON,N4W,Locality,040P11,43.73177,-81.02685,Perth,519,America/Toronto
+26001,Troy,Inverness,Nova Scotia,NS,B9A,Locality,011F11,45.68021,-61.43409,Inverness,902,America/Halifax
+26002,Troy,Hamilton,Ontario,ON,L0R,Locality,040P08,43.26056,-80.18528,Hamilton,519,America/Toronto
+26003,Troy,Chatham-Kent,Ontario,ON,N0P,Locality,040I05,42.37861,-81.90194,Chatham-Kent,519,America/Toronto
+26004,Truax,,Saskatchewan,SK,S0H,Locality,072H15,49.90003,-104.95056,Division No.  2,306,America/Regina
+26005,Trudeau,Thunder Bay,Ontario,ON,P0T,Locality,042C12,48.69389,-85.76972,Thunder Bay,705,America/Toronto
+26006,Trudel,Gloucester,New Brunswick,NB,E8R,Locality,021P11,47.69250,-65.13475,Gloucester,506,America/Moncton
+26007,Trudel,Le Granit,Quebec,QC,G6B,Locality,021E10,45.53889,-70.75833,Le Granit,819,America/Montreal
+26008,Truemanville,Cumberland,Nova Scotia,NS,B4H,Locality,021H16,45.85572,-64.07519,Cumberland,902,America/Halifax
+26009,Truman,,Alberta,AB,T0A,Locality,073L06,54.45889,-111.20417,Division No. 12,587,America/Edmonton
+26010,Trump Islands,,Newfoundland and Labrador,NL,A0G,Locality,002E10,49.58417,-54.77306,Division No.  8,709,America/St_Johns
+26011,Truro,Colchester,Nova Scotia,NS,B2N,Town,011E06,45.36496,-63.27985,Colchester,902,America/Halifax
+26012,Truro Heights,Colchester,Nova Scotia,NS,B6L,Locality,011E06,45.34739,-63.31496,Colchester,902,America/Halifax
+26013,Trutch,Peace River,British Columbia,BC,V0C,Locality,094G10,57.73333,-122.95000,Peace River,250,America/Dawson_Creek
+26014,Tryon,Prince,Prince Edward Island,PE,C0B,Locality,011L04,46.23780,-63.54284,Prince,902,America/Halifax
+26015,Tryon Settlement,Charlotte,New Brunswick,NB,E5A,Locality,021G06,45.41718,-67.13878,Charlotte,506,America/Moncton
+26016,Tsawwassen,Greater Vancouver,British Columbia,BC,V4M,Locality,092G03,49.01667,-123.08333,Greater Vancouver,778,America/Vancouver
+26017,Tsawwassen Beach,Greater Vancouver,British Columbia,BC,V4M,Locality,092G03,49.00202,-123.08334,Greater Vancouver,360,America/Los_Angeles
+26018,Ts'axq'oo-is,Alberni-Clayoquot,British Columbia,BC,V0R,Locality,092C11,48.72444,-125.08111,Alberni-Clayoquot,250,America/Vancouver
+26019,Tsay Keh Dene,Peace River,British Columbia,BC,V0C,Locality,094C15,56.88333,-124.96667,Peace River,250,America/Vancouver
+26020,Tshak Penatu Epit,Minganie – Le Golfe-du-Saint-Laurent,Quebec,QC,G0G,Locality,012O02,51.16083,-58.56333,Minganie – Le Golfe-du-Saint-Laurent,581,America/Blanc-Sablon
+26021,Tshiahahtunekamuk,Minganie – Le Golfe-du-Saint-Laurent,Quebec,QC,G0G,Locality,022I09,50.67306,-64.05806,Minganie – Le Golfe-du-Saint-Laurent,581,America/Montreal
+26022,Tshiahkuehihat Peniauiht,Minganie – Le Golfe-du-Saint-Laurent,Quebec,QC,G0G,Locality,012L04,50.22500,-63.99389,Minganie – Le Golfe-du-Saint-Laurent,581,America/Montreal
+26023,Tshinuatipish,Nord-du-Québec,Quebec,QC,J0M,Locality,024A02,56.08861,-64.72778,Nord-du-Québec,819,America/Montreal
+26024,TsÌ‚i Deldel,Cariboo,British Columbia,BC,V0L,Locality,093B04,52.13917,-123.95222,Cariboo,250,America/Vancouver
+26025,Tsiigehtchic,,Northwest Territories,NT,X0E,Hamlet,106N05,67.44240,-133.74240,Region 1,867,America/Yellowknife
+26026,Ts'iispoo-a,Alberni-Clayoquot,British Columbia,BC,V0R,Locality,092C14,48.80056,-125.18222,Alberni-Clayoquot,250,America/Vancouver
+26027,Tuapaaluit,Nord-du-Québec,Quebec,QC,J0M,Locality,025E05,61.40444,-71.58083,Nord-du-Québec,819,America/Montreal
+26028,Tubbs Corners,Northumberland,Ontario,ON,K0K,Locality,031C04,44.05639,-77.91417,Northumberland,289,America/Toronto
+26029,Tuberose,,Saskatchewan,SK,S0L,Locality,072K16,50.91671,-108.08402,Division No.  8,306,America/Regina
+26030,Tuchitua,,Yukon,YT,Y0A,Locality,105A14,60.90277,-129.23230,Yukon,250,America/Whitehorse
+26031,Tucker,,Manitoba,MB,R1N,Locality,062G16,49.98806,-98.22278,Division No.  9,204,America/Winnipeg
+26032,Tucks,Greater Vancouver,British Columbia,BC,V6X,Locality,092G03,49.20000,-123.11667,Greater Vancouver,778,America/Vancouver
+26033,Tudor,,Alberta,AB,T0J,Locality,082P03,51.17611,-113.14611,Division No.  5,587,America/Edmonton
+26034,Tuffnell,,Saskatchewan,SK,S0A,Hamlet,062M11,51.64240,-103.37139,Division No. 10,306,America/Regina
+26035,Tufts Cove,Halifax,Nova Scotia,NS,B3A,Locality,011D12,44.68219,-63.59689,Halifax,902,America/Halifax
+26036,Tuftsville,Hastings,Ontario,ON,K0K,Locality,031C06,44.31056,-77.49000,Hastings,613,America/Toronto
+26037,Tugaske,,Saskatchewan,SK,S0H,Village,072J16,50.87399,-106.28751,Division No.  7,306,America/Regina
+26038,Tugtown,Northumberland,New Brunswick,NB,E6A,Locality,021J10,46.52934,-66.53490,Northumberland,506,America/Moncton
+26039,Tuktoyaktuk,,Northwest Territories,NT,X0E,Hamlet,107C07,69.45090,-133.03580,Region 1,867,America/Yellowknife
+26040,Tulameen,Okanagan-Similkameen,British Columbia,BC,V0X,Locality,092H10,49.54583,-120.75833,Okanagan-Similkameen,250,America/Vancouver
+26041,Tulita,,Northwest Territories,NT,X0E,Hamlet,096C13,64.90060,-125.57630,Region 2,867,America/Yellowknife
+26042,Tullamore,Peel,Ontario,ON,L6P,Locality,030M13,43.79123,-79.75858,Peel,289,America/Toronto
+26043,Tulliby Lake,,Alberta,AB,T0B,Locality,073E09,53.71639,-110.18528,Division No. 10,587,America/Edmonton
+26044,Tullis,,Saskatchewan,SK,S0L,Locality,072O03,51.05003,-107.03397,Division No.  7,306,America/Regina
+26045,Tullochgorum,Le Haut-Saint-Laurent,Quebec,QC,J0S,Locality,031H04,45.13833,-73.92028,Le Haut-Saint-Laurent,450,America/Montreal
+26046,Tulsequah,Stikine,British Columbia,BC,V0C,Locality,104K12,58.63333,-133.55000,Stikine,250,America/Vancouver
+26047,Tumbler Ridge,Peace River,British Columbia,BC,V0C,Municipality,093P03,55.12611,-120.99806,Peace River,250,America/Dawson_Creek
+26048,Tummel,,Manitoba,MB,R0L,Locality,062N03,51.13944,-101.38583,Division No. 16,204,America/Winnipeg
+26049,Tunaville,Charlotte,New Brunswick,NB,E5H,Locality,021G02,45.05590,-66.80110,Charlotte,506,America/Moncton
+26050,Tungsten,,Northwest Territories,NT,X0E,Locality,105H16,61.94986,-128.23510,Region 4,867,America/Yellowknife
+26051,Tuniit,Qikiqtaaluk,Nunavut,NU,X0A,Locality,037G10,71.74722,-77.72889,Qikiqtaaluk,819,America/Iqaluit
+26052,Tunirtait,Nord-du-Québec,Quebec,QC,J0M,Locality,035J05,62.26167,-75.58555,Nord-du-Québec,819,America/Montreal
+26053,Tunirtaniarvik,Nord-du-Québec,Quebec,QC,J0M,Locality,035J05,62.28083,-75.56528,Nord-du-Québec,819,America/Montreal
+26054,Tunis,Cochrane,Ontario,ON,P0L,Locality,042A15,48.83959,-80.83985,Cochrane,705,America/Toronto
+26055,Tunney's Pasture,Ottawa,Ontario,ON,K1Y,Locality,031G05,45.40616,-75.73877,Ottawa,613,America/Toronto
+26056,Tunstall,,Saskatchewan,SK,S0N,Locality,072K04,50.15005,-109.78411,Division No.  8,306,America/Regina
+26057,Tununuk,,Northwest Territories,NT,X0E,Locality,107C03,69.00003,-134.66944,Region 1,867,America/Yellowknife
+26058,Tupialuviniq,Nord-du-Québec,Quebec,QC,J0M,Locality,033M01,55.01139,-78.44167,Nord-du-Québec,819,America/Montreal
+26059,Tupirvialuit,Nord-du-Québec,Quebec,QC,J0M,Locality,024I13,58.83306,-65.79167,Nord-du-Québec,819,America/Montreal
+26060,Tupirviit,Nord-du-Québec,Quebec,QC,J0M,Locality,025C04,60.15972,-69.70750,Nord-du-Québec,819,America/Montreal
+26061,Tupirvikallak,Nord-du-Québec,Quebec,QC,J0M,Locality,025E12,61.54556,-71.71528,Nord-du-Québec,819,America/Montreal
+26062,Tupirvituqaaluit,Nord-du-Québec,Quebec,QC,J0M,Locality,035J06,62.26694,-75.03805,Nord-du-Québec,819,America/Montreal
+26063,Tupirvituqaaluttalik,Nord-du-Québec,Quebec,QC,J0M,Locality,035K08,62.33850,-76.11913,Nord-du-Québec,819,America/Montreal
+26064,Tupirviturlik,Nord-du-Québec,Quebec,QC,J0M,Locality,034K05,58.33278,-77.88917,Nord-du-Québec,819,America/Montreal
+26065,Tupirvivinirtalik,Nord-du-Québec,Quebec,QC,J0M,Locality,034N04,59.20417,-77.97278,Nord-du-Québec,819,America/Montreal
+26066,Tupper,Peace River,British Columbia,BC,V0C,Locality,093P09,55.50000,-120.03333,Peace River,250,America/Dawson_Creek
+26067,Tupper Lake,Kings,Nova Scotia,NS,B0P,Locality,021H02,45.02329,-64.58865,Kings,902,America/Halifax
+26068,Tupperville,Annapolis,Nova Scotia,NS,B0S,Locality,021A14,44.79757,-65.36813,Annapolis,902,America/Halifax
+26069,Tupperville,Chatham-Kent,Ontario,ON,N0P,Locality,040J09,42.59023,-82.26955,Chatham-Kent,519,America/Toronto
+26070,Turbine,Greater Sudbury / Grand Sudbury,Ontario,ON,P0M,Locality,041I05,46.37487,-81.50944,Greater Sudbury / Grand Sudbury,705,America/Toronto
+26071,Turcot,Montréal,Quebec,QC,H4B,Locality,031H05,45.45889,-73.63028,Montréal,514,America/Montreal
+26072,Turgeon,Restigouche,New Brunswick,NB,E8G,Locality,021P13,47.88458,-65.86529,Restigouche,506,America/Moncton
+26073,Turin,,Alberta,AB,T0K,Locality,082H15,49.96528,-112.52639,Division No.  2,587,America/Edmonton
+26074,Turin,Chatham-Kent,Ontario,ON,N0P,Locality,040I12,42.52417,-81.87417,Chatham-Kent,519,America/Toronto
+26075,Turkey Point,Haldimand-Norfolk,Ontario,ON,N0E,Locality,040I09,42.69374,-80.32791,Haldimand-Norfolk,519,America/Toronto
+26076,Turks Cove,,Newfoundland and Labrador,NL,A0B,Locality,001N14,47.93250,-53.34806,Division No.  1,709,America/St_Johns
+26077,Turnberry,,Manitoba,MB,R0B,Locality,063F05,53.43611,-101.71611,Division No. 21,204,America/Winnipeg
+26078,Turnbull,,Manitoba,MB,R0B,Locality,063J11,54.56611,-99.47694,Division No. 21,204,America/Winnipeg
+26079,Turner,,Alberta,AB,T2V,Locality,082J16,50.97806,-114.07389,Division No.  6,587,America/Edmonton
+26080,Turner,Manitoulin,Ontario,ON,P0P,Locality,041H13,45.98333,-81.91028,Manitoulin,705,America/Toronto
+26081,Turners,Bruce,Ontario,ON,N0H,Locality,041A06,44.37290,-81.33043,Bruce,519,America/Toronto
+26082,Turner's Bight,,Newfoundland and Labrador,NL,A0P,Locality,013J01,54.21673,-58.11570,Division No. 11,709,America/Goose_Bay
+26083,Turners Corners,Niagara,Ontario,ON,L0S,Locality,030M03,43.05972,-79.25139,Niagara,289,America/Toronto
+26084,Turner Settlement,Victoria,New Brunswick,NB,E7H,Locality,021J13,46.77799,-67.77267,Victoria,506,America/Moncton
+26085,Turnertown,Memphrémagog,Quebec,QC,J0B,Locality,031H01,45.23194,-72.06444,Memphrémagog,819,America/Montreal
+26086,Turner Valley,,Alberta,AB,T0L,Town,082J09,50.67528,-114.28028,Division No.  6,587,America/Edmonton
+26087,Turnip Cove,,Newfoundland and Labrador,NL,A0H,Locality,001M11,47.68750,-55.43722,Division No.  3,709,America/St_Johns
+26088,Turnor Lake,,Saskatchewan,SK,S0M,Hamlet,074C07,56.47281,-108.70599,Division No. 18,306,America/Regina
+26089,Turn-Up Juniper,Minganie – Le Golfe-du-Saint-Laurent,Quebec,QC,G0G,Locality,012P11,51.62472,-57.26917,Minganie – Le Golfe-du-Saint-Laurent,581,America/Montreal
+26090,Turriff,Hastings,Ontario,ON,K0L,Locality,031C13,44.98139,-77.73750,Hastings,613,America/Toronto
+26091,Turtle,Rainy River,Ontario,ON,P0W,Locality,052C15,48.76083,-92.54667,Rainy River,807,America/Winnipeg
+26092,Turtle Creek,Albert,New Brunswick,NB,E1J,Locality,021H15,45.96277,-64.88543,Albert,506,America/Moncton
+26093,Turtle Dam,Témiscamingue,Quebec,QC,J0Z,Locality,031L15,46.90306,-78.85972,Témiscamingue,819,America/Montreal
+26094,Turtleford,,Saskatchewan,SK,S0M,Town,073F07,53.38788,-108.95938,Division No. 17,306,America/Regina
+26095,Turtleford Junction,,Saskatchewan,SK,S0M,Locality,073F07,53.40009,-108.96738,Division No. 17,306,America/Regina
+26096,Turtle Lake,Parry Sound,Ontario,ON,P2A,Locality,031E05,45.31361,-79.72889,Parry Sound,705,America/Toronto
+26097,Turtle Lake South Bay,,Saskatchewan,SK,S0M,Hamlet,073F10,53.51702,-108.70786,Division No. 17,306,America/Regina
+26098,Turtle Valley,Thompson-Nicola,British Columbia,BC,V0E,Locality,082L13,50.81667,-119.60000,Thompson-Nicola,250,America/Vancouver
+26099,Tuscany,,Alberta,AB,T3L,Locality,082O01,51.13333,-114.25556,Division No.  6,587,America/Edmonton
+26100,Tusket,Yarmouth,Nova Scotia,NS,B0W,Locality,020P13,43.85544,-65.97453,Yarmouth,902,America/Halifax
+26101,Tusket Falls,Yarmouth,Nova Scotia,NS,B0W,Locality,020P13,43.88075,-65.97466,Yarmouth,902,America/Halifax
+26102,Tutela Heights,Brant,Ontario,ON,N3S,Locality,040P01,43.12528,-80.25028,Brant,519,America/Toronto
+26103,Tuttle,,Alberta,AB,T4S,Locality,083A04,52.20750,-113.84500,Division No.  8,587,America/Edmonton
+26104,Tuttusivik,Nord-du-Québec,Quebec,QC,J0M,Locality,034P13,59.90000,-73.62278,Nord-du-Québec,819,America/Montreal
+26105,Tuurngaup Illuvininga,Nord-du-Québec,Quebec,QC,J0M,Locality,034K06,58.29111,-77.45306,Nord-du-Québec,819,America/Montreal
+26106,Tuwanek,Sunshine Coast,British Columbia,BC,V0N,Locality,092G12,49.55000,-123.75000,Sunshine Coast,604,America/Vancouver
+26107,Tuxedo,,Manitoba,MB,R3P,Locality,062H14,49.86056,-97.21778,Division No. 11,204,America/Winnipeg
+26108,Tuxedo Park,,Alberta,AB,T2K,Locality,082O01,51.08333,-114.06667,Division No.  6,587,America/Edmonton
+26109,Tuxedo Park,,Saskatchewan,SK,S4N,Locality,072I07,50.45115,-104.57888,Division No.  6,306,America/Regina
+26110,Tuxford,,Saskatchewan,SK,S0H,Village,072I12,50.57534,-105.58054,Division No.  7,306,America/Regina
+26111,Tway,,Saskatchewan,SK,S0K,Hamlet,073A11,52.73879,-105.43876,Division No. 15,306,America/Regina
+26112,Tweed,Hastings,Ontario,ON,K0K,Locality,031C06,44.47944,-77.33083,Hastings,613,America/Toronto
+26113,Tweedie,,Alberta,AB,T0A,Locality,073L13,54.88694,-111.79111,Division No. 12,587,America/Edmonton
+26114,Tweedie,Carleton,New Brunswick,NB,E7L,Locality,021J12,46.50629,-67.65849,Carleton,506,America/Moncton
+26115,Tweedie Brook,Kent,New Brunswick,NB,E9A,Locality,021I14,46.78877,-65.12756,Kent,506,America/Moncton
+26116,Tweedle Place,,Alberta,AB,T6K,Locality,083H06,53.47500,-113.45972,Division No. 11,587,America/Edmonton
+26117,Tweedside,York,New Brunswick,NB,E6K,Locality,021G11,45.64467,-67.01375,York,506,America/Moncton
+26118,Tweedside,Hamilton,Ontario,ON,L8J,Locality,030M04,43.16597,-79.67025,Hamilton,289,America/Toronto
+26119,Tweedsmuir,Nipissing,Ontario,ON,P1A,Locality,031L06,46.28417,-79.44333,Nipissing,705,America/Toronto
+26120,Tweedsmuir,,Saskatchewan,SK,S0J,Locality,073H12,53.56672,-105.95050,Division No. 15,306,America/Regina
+26121,Twelve O'Clock Point,Hastings,Ontario,ON,K0K,Locality,031C04,44.06167,-77.59833,Hastings,613,America/Toronto
+26122,Twidwell Bend,Peace River,British Columbia,BC,V0C,Locality,093P12,55.61667,-121.56667,Peace River,250,America/Dawson_Creek
+26123,Twillingate,,Newfoundland and Labrador,NL,A0G,Town,002E10,49.64431,-54.74362,Division No.  8,709,America/St_Johns
+26124,Twin Butte,,Alberta,AB,T0K,Locality,082H05,49.26417,-113.85750,Division No.  3,587,America/Edmonton
+26125,Twin Butte,Columbia-Shuswap,British Columbia,BC,V0E,Locality,082N04,51.03694,-117.97778,Columbia-Shuswap,250,America/Vancouver
+26126,Twin City,Thunder Bay,Ontario,ON,P7J,Locality,052A06,48.36269,-89.41539,Thunder Bay,807,America/Toronto
+26127,Twin Creeks,Sunshine Coast,British Columbia,BC,V0N,Locality,092G06,49.48333,-123.48333,Sunshine Coast,604,America/Vancouver
+26128,Twin Elm,Ottawa,Ontario,ON,K0A,Locality,031G04,45.22483,-75.80335,Ottawa,613,America/Toronto
+26129,Twin Falls,,Newfoundland and Labrador,NL,A0R,Locality,023H07,53.50000,-64.53250,Division No. 10,709,America/Goose_Bay
+26130,Twin Falls,Cochrane,Ontario,ON,P0K,Locality,042A10,48.74778,-80.58500,Cochrane,705,America/Toronto
+26131,Twining,,Alberta,AB,T0M,Locality,082P11,51.63278,-113.29750,Division No.  5,587,America/Edmonton
+26132,Twin Islands,Greater Vancouver,British Columbia,BC,V3H,Locality,092G07,49.35000,-122.88333,Greater Vancouver,778,America/Vancouver
+26133,Twin Lakes Beach,,Manitoba,MB,R0C,Locality,062I05,50.33444,-97.96694,Division No. 18,204,America/Winnipeg
+26134,Twin Rock Valley,Inverness,Nova Scotia,NS,B0E,Locality,011K03,46.15463,-61.12541,Inverness,902,America/Halifax
+26135,Twin Valley,,Saskatchewan,SK,S0H,Locality,072H05,49.33336,-105.90057,Division No.  3,306,America/Regina
+26136,Two Brooks,Victoria,New Brunswick,NB,E7G,Locality,021O03,47.07260,-67.29686,Victoria,506,America/Moncton
+26137,Two Creeks,,Alberta,AB,T0H,Locality,083K08,54.30083,-116.32778,Division No. 18,587,America/Edmonton
+26138,Two Creeks,,Manitoba,MB,R0M,Locality,062K03,50.02611,-101.03472,Division No.  6,204,America/Winnipeg
+26139,Two Guns,,Alberta,AB,T2W,Locality,082J16,50.94778,-114.16389,Division No.  6,587,America/Edmonton
+26140,Two Hills,,Alberta,AB,T0B,Town,073E12,53.71111,-111.74472,Division No. 10,587,America/Edmonton
+26141,Two Islands,Cumberland,Nova Scotia,NS,B0M,Locality,021H08,45.39533,-64.22459,Cumberland,902,America/Halifax
+26142,Twomey,,Alberta,AB,T4V,Locality,083A15,52.98750,-112.73167,Division No. 10,587,America/Edmonton
+26143,Two Mile,Kitimat-Stikine,British Columbia,BC,V0J,Locality,093M05,55.26667,-127.61667,Kitimat-Stikine,250,America/Vancouver
+26144,Two Mile Corner,Kenora,Ontario,ON,P8N,Locality,052F15,49.81548,-92.84727,Kenora,807,America/Winnipeg
+26145,Two O'Clock,Manitoulin,Ontario,ON,P0P,Locality,041H12,45.73955,-81.77460,Manitoulin,705,America/Toronto
+26146,Two Rivers,Peace River,British Columbia,BC,V0C,Locality,094A02,56.18333,-120.53333,Peace River,250,America/Dawson_Creek
+26147,Two Rivers,Cumberland,Nova Scotia,NS,B0M,Locality,021H09,45.65874,-64.48426,Cumberland,902,America/Halifax
+26148,Tyandaga,Halton,Ontario,ON,L7P,Locality,030M05,43.34376,-79.84355,Halton,289,America/Toronto
+26149,Tye,Central Kootenay,British Columbia,BC,V0B,Locality,082F07,49.33333,-116.80000,Central Kootenay,250,America/Vancouver
+26150,Tyee,Skeena-Queen Charlotte,British Columbia,BC,V0V,Locality,103I04,54.20000,-129.95000,Skeena-Queen Charlotte,250,America/Vancouver
+26151,Tyndall,,Manitoba,MB,R0E,Locality,062I02,50.08278,-96.65833,Division No. 12,204,America/Winnipeg
+26152,Tyndall Park,,Manitoba,MB,R2R,Locality,062H14,49.93694,-97.20528,Division No. 11,204,America/Winnipeg
+26153,Tyndal Road,Cumberland,Nova Scotia,NS,B4H,Locality,021H16,45.89880,-64.11312,Cumberland,902,America/Halifax
+26154,Tynehead,Greater Vancouver,British Columbia,BC,V4N,Locality,092G02,49.18333,-122.73333,Greater Vancouver,778,America/Vancouver
+26155,Tynemouth Creek,Saint John,New Brunswick,NB,E2S,Locality,021H05,45.29951,-65.65443,Saint John,506,America/Moncton
+26156,Tyner,,Saskatchewan,SK,S0L,Locality,072N01,51.00005,-108.41737,Division No.  8,306,America/Regina
+26157,Tyneside,Hamilton,Ontario,ON,L0R,Locality,030M04,43.09778,-79.88722,Hamilton,289,America/Toronto
+26158,Tyne Valley,Prince,Prince Edward Island,PE,C0B,Village,011L12,46.57423,-63.92932,Prince,902,America/Halifax
+26159,Tyotown,Stormont Dundas and Glengarry,Ontario,ON,K6H,Locality,031G02,45.05696,-74.65431,Stormont Dundas and Glengarry,613,America/Toronto
+26160,Tyranite,Timiskaming,Ontario,ON,P0J,Locality,041P11,47.65000,-81.02194,Timiskaming,705,America/Toronto
+26161,Tyrconnell,Elgin,Ontario,ON,N0L,Locality,040I11,42.60091,-81.46427,Elgin,519,America/Toronto
+26162,Tyrone,Durham,Ontario,ON,L1C,Locality,031D02,44.00926,-78.71680,Durham,289,America/Toronto
+26163,Tyrone,Queens,Prince Edward Island,PE,C0A,Locality,011L06,46.27857,-63.34346,Queens,902,America/Halifax
+26164,Tyrrell,,Manitoba,MB,R0B,Locality,063J11,54.60417,-99.29583,Division No. 21,204,America/Winnipeg
+26165,Tyrrell,Haldimand-Norfolk,Ontario,ON,N3Y,Locality,040I16,42.88294,-80.22892,Haldimand-Norfolk,519,America/Toronto
+26166,Tyson,,Saskatchewan,SK,S0H,Locality,072J03,50.13336,-107.05064,Division No.  7,306,America/Regina
+26167,Tyvan,,Saskatchewan,SK,S0G,Locality,062L04,50.03336,-103.71721,Division No.  2,306,America/Regina
+26168,Tzouhalem,Cowichan Valley,British Columbia,BC,V9L,Locality,092B13,48.78333,-123.65000,Cowichan Valley,250,America/Vancouver
