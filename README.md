@@ -19,11 +19,14 @@ _Steps to Run_
 
 5. This should output a new file called `clean.csv` which will contain all working data entries for the GTA and BC
 
-6. This file should then be run through the topic modelling script which will output a dataset containing topics in a file called *miya add output file name*. 
-> `python` *miya add your script name*
+6. This file should then be run through the topic modelling script which will output a dataset containing topics in a file called `sorted_articles.csv`. It will also output a dataset of topics called `complete_topics.csv`.
+> `python nmf.py`
 
-7. This dataset is then run through a location finding script which outputs `final_df.csv`
+7. The dataset containing just the topics will be run through the categorizing modelling script which will output the topics with the greater news category that they belong to. 
+> `python predict.py`
+
+8. This dataset is then run through a location finding script which outputs `final_df.csv`
 > `python` *janna add your script name*
 
-8. After the locations are added to the `final_df.csv` this file is then put through a geojson conversion script called `geojson_convert.py` which outputs an `articles.json` file which is then passed to the front end via an S3 bucket.
+9. After the locations are added to the `final_df.csv` this file is then put through a geojson conversion script called `geojson_convert.py` which outputs an `articles.json` file which is then passed to the front end via an S3 bucket.
 > `python geojson_convert.py`
