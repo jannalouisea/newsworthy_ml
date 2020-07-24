@@ -1,3 +1,8 @@
+# !pip3 install nbimporter
+# !pip3 install nbformat
+# !pip3 install sagemaker
+# !pip3 install s3fs
+
 import pandas as pd
 import numpy as np
 from sklearn.decomposition import NMF
@@ -12,10 +17,7 @@ import os
 
 from helper import word_count, process_text, topic_table, whitespace_tokenizer, unique_words, get_unstemmed_word
 
-filename = 'clean_2020.csv'
-path = '/Users/miya/Documents/GitHub/ai4good_news/news_project/test_nmf/'
-
-def nmf(filename,path):
+def nmf(filename):
     # parameters
     # dictionary
     no_below = 10 
@@ -40,7 +42,13 @@ def nmf(filename,path):
     tol = 0.0001
 
     # get data
-    df = pd.read_csv(filename)
+    # df = pd.read_csv(filename)
+    role = get_execution_role()
+    bucket='sagemaker-studio-i7gmskjysd'
+    data_key = filename
+    data_location = 's3://{}/{}'.format(bucket, data_key)
+    df = pd.read_csv(data_location)
+
     df.drop_duplicates(subset=['text'],keep='first',inplace=True)
 
     # process text
@@ -98,8 +106,8 @@ def nmf(filename,path):
     scores = sorted(scores, key=itemgetter(1), reverse=True)
     best_num_topics = scores[0][0]
     best_coherence_score = scores[0][1]
-    print('num_topics: ',str(best_num_topics))
-    print('coherence: ',str(best_coherence_score))
+    # print('num_topics: ',str(best_num_topics))
+    # print('coherence: ',str(best_coherence_score))
     print(df.head())
 
     # measure of word frequency in a document (adjusted)
@@ -137,7 +145,7 @@ def nmf(filename,path):
     count_successes = {}
     for a in alphas:
         for b in l1_ratios:
-            print('alpha: {}, l1_ratio: {}'.format(a,b))
+            # print('alpha: {}, l1_ratio: {}'.format(a,b))
 
             # learn a model
             nmf = NMF(
@@ -248,12 +256,12 @@ def nmf(filename,path):
                 successes += 1
 
             except Exception as e:
-                print('test {}, error occurred'.format(count_params))
+                # print('test {}, error occurred'.format(count_params))
                 exc_type, exc_obj, exc_tb = sys.exc_info()
                 fname = os.path.split(exc_tb.tb_frame.f_code.co_filename)[1]
                 print(exc_type, fname, exc_tb.tb_lineno)
 
-            print('test {} complete'.format(count_params)) 
+            # print('test {} complete'.format(count_params)) 
             params[count_params] = (a,b)
             count_params += 1
 
@@ -262,9 +270,9 @@ def nmf(filename,path):
     resid_scores = list(zip(params_test,squared_residuals))
     resid_scores = sorted(resid_scores, key=itemgetter(1))
     best_params = resid_scores[0][0]
-    print('test #{} had best residual score'.format(best_params))
-    print('params: a={}, b={}'.format(params[best_params][0], params[best_params][1]))
-    print('residual scores: {}'.format(resid_scores))
+    # print('test #{} had best residual score'.format(best_params))
+    # print('params: a={}, b={}'.format(params[best_params][0], params[best_params][1]))
+    # print('residual scores: {}'.format(resid_scores))
 
     best_articles = sorted_articles_dfs[count_successes[best_params]]
     best_topics = complete_topics_dfs[count_successes[best_params]]
@@ -282,17 +290,32 @@ def nmf(filename,path):
         topics = best_topics.at[topic_num,'topics']
         best_articles.at[idx,'topics'] = topics
 
-    best_articles.to_csv(path+'sorted_articles.csv',header=True)
-    best_topics.to_csv(path+'complete_topics.csv',header=True)
+    # best_articles.to_csv(path+'sorted_articles.csv',header=True)
+    # best_topics.to_csv(path+'complete_topics.csv',header=True)
+    data_key_articles = 'sorted_articles.csv'
+    data_location_articles = 's3://{}/{}'.format(bucket, data_key_articles)
+    best_articles.to_csv(data_location_articles,header=True,index=False)
+    data_key_topics = 'complete_topics.csv'
+    data_location_topics = 's3://{}/{}'.format(bucket, data_key_topics)
+    best_topics.to_csv(data_location_topics,header=True,index=False)
 
     # save model
-    with open('nmf_model.pickle', 'wb') as output:
-        pickle.dump(models[best_params], output)
+    # with open('nmf_model.pickle', 'wb') as output:
+    #     pickle.dump(models[best_params], output)
 
-    with open('nmf_tfidf.pickle', 'wb') as output:
-        pickle.dump(tfidf_vectorizer, output)
+    # with open('nmf_tfidf.pickle', 'wb') as output:
+    #     pickle.dump(tfidf_vectorizer, output)
 
-nmf(filename,path)
+    s3 = boto3.client('s3')
+    
+    serialized_model = pickle.dumps(models[best_params])
+    s3.put_object(Bucket='sagemaker-studio-i7gmskjysd', Key='nmf_model.pickle', Body=serialized_model)
+    
+    serialized_tfidf = pickle.dumps(tfidf_vectorizer)
+    s3.put_object(Bucket='sagemaker-studio-i7gmskjysd', Key='nmf_tfidf.pickle', Body=serialized_tfidf)
+
+filename = 'clean.csv'
+nmf(filename)
 
 
 

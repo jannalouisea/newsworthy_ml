@@ -1,3 +1,8 @@
+# !pip3 install pandas
+# !pip3 install sklearn
+# !pip3 install nltk
+# !pip3 install gensim
+
 # for helper functions
 import pandas as pd
 import numpy as np
@@ -214,5 +219,6 @@ def get_category_name(category_id):
         if id == category_id:
             return category
 
-def get_unstemmed_word(stemmed_word):
-    return stem_dict[stemmed_word]
+
+
+
