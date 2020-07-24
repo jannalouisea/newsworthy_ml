@@ -10,7 +10,7 @@ _Steps to Run_
 2. Ensure you're running python 3
 > `python3 --version` or `which python3`
 
-3. Once all dependencies are installed, run the script
+3. Once all dependencies are installed, run the script.<br> **Warning: this script takes ~ 2 hours to run.**
 > `python3 scrape_data.py`
 > Or just `python` depending on how you have your aliases set up.
 
