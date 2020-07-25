@@ -3,6 +3,8 @@ import numpy as np
 import csv
 import json
 from geojson import Feature, FeatureCollection, Point
+import requests
+from linkpreview import link_preview
 
 
 data = pd.read_csv("final_df.csv")
@@ -33,6 +35,30 @@ data = data[['url', 'title', 'topics', 'category', 'location', 'lat',
              'long', 'local_score', 'prov_score', 'national_score', 'inter_score']]
 # print(data)
 
+
+# url = 'https://api.linkpreview.net?key=8c19d38dbf3c23953a76008a7b4e7f74&q=' + \
+#     data['url']
+
+# url = 'https://api.linkpreview.net?key=8c19d38dbf3c23953a76008a7b4e7f74&q=https://google.com'
+# response = requests.request("POST", url)
+# # print(response.text.image)
+# print(response.text)
+data['image'] = np.nan
+
+
+def get_image(url):
+    image = ""
+    try:
+        preview = link_preview(url)
+        image = preview.image
+    except requests.exceptions.HTTPError:
+        pass
+    return image
+
+
+data['image'] = data['url'].apply(get_image)
+print(data['image'])
+
 data.to_csv("final_df_clean.csv", index=False, header=False)
 
 
@@ -40,7 +66,7 @@ data.to_csv("final_df_clean.csv", index=False, header=False)
 features = []
 with open('final_df_clean.csv', newline='') as csvfile:
     reader = csv.reader(csvfile, delimiter=',')
-    for url, title, topic, category, location, latitude, longitude, local, prov, national, inter in reader:
+    for url, title, topic, category, location, latitude, longitude, local, prov, national, inter, image in reader:
         latitude, longitude = map(float, (latitude, longitude))
         features.append(
             Feature(
@@ -54,7 +80,8 @@ with open('final_df_clean.csv', newline='') as csvfile:
                     'prov_sc': prov,
                     'nat_sc': national,
                     'int_sc': inter,
-                    'location': location
+                    'location': location,
+                    'image': image
                 }
             )
         )
