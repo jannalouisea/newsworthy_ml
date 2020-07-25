@@ -47,7 +47,7 @@ data['image'] = np.nan
 
 
 def get_image(url):
-    image = ""
+    image = "https://sisterhoodofstyle.com/wp-content/uploads/2018/02/no-image-1.jpg"
     try:
         preview = link_preview(url)
         image = preview.image
