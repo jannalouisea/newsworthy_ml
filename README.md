@@ -19,8 +19,8 @@ _Steps to Run_
 
 5. This should output a new file called `clean.csv` which will contain all working data entries for the GTA and BC
 
-6. This file should then be run through the topic modelling script which will output a dataset containing topics in a file called *miya add output file name*. 
-> `python` *miya add your script name*
+6. This file should then be run through the topic modelling script which will output a dataset containing topics in a file called `sorted_articles.csv`. It will also output a dataset of topics called `complete_topics.csv`. The topics will be categorized and unstemmmed. 
+> `python nmf.py`
 
 7. This dataset is then run through a location finding script which outputs `final_df.csv`
 > `python` *janna add your script name*
