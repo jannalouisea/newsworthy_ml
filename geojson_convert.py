@@ -9,7 +9,6 @@ from collections import Counter
 
 
 data = pd.read_csv("topic_location.csv")
-
 # drop articles with no location
 data = data[data["lat"] != 0]
 
@@ -38,6 +37,18 @@ data = data[data["lat"] != 0]
 data = data[['urls', 'titles', 'topic', 'category', 'location', 'lat',
              'long', 'bc_score', 'canada_score', 'world_score', 'image_urls']]
 
+for idx,row in data.iterrows():
+    if row['bc_score'] == '<1':
+        data.at[idx,'bc_score'] = str(1)
+    if row['canada_score'] == '<1':
+        data.at[idx,'canada_score'] = str(1)
+    if row['world_score'] == '<1':
+        data.at[idx,'world_score'] = str(1)
+
+data['bc_score'] = data['bc_score'].astype(float)
+data['canada_score'] = data['canada_score'].astype(float)
+data['world_score'] = data['world_score'].astype(float)
+
 # header and index have to be false for the next part to work
 data.to_csv("test.csv", index=False, header=False)
 
@@ -58,9 +69,9 @@ with open('test.csv', newline='') as csvfile:
                     'title': title,
                     'topic': topic,
                     'category': category,
-                    'prov_sc': prov,
-                    'nat_sc': national,
-                    'int_sc': inter,
+                    'prov_sc': float(prov),
+                    'nat_sc': float(national),
+                    'int_sc': float(inter),
                     'location': location,
                     'image': image
                 }
