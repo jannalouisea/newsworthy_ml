@@ -98,9 +98,11 @@ for idx,row in topic_loc_df.iterrows():
     image_list = []
     for url in url_list:
         image_list.append(get_image(url))
-    urls.append(url_list)
+    urls.append(image_list)
 
 topic_loc_df['image_urls'] = urls
 
 topic_loc_df.to_csv('/Users/miya/Documents/GitHub/ai4good_news/news_project/topic_location_3.csv',index=False,header=True)
+
+
 
