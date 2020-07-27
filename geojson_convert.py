@@ -8,7 +8,7 @@ from linkpreview import link_preview
 from collections import Counter
 
 
-data = pd.read_csv("final_df.csv")
+data = pd.read_csv("topic_location.csv")
 
 # drop articles with no location
 data = data[data["lat"] != 0]
@@ -35,8 +35,8 @@ data = data[data["lat"] != 0]
 
 
 # only keep the columns you want -> may require changing
-data = data[['url', 'title', 'topic', 'category', 'location', 'lat',
-             'long', 'local_score', 'prov_score', 'national_score', 'inter_score']]
+data = data[['urls', 'titles', 'topic', 'category', 'location', 'lat',
+             'long', 'bc_score', 'canada_score', 'world_score', 'image_urls']]
 
 # header and index have to be false for the next part to work
 data.to_csv("test.csv", index=False, header=False)
@@ -48,7 +48,7 @@ data.to_csv("test.csv", index=False, header=False)
 features = []
 with open('test.csv', newline='') as csvfile:
     reader = csv.reader(csvfile, delimiter=',')
-    for url, title, topic, category, location, latitude, longitude, local, prov, national, inter, image in reader:
+    for url, title, topic, category, location, latitude, longitude, prov, national, inter, image in reader:
         latitude, longitude = map(float, (latitude, longitude))
         features.append(
             Feature(
@@ -58,7 +58,6 @@ with open('test.csv', newline='') as csvfile:
                     'title': title,
                     'topic': topic,
                     'category': category,
-                    'local_sc': local,
                     'prov_sc': prov,
                     'nat_sc': national,
                     'int_sc': inter,
@@ -70,5 +69,5 @@ with open('test.csv', newline='') as csvfile:
 
 # change X to indicate what you're grouping by
 collection = FeatureCollection(features)
-with open("grouped_by_X.json", "w") as f:
+with open("grouped_by_X_2.json", "w") as f:
     f.write('%s' % collection)
