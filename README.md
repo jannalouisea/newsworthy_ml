@@ -5,7 +5,7 @@
 Our goal, as a team of six, was to tackle the problem of information literacy in the digital age and aim to increase the exposure of readers to less visible news outlets and topics. The code in this repository contributes to one component of the platform that we developed in a span of three weeks. We aim to build out various other features in the following months.
 
 
-### To view live deployment,
+### To view the live deployment
 
 You can visit our live website [here](https://reclassifed-frontend-git-master.harpriyabagri.vercel.app/)
 
