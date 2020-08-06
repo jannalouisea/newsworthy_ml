@@ -23,7 +23,7 @@ _Steps to Run_
 > `python nmf.py`
 
 7. This dataset is then run through a location finding script which outputs `final_df.csv`
-> `python` *janna add your script name*
+> `python geocode_articles.ipynb`
 
 8. After the locations are added to the `final_df.csv` this file is then put through a geojson conversion script called `geojson_convert.py` which outputs an `articles.json` file which is then passed to the front end via an S3 bucket.
 > `python geojson_convert.py`
