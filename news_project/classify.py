@@ -10,16 +10,16 @@ from sklearn.model_selection import ShuffleSplit
 from sklearn import svm
 import pickle
 
-df = pd.read_csv('all_articles.csv')
+df = pd.read_csv('all_articles_trimmed.csv')
 
 df['processed_text'] = df['text'].apply(process_text)
 df['processed_text'] = df['processed_text'].apply(lambda x: [' '.join(x)])
 df['processed_text'] = df['processed_text'].str[0]
 
 ngram_range = (1,2)
-min_df = 10
-max_df = .70
-max_features = 1000
+min_df = 5
+max_df = .20
+max_features = 3000
 
 tfidf = TfidfVectorizer(
     ngram_range=ngram_range,
@@ -70,8 +70,8 @@ grid_search.fit(features_train, labels_train)
 best_svc = grid_search.best_estimator_
 best_svc.fit(features_train, labels_train)
 
-with open('svc_model.pickle', 'wb') as output:
+with open('svc_model_trimmed_v14.pickle', 'wb') as output:
     pickle.dump(best_svc, output)
 
-with open('svc_tfidf.pickle', 'wb') as output:
+with open('svc_tfidf_trimmed_v14.pickle', 'wb') as output:
     pickle.dump(tfidf, output)

@@ -1,0 +1,21 @@
+,topic_num,topics,num_articles,resid,category,probability
+0,0,families school children book life loved parents friends ,113,0.9611754263175476,lifestyle,60.46798823095696
+1,1,police investigation man officer incident charging suspected arrested ,113,0.9129819364445791,local,57.21577214688538
+2,2,case test new outbreak virus hospital care covid ,84,0.8973830208339704,covid-19,99.56107706934321
+3,3,player team games nhl seasons play league coaching ,99,0.9123102541329693,sports,99.90254395557582
+4,4,government business billion funding federal province tax workers ,86,0.932939135866048,politics,80.00788254401085
+5,5,reopen staged ontario theatre restaurants indoor bar province ,51,0.908516275735227,covid-19,81.09251177647899
+6,6,editor letter email pleased phone number address send ,30,0.845166162326518,local,44.426458428221046
+7,7,masks wear face covered mandatory ,38,0.8361521022038858,covid-19,95.71881688866581
+8,8,music performed artist concerts festival filmed arts band ,93,0.9307605543456127,arts & entertainment,99.84997505006629
+9,9,company million sale netflix's china market huawei auction ,117,0.9614539775632455,business,90.30464011225135
+10,10,flight airlines air canada travel passengers westjet airport ,30,0.847763042309478,local,43.309669741091135
+11,11,trudeau minister charities program committee prime ethical ,34,0.852587751481269,politics,97.0127025050163
+12,12,chilliwack rcmp theprogress coms hauck jenna something ,50,0.9217502333422155,local,93.99893066032496
+13,13,cars vehicles drive driver wheels engineer road truck ,57,0.917637044616174,business,95.71231765862758
+14,14,ridge maple meadows pitt mapleridgenews coms ,50,0.8870974610565515,local,95.88314023549678
+15,15,jay blue rogers centre team seasons toronto ,16,0.6690445647052901,sports,98.8367255741585
+16,16,surrey rcmp city council surreynowleader coms tom ,47,0.8993601923326567,local,99.17876165523364
+17,17,parking city lake beach summer open pool water ,181,0.9643153446158397,local,38.8956252118037
+18,18,court allegedly ottawa abbotsford trial charging murder judge ,58,0.9213644887165655,local,57.51576926506887
+19,19,drug overdose addiction deaths supplies illicit opioids ,24,0.8111552390731784,local,46.415740969555216

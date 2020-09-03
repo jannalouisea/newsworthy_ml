@@ -158,7 +158,8 @@ c_re = re.compile('(%s)' % '|'.join(c_dict.keys()))
 
 # stop words
 # add more, ex: news outlet name
-add_stop = ['said', 'say', '...', 'like', 'cnn', 'ad'] 
+add_stop = ['said', 'say', '...', 'like', 'cnn', 'ad', 'just', 'feel', 'things', 'know', 'think', 'burnaby', 'langley', 'ridge', 'because',
+            'people', 'thing', 'day', 'time', 'need', 'make', 'cent', 'ap'] 
 stop_words = ENGLISH_STOP_WORDS.union(add_stop)
 
 punc = list(set(string.punctuation))
@@ -181,6 +182,9 @@ def process_text(text):
     text = [each.lower() for each in text]
     text = [re.sub('[0-9]+', '', each) for each in text]
     text = [expandContractions(each, c_re=c_re) for each in text]
+    text = [w for w in text if w not in stop_words]
+    text = [each for each in text if len(each) > 1]
+    text = [each for each in text if ' ' not in each]
     stemmed_text = []
     for each in text:
         stemmed = SnowballStemmer('english').stem(each)
@@ -188,9 +192,6 @@ def process_text(text):
         stemmed_text.append(stemmed)
     text = stemmed_text
     text = [w for w in text if w not in punc]
-    text = [w for w in text if w not in stop_words]
-    text = [each for each in text if len(each) > 1]
-    text = [each for each in text if ' ' not in each]
     return text
 
 def top_words(topic, n_top_words):
