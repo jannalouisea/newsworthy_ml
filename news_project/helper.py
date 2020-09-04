@@ -159,7 +159,7 @@ c_re = re.compile('(%s)' % '|'.join(c_dict.keys()))
 # stop words
 # add more, ex: news outlet name
 add_stop = ['said', 'say', '...', 'like', 'cnn', 'ad', 'just', 'feel', 'things', 'know', 'think', 'burnaby', 'langley', 'ridge', 'because',
-            'people', 'thing', 'day', 'time', 'need', 'make', 'cent', 'ap'] 
+            'people', 'thing', 'day', 'time', 'need', 'make', 'cent', 'ap', 'th', 've', 'hi', 'mr', 'mrs'] 
 stop_words = ENGLISH_STOP_WORDS.union(add_stop)
 
 punc = list(set(string.punctuation))

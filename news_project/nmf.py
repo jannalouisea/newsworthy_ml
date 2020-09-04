@@ -23,7 +23,7 @@ from predict import predict_category
 #   change import statements for functions from helper, predict
 #   change csv and model reading/writing and dumping/loading to s3 versions
 #   **may have to change bucket name
-def nmf(filename1, path):
+def nmf(filename1, filename2, filename3, path):
     # parameters
     # dictionary
     no_below = 5 
@@ -49,9 +49,9 @@ def nmf(filename1, path):
 
     # get data
     df = pd.read_csv(filename1)
-    # df2 = pd.read_csv(filename2)
-    # df3 = pd.read_csv(filename3)
-    # df = pd.concat([df,df2,df3])
+    df2 = pd.read_csv(filename2)
+    df3 = pd.read_csv(filename3)
+    df = pd.concat([df,df2,df3])
     
     # role = get_execution_role()
     # bucket='sagemaker-studio-i7gmskjysd'
@@ -287,8 +287,8 @@ def nmf(filename1, path):
         bubble_sizes.append(complete_topics.at[row['topic_1'], 'num_articles_1'])
     sorted_articles['bubble_size'] = bubble_sizes
 
-    # sorted_articles.to_csv(path+'sorted_articles_new_data.csv', header=True)
-    complete_topics.to_csv(path+'complete_topics_temp.csv',header=True)
+    sorted_articles.to_csv(path+'new_sorted_articles.csv', header=True)
+    complete_topics.to_csv(path+'new_complete_topics.csv',header=True)
 
     # data_key_articles = 'sorted_articles.csv'
     # data_location_articles = 's3://{}/{}'.format(bucket, data_key_articles)
@@ -317,4 +317,4 @@ national = 'scraped_articles/National.csv'
 local_weeklies = 'scraped_articles/Local_Weeklies.csv'
 path = '/Users/miya/Documents/GitHub/ai4good_news/news_project/nmf/'
 
-nmf(bc_dailies,path)
+nmf(bc_dailies, national, local_weeklies, path)

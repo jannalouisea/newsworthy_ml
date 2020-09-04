@@ -1,16 +1,16 @@
 ,topic_1,topics,num_articles_1,num_articles_2,resid,category,probability
-0,0,life live good film world friend realli don,95,121,0.9622094605373623,arts & entertainment,38.33241509270832
-1,1,school student class parent district teacher learn,47,35,0.8163401323845622,politics,19.55317346342534
-2,2,case test infect death new hospit confirm number,68,46,0.8891620692820452,covid-19,59.7592976469997
-3,3,game playoff canuck play goal shot seri score,57,34,0.8931178058555698,sports,87.96213713267021
-4,4,trail citi park lake mountain river hike,57,42,0.9263744140477973,local,31.528778747256375
-5,5,festiv root blue onlin salmon arm,20,42,0.7749591469475601,local,28.252562579645012
-6,6,polic offic rcmp man investig driver vehicl video,62,56,0.9385677862644395,local,45.10123413108519
-7,7,flight affect row aug air airlin vancouv,16,22,0.7855718166167611,business,24.249649991817403
-8,8,sale market juli hous price estat quarter real,55,43,0.9333042662737226,business,50.54088187711632
-9,9,govern communiti program ei support worker benefit fund,132,91,0.960633094273219,politics,18.30642445116009
-10,10,mask wear ferri custom store test face mandatori,45,66,0.925404239098711,covid-19,73.71765615326315
-11,11,care senior term mackenzi long survey resid,16,43,0.8080095684649644,covid-19,20.558112593680377
-12,12,prize ticket grand bc game event licenc,12,36,0.7433873927118518,local,35.09107245788241
-13,13,plant garden seed flower tomato dear helen berri,40,35,0.9256398894865729,local,23.14003997495644
-14,14,file photo elect state hurrican west evacu,74,84,0.9507219142116994,local,32.57628119423414
+0,0,art festiv film artist event music theatr perform,343,267,0.9526390216174342,arts & entertainment,68.9137151143142
+1,1,login usernam subscrib news offic content contact have,104,46,0.6234647874344751,local,21.801524913726062
+2,2,school student district parent learn class teacher plan,231,181,0.8625535351794438,politics,19.55317346342534
+3,3,health case test hospit care outbreak death provinc,313,297,0.9154367586320088,covid-19,75.55573999467056
+4,4,game team play season player leagu hockey coach,357,185,0.9344451218676193,sports,99.99808223404443
+5,5,life love friend don world food good book,837,845,0.9684472779159096,arts & entertainment,32.90132155853482
+6,6,parti conserv tool elect liber govern trudeau leader,225,234,0.9211896548444081,politics,76.91084482318075
+7,7,kamloop donat week support local afford free media advertis,127,235,0.8761820490034293,local,27.44795096774671
+8,8,lake park trail wildfir citi bc river area,587,538,0.9663744279645243,local,37.30860739990546
+9,9,estat real hous price market galleri photo,170,285,0.9126087954381692,business,38.46711714037897
+10,10,polic rcmp man investig offic court report black,263,340,0.945695934001117,local,49.31661260898647
+11,11,invest td investor financi tax advisor bank insur,226,263,0.924750002838306,business,31.60066408562678
+12,12,compani fish product seafood busi price market salmon,497,475,0.9600476968842774,business,46.90863000458611
+13,13,mask wear store mandatori custom face distanc,113,175,0.8964361680341587,covid-19,69.82699809401412
+14,14,vehicl car drive driver engin wheel model litr,200,227,0.9285121203192521,business,48.52437210488028
