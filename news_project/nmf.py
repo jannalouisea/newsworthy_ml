@@ -59,7 +59,9 @@ def nmf(filename1, path):
     # data_location = 's3://{}/{}'.format(bucket, data_key)
     # df = pd.read_csv(data_location)
 
+    # clean dataframe
     df.drop_duplicates(subset=['text'],keep='first',inplace=True) 
+    df.drop_duplicates(subset=['url'],keep='first',inplace=True)
     df = df[df['text'].notna()]
     
     # process text
@@ -311,8 +313,8 @@ def nmf(filename1, path):
     # s3.put_object(Bucket='sagemaker-studio-i7gmskjysd', Key='nmf_tfidf.pickle', Body=serialized_tfidf)
     
 bc_dailies = 'scraped_articles/BC_Dailies.csv'
-# national = 'scraped_articles/National.csv'
-# local_weeklies = 'scraped_articles/Local_Weeklies.csv'
+national = 'scraped_articles/National.csv'
+local_weeklies = 'scraped_articles/Local_Weeklies.csv'
 path = '/Users/miya/Documents/GitHub/ai4good_news/news_project/nmf/'
 
 nmf(bc_dailies,path)
